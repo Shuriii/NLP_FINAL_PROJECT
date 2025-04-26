@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --job-name=run_all_models
-#SBATCH --output=logs/run_all_models_%j.out
-#SBATCH --error=logs/run_all_models_%j.err
+#SBATCH --job-name=llama70b
+#SBATCH --output=logs/llama70b.out
+#SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
-#SBATCH --partition=gpu
+#SBATCH --partition=studentkillable
 #SBATCH --gres=gpu:4
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=256G
@@ -17,8 +17,6 @@ conda activate sharon_env
 # Set Hugging Face cache to the regular directory (for models)
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
-MODEL_NAME=$1
-
-python run_all_models.py $MODEL_NAME
+python run_all_models.py "meta-llama/Llama-3-70b"
 
 echo "Done!"
