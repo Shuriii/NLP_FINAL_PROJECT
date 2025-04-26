@@ -58,12 +58,12 @@ def main(model_name, output_dir="generations", max_examples=-1, seed=43):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     os.makedirs(output_dir, exist_ok=True)
-
-    datasets = ["llmu", "drop", "musique"]
+    # load musique datasets from Huggingface tau/zero_scrolls
+    datasets = ["musique"]
 
     for dataset_name in datasets:
         print(f"Loading {dataset_name} from Huggingface")
-        dataset = load_dataset(dataset_name, split="validation")  # or split="test" if you want
+        dataset = load_dataset("tau/zero_scrolls", dataset_name, split="train")
         print(f"{dataset_name} loaded!")
         generate_predictions(model, tokenizer, dataset, dataset_name, output_dir, device, max_examples)
 
