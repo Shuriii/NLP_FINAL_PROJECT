@@ -1,112 +1,125 @@
+import time
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset
-import random
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+
+import argparse
 import os
 import json
-import ast
 
-def duplicate_layers(model, duplication_plan):
-    if hasattr(model.model, "layers"):
+def duplicate_layers(model, duplication_instructions):
+    """Duplicate specific layers in the model according to the instructions."""
+    if not duplication_instructions:
+        return model
+
+    print("Duplicating layers:", duplication_instructions)
+
+    if hasattr(model.model, 'layers'):  # LLaMA
         layers = model.model.layers
-    elif hasattr(model.model, "decoder_layers"):
-        layers = model.model.decoder_layers
+    elif hasattr(model.model, 'transformer'):  # Gemma
+        layers = model.model.transformer.h
     else:
-        raise ValueError("Unknown model structure")
+        raise ValueError("Model structure not recognized.")
 
-    print(f"Original number of layers: {len(layers)}")
+    new_layers = []
+    for idx, layer in enumerate(layers):
+        new_layers.append(layer)
+        for layer_idx, num_dups in duplication_instructions:
+            if idx == layer_idx:
+                for _ in range(num_dups):
+                    new_layers.append(layer)
 
-    offset = 0
-    for layer_idx, duplication_count in duplication_plan:
-        true_idx = layer_idx + offset
-        if true_idx >= len(layers):
-            raise ValueError(f"Layer {true_idx} out of range!")
+    if hasattr(model.model, 'layers'):
+        model.model.layers = torch.nn.ModuleList(new_layers)
+    else:
+        model.model.transformer.h = torch.nn.ModuleList(new_layers)
 
-        print(f"Duplicating layer {true_idx} {duplication_count} times...")
-
-        layer_to_copy = layers[true_idx]
-        for _ in range(duplication_count):
-            copied_layer = type(layer_to_copy)(model.config)
-            copied_layer.load_state_dict(layer_to_copy.state_dict())
-            layers.insert(true_idx + 1, copied_layer)
-            offset += 1
-
-    print(f"New number of layers: {len(layers)}")
     return model
 
-def run_inference(model, tokenizer, dataset_name, output_dir, max_examples=50):
-    os.makedirs(output_dir, exist_ok=True)
-    data = load_dataset(dataset_name, split="test")
-
-    outputs = {}
-
-    for idx, example in enumerate(data):
-        if idx >= max_examples:
-            break
-
-        prompt = example["input"] if "input" in example else example.get("question", "")
-
-        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-
-        with torch.no_grad():
-            generated = model.generate(**inputs, max_new_tokens=256)
-        
-        output_text = tokenizer.decode(generated[0], skip_special_tokens=True)
-        outputs[example.get("id", f"example_{idx}")] = output_text
-
-    dataset_clean_name = dataset_name.replace('/', '_')
-    output_file = os.path.join(output_dir, f"{dataset_clean_name}_outputs.json")
-    with open(output_file, "w") as f:
-        json.dump(outputs, f, indent=4)
-
-    print(f"Saved {len(outputs)} generations to {output_file}")
-
-def is_big_model(model_name):
-    return ("70b" in model_name.lower()) or ("27b" in model_name.lower())
-
-def main(
-    model_name,  # Now SINGLE model name
-    duplication_plan = None,
-    datasets = ["tau/zero_scrolls/musique", "drop", "llmu"],
-):
-    random.seed(43)
-    torch.manual_seed(43)
-    torch.cuda.manual_seed_all(43)
-
+def load_model(model_name, duplication_instructions):
+    is_large = any(x in model_name.lower() for x in ['70b', '27b'])
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    if isinstance(duplication_plan, str):
-        duplication_plan = ast.literal_eval(duplication_plan)
-
-    print(f"\n==== Running model {model_name} ====")
-
-    big_model = is_big_model(model_name)
-
-    tokenizer = AutoTokenizer.from_pretrained(
-        model_name, 
-        use_fast=True,
-        use_auth_token=True
-    )
-
+    quantization_config = None
+    if is_large:
+        print(f"Loading large model {model_name} with 8-bit precision (8bfp).")
+        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+    else:
+        print(f"Loading smaller model {model_name} with fp16.")
+    
+    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map="auto",
-        load_in_8bit=True if big_model else False,
-        torch_dtype=torch.float16 if not big_model else None,
-        use_auth_token=True
+        torch_dtype=torch.float16 if not is_large else None,
+        quantization_config=quantization_config
     )
-
-    if duplication_plan:
-        print(f"Applying duplication plan {duplication_plan}...")
-        model = duplicate_layers(model, duplication_plan)
 
     model.eval()
 
-    for dataset_name in datasets:
-        print(f"Running inference on {dataset_name}...")
-        output_folder = f"outputs/{model_name.replace('/', '_')}"
-        run_inference(model, tokenizer, dataset_name, output_dir=output_folder)
+    if duplication_instructions:
+        model = duplicate_layers(model, duplication_instructions)
+
+    return tokenizer, model, device
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model_name', type=str, required=True, help="Model name to load from HuggingFace.")
+    parser.add_argument('--duplications', type=str, default=None,
+                        help="Optional duplications: list of tuples as string, e.g. '[(5,2),(10,1)]' meaning duplicate layer 5 twice, layer 10 once.")
+
+    args = parser.parse_args()
+
+    model_name = args.model_name
+    duplication_instructions = eval(args.duplications) if args.duplications else None
+
+    seed = 43
+    torch.manual_seed(seed)
+
+    os.makedirs('outputs', exist_ok=True)
+
+    tokenizer, model, device = load_model(model_name, duplication_instructions)
+
+    datasets_to_run = ['llmu', 'drop', 'musique']
+
+    for dataset_name in datasets_to_run:
+        print(f"Running dataset {dataset_name}...")
+        dataset = load_dataset(dataset_name, split='test')
+
+        generations = {}
+
+        start_time = time.time()
+
+        for idx, example in enumerate(dataset):
+            input_text = example.get("input", example.get("question", ""))
+            inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True).to(device)
+
+            with torch.no_grad():
+                outputs = model.generate(**inputs, max_new_tokens=256)
+            
+            decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            generations[example['id']] = decoded
+
+        total_time = time.time() - start_time
+        avg_time_per_example = total_time / len(dataset)
+
+        print(f"Finished {dataset_name}:")
+        print(f"    Total time: {total_time:.2f} seconds")
+        print(f"    Avg time per example: {avg_time_per_example:.4f} seconds")
+
+        # Save outputs + timing
+        output_path = f"outputs/{model_name.replace('/', '_')}_{dataset_name}_outputs.json"
+        output_data = {
+            "generations": generations,
+            "timing": {
+                "total_time_seconds": total_time,
+                "avg_time_per_example_seconds": avg_time_per_example
+            }
+        }
+        with open(output_path, "w") as f:
+            json.dump(output_data, f, indent=2)
+
+        print(f"Saved generations and timing to {output_path}")
 
 if __name__ == "__main__":
-    import fire
-    fire.Fire(main)
+    main()

@@ -1,26 +1,25 @@
-#! /bin/bash
-
-#SBATCH --job-name=llama70b
+#!/bin/bash
+#SBATCH --job-name=run_exp
 #SBATCH --output=logs/llama70b.out
 #SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=studentkillable
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=50000
-#SBATCH --nodes=1
 #SBATCH --gpus=4
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=100000
 
-echo "Starting job"
+echo "Starting job..."
 
-# Load conda environment
+# Activate conda environment
 source /home/joberant/NLP_2425a/sharonsaban/anaconda3/etc/profile.d/conda.sh
 conda activate sharon_env
 
-# Set Hugging Face cache to the regular directory (for models)
+# Set Hugging Face cache directory
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
-# Run the generation script
-python run_all_models.py "meta-llama/Llama-3-70b"
+# Run your experiment
+python run_exp.py --model_name "meta-llama/Llama-3-70b"
 
-echo "Done!"
+echo "Job done!"
+
 
