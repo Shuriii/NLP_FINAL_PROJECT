@@ -1,72 +1,112 @@
-import os
-import sys
 import torch
-import random
-import numpy as np
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from transformers import BitsAndBytesConfig
+import random
+import os
+import json
+import ast
 
-def set_seed(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
+def duplicate_layers(model, duplication_plan):
+    if hasattr(model.model, "layers"):
+        layers = model.model.layers
+    elif hasattr(model.model, "decoder_layers"):
+        layers = model.model.decoder_layers
+    else:
+        raise ValueError("Unknown model structure")
 
-def generate_predictions(model, tokenizer, dataset, dataset_name, output_dir, device, max_examples=-1):
-    generations = {}
+    print(f"Original number of layers: {len(layers)}")
 
-    for i, example in enumerate(dataset):
-        if 0 < max_examples == i:
+    offset = 0
+    for layer_idx, duplication_count in duplication_plan:
+        true_idx = layer_idx + offset
+        if true_idx >= len(layers):
+            raise ValueError(f"Layer {true_idx} out of range!")
+
+        print(f"Duplicating layer {true_idx} {duplication_count} times...")
+
+        layer_to_copy = layers[true_idx]
+        for _ in range(duplication_count):
+            copied_layer = type(layer_to_copy)(model.config)
+            copied_layer.load_state_dict(layer_to_copy.state_dict())
+            layers.insert(true_idx + 1, copied_layer)
+            offset += 1
+
+    print(f"New number of layers: {len(layers)}")
+    return model
+
+def run_inference(model, tokenizer, dataset_name, output_dir, max_examples=50):
+    os.makedirs(output_dir, exist_ok=True)
+    data = load_dataset(dataset_name, split="test")
+
+    outputs = {}
+
+    for idx, example in enumerate(data):
+        if idx >= max_examples:
             break
 
-        input_text = example["input"]
-        inputs = tokenizer(input_text, return_tensors="pt").to(device)
+        prompt = example["input"] if "input" in example else example.get("question", "")
+
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
         with torch.no_grad():
-            outputs = model.generate(inputs.input_ids, max_new_tokens=1024, do_sample=False)
+            generated = model.generate(**inputs, max_new_tokens=256)
+        
+        output_text = tokenizer.decode(generated[0], skip_special_tokens=True)
+        outputs[example.get("id", f"example_{idx}")] = output_text
 
-        predicted_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    dataset_clean_name = dataset_name.replace('/', '_')
+    output_file = os.path.join(output_dir, f"{dataset_clean_name}_outputs.json")
+    with open(output_file, "w") as f:
+        json.dump(outputs, f, indent=4)
 
-        generations[example["id"]] = predicted_text
+    print(f"Saved {len(outputs)} generations to {output_file}")
 
-    output_path = os.path.join(output_dir, f"preds_{dataset_name}.json")
-    with open(output_path, 'w') as f_out:
-        import json
-        json.dump(generations, f_out, indent=4)
+def is_big_model(model_name):
+    return ("70b" in model_name.lower()) or ("27b" in model_name.lower())
 
-    print(f"Saved {len(generations)} predictions to {output_path}")
-
-def main(model_name, output_dir="generations", max_examples=-1, seed=43):
-    set_seed(seed)
+def main(
+    model_name,  # Now SINGLE model name
+    duplication_plan = None,
+    datasets = ["tau/zero_scrolls/musique", "drop", "llmu"],
+):
+    random.seed(43)
+    torch.manual_seed(43)
+    torch.cuda.manual_seed_all(43)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    large_models = ["meta-llama/Meta-Llama-3-70B", "google/gemma-27b"]
-    is_large_model = model_name in large_models
+    if isinstance(duplication_plan, str):
+        duplication_plan = ast.literal_eval(duplication_plan)
 
-    if is_large_model:
-        print(f"Loading {model_name} with 8-bit precision")
-        bnb_config = BitsAndBytesConfig(load_in_8bit=True)
-        model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map="auto")
-    else:
-        print(f"Loading model: {model_name}")
-        model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
+    print(f"\n==== Running model {model_name} ====")
 
-    print("loaded model!") 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    big_model = is_big_model(model_name)
 
-    os.makedirs(output_dir, exist_ok=True)
-    # load musique datasets from Huggingface tau/zero_scrolls
-    datasets = ["musique"]
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name, 
+        use_fast=True,
+        use_auth_token=True
+    )
+
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        device_map="auto",
+        load_in_8bit=True if big_model else False,
+        torch_dtype=torch.float16 if not big_model else None,
+        use_auth_token=True
+    )
+
+    if duplication_plan:
+        print(f"Applying duplication plan {duplication_plan}...")
+        model = duplicate_layers(model, duplication_plan)
+
+    model.eval()
 
     for dataset_name in datasets:
-        print(f"Loading {dataset_name} from Huggingface")
-        dataset = load_dataset("tau/zero_scrolls", dataset_name, split="train")
-        print(f"{dataset_name} loaded!")
-        generate_predictions(model, tokenizer, dataset, dataset_name, output_dir, device, max_examples)
+        print(f"Running inference on {dataset_name}...")
+        output_folder = f"outputs/{model_name.replace('/', '_')}"
+        run_inference(model, tokenizer, dataset_name, output_dir=output_folder)
 
 if __name__ == "__main__":
-    model_name = sys.argv[1]
-    main(model_name)
+    import fire
+    fire.Fire(main)
