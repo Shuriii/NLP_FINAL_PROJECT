@@ -17,8 +17,6 @@ conda activate sharon_env
 # Set Hugging Face cache to the regular directory (for models)
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
-mkdir -p logs generations
-
 MODEL_NAME=$1
 
 python run_all_models.py $MODEL_NAME
