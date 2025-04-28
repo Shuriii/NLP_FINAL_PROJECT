@@ -145,9 +145,6 @@ def main():
                 attentions = output.attentions                        # Save these to build attention maps later
                 hidden_states = output.hidden_states                  # Save these to compare internal layers later
 
-                os.makedirs(f"results/{model_name}/{dataset_name}/logits/{example_id}", exist_ok=True)
-                os.makedirs(f"results/{model_name}/{dataset_name}/attentions/{example_id}", exist_ok=True)
-                os.makedirs(f"results/{model_name}/{dataset_name}/hidden_states/{example_id}", exist_ok=True)
                 # Save the logits, attentions, and hidden states to json files
                 with open(f"results/{model_name}/{dataset_name}/logits/{example_id}.json", "w") as f:
                     logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
