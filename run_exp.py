@@ -89,7 +89,7 @@ def main():
 
     tokenizer, model, device = load_model(model_name, duplication_instructions)
 
-    datasets_to_run = ['musique']
+    datasets_to_run = ['musique', 'mmlu']
 
     for dataset_name in datasets_to_run:
         print(f"Running dataset {dataset_name}...")
