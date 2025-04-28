@@ -141,7 +141,7 @@ def main():
                 end_time = time.time()
                 run_time = end_time - start_time
                 
-                logits = output.logit.detach().cpu().numpy()         # Save these to analyze model confidence later
+                logits = output.logits.detach().cpu().numpy()         # Save these to analyze model confidence later
                 attentions = output.attentions                        # Save these to build attention maps later
                 hidden_states = output.hidden_states                  # Save these to compare internal layers later
 
