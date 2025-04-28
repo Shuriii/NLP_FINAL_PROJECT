@@ -60,6 +60,9 @@ def load_model(model_name, duplication_instructions):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
+        output_attentions=True, 
+        output_hidden_states=True, 
+        return_dict=True,
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
         use_auth_token=True
@@ -130,9 +133,6 @@ def main():
                 temperature = 1
 
                 output = model.generate(input,
-                                         output_attentions=True, 
-                                         output_hidden_states=True, 
-                                         return_dict=True,
                                          max_new_tokens=max_new_tokens,
                                          do_sample=False,
                                         top_p=top_p,
