@@ -107,7 +107,7 @@ def main():
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
-            input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
+            input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)["input_ids"].to(device)
             
             with torch.no_grad():
                 outputs = model.generate(input,
@@ -132,7 +132,11 @@ def main():
         print(f"    Avg time per example: {avg_time_per_example:.4f} seconds")
 
         # Save outputs + timing
-        output_path = f"outputs/{model_name.replace('/', '_')}_{dataset_name}_outputs.json"
+        # if the model is with layer duplication, save the model name with _duplication
+        if duplication_instructions:
+            model_name = f"{model_name}_duplication"
+        output_path = os.path.join("outputs", f"{model_name}_{dataset_name}.json")
+        # Create the output data structure
         output_data = {
             "generations": generations,
             "timing": {
