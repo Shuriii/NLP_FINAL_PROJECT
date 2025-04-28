@@ -20,6 +20,6 @@ export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingfac
 # Run your experiment
 python run_exp.py --model_name "meta-llama/Llama-3-70b"
 
-echo "Job done!"
+echo "Job Done!"
 
 
