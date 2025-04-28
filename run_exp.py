@@ -104,8 +104,9 @@ def main():
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
-            inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True).to(device)
-
+            inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
+            inputs = {k: v.to(device) for k, v in inputs.items()}
+            
             with torch.no_grad():
                 outputs = model.generate(**inputs, max_new_tokens=256)
             
