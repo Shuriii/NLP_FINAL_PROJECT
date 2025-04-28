@@ -81,25 +81,27 @@ def main():
 
     tokenizer, model, device = load_model(model_name, duplication_instructions)
 
-    datasets_to_run = ['tau/zero_scrolls/musique']
+    datasets_to_run = ['sharonsaban/musique']
 
     for dataset_name in datasets_to_run:
         print(f"Running dataset {dataset_name}...")
-        dataset = load_dataset(dataset_name, split='test')
+        dataset = load_dataset(dataset_name)
 
         generations = {}
 
         start_time = time.time()
 
         for idx, example in enumerate(dataset):
-            input_text = example.get("input", example.get("question", ""))
+            input_text = example["input"]  # Always take 'input' field
+            example_id = example["id"]      # Always take 'id' field
+
             inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True).to(device)
 
             with torch.no_grad():
                 outputs = model.generate(**inputs, max_new_tokens=256)
             
             decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-            generations[example['id']] = decoded
+            generations[example_id] = decoded
 
         total_time = time.time() - start_time
         avg_time_per_example = total_time / len(dataset)
