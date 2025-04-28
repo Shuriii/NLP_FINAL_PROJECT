@@ -38,7 +38,7 @@ def duplicate_layers(model, duplication_instructions):
 
 def load_model(model_name, duplication_instructions):
     is_large = any(x in model_name.lower() for x in ['70b', '27b'])
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "auto"
 
     quantization_config = None
     if is_large:
@@ -50,7 +50,7 @@ def load_model(model_name, duplication_instructions):
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="cuda:0" if device == "cuda" else "auto",
+        device_map= "auto",
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
         use_auth_token=True
