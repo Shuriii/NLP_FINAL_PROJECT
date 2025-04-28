@@ -38,9 +38,11 @@ def duplicate_layers(model, duplication_instructions):
 
 def load_model(model_name, duplication_instructions):
     is_large = any(x in model_name.lower() for x in ['70b', '27b'])
-    device = "auto"
-
+    
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
     quantization_config = None
+    
     if is_large:
         print(f"Loading large model {model_name} with 4-bit precision (4bfp).")
         quantization_config = BitsAndBytesConfig(
