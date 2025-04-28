@@ -53,6 +53,7 @@ def load_model(model_name, duplication_instructions):
         device_map="auto",
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config
+        use_auth_token=True
     )
 
     model.eval()
