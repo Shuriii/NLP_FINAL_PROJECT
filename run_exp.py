@@ -60,9 +60,6 @@ def load_model(model_name, duplication_instructions):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
-        output_attentions=True, 
-        output_hidden_states=True, 
-        return_dict=True,
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
         use_auth_token=True
@@ -132,16 +129,19 @@ def main():
                 top_k = 0
                 temperature = 1
 
-                output = model.generate(input,
-                                         max_new_tokens=max_new_tokens,
-                                         do_sample=False,
-                                        top_p=top_p,
-                                        top_k=top_k,
-                                        temperature=temperature)
+                output = model(input,
+                                output_attentions=True,
+                                output_hidden_states=True,
+                                return_dict=True,
+                                max_new_tokens=max_new_tokens,
+                                do_sample=False,
+                                top_p=top_p,
+                                top_k=top_k,
+                                temperature=temperature)
                 end_time = time.time()
                 run_time = end_time - start_time
                 
-                logits = output.detach().cpu().numpy()         # Save these to analyze model confidence later
+                logits = output.logits.detach().cpu().numpy()         # Save these to analyze model confidence later
                 attentions = output.attentions                        # Save these to build attention maps later
                 hidden_states = output.hidden_states                  # Save these to compare internal layers later
 
