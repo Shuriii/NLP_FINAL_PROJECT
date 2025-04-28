@@ -53,9 +53,10 @@ def load_model(model_name, duplication_instructions):
     
     else:
         print(f"Loading smaller model {model_name} with fp16.")
-    
-    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)    
     tokenizer.pad_token = tokenizer.eos_token
+    
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
