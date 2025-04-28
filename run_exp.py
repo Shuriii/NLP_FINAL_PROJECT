@@ -92,6 +92,10 @@ def main():
         start_time = time.time()
 
         for idx, example in enumerate(dataset):
+            print(f"Processing example {idx + 1}/{len(dataset)}...")
+            print("example:" , example)
+            print(f"Example ID: {example['id']}")
+            print(f"Input: {example['input']}")
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
