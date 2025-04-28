@@ -111,7 +111,7 @@ def main():
             
             with torch.no_grad():
                 outputs = model.generate(input,
-                                        max_new_tokens=1024,
+                                        max_new_tokens=20,
                                         do_sample=False,
                                         top_p=0,
                                         top_k=0,
@@ -125,7 +125,7 @@ def main():
             generations[example_id] = decoded
 
         total_time = time.time() - start_time
-        avg_time_per_example = total_time / len(dataset)
+        avg_time_per_example = total_time / len(dataset['train'])
 
         print(f"Finished {dataset_name}:")
         print(f"    Total time: {total_time:.2f} seconds")
