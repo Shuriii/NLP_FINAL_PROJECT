@@ -117,12 +117,12 @@ def main():
                                         top_k=0,
                                         temperature=1)
                 
-            decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            output = tokenizer.decode(outputs[0], skip_special_tokens=True)[len(input_text):]
             print("----------------------------------------------------------------")
-            print(f"output: {decoded}")
+            print(f"output: {output}")
             print("----------------------------------------------------------------")
 
-            generations[example_id] = decoded
+            generations[example_id] = output
 
         total_time = time.time() - start_time
         avg_time_per_example = total_time / len(dataset['train'])
