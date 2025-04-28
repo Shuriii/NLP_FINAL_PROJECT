@@ -4,9 +4,9 @@
 #SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=studentkillable
-#SBATCH --gpus=4
+#SBATCH --gres=gpu:4
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=100000
+#SBATCH --mem=257500
 
 echo "Starting job..."
 
