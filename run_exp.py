@@ -86,7 +86,7 @@ def main():
     seed = 43
     torch.manual_seed(seed)
 
-    os.makedirs('outputs', exist_ok=True)
+    os.makedirs('results', exist_ok=True)
 
     tokenizer, model, device = load_model(model_name, duplication_instructions)
 
@@ -96,9 +96,19 @@ def main():
         print(f"Running dataset {dataset_name}...")
         dataset = load_dataset("sharonsaban/"+dataset_name)
 
-        generations = {}
+        predictions = {}
+        run_times = {}
 
-        start_time = time.time()
+        if duplication_instructions:
+            model_name = f"{model_name}_duplication"
+     
+        # save the logits, attentions, hidden_states, and run_times to the model_name/dataset_name folder json file for each catagory
+        os.makedirs(os.path.dirname(f"results/{model_name}"), exist_ok=True)
+        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}"), exist_ok=True) 
+        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/logits"), exist_ok=True)
+        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/attentions"), exist_ok=True)
+        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/hidden_states"), exist_ok=True)
+     
 
         for idx, example in enumerate(dataset['train']):
             print("#######################################################################")
@@ -114,48 +124,67 @@ def main():
             else:
                 max_new_tokens = 128
             with torch.no_grad():
-                outputs = model.generate(input,
-                                        max_new_tokens=max_new_tokens,
-                                        do_sample=False,
-                                        top_p=0,
-                                        top_k=0,
-                                        temperature=1)
+                start_time = time.time()
+                top_p = 0
+                top_k = 0
+                temperature = 1
+
+                output = model.generate(input,
+                                         output_attentions=True, 
+                                         output_hidden_states=True, 
+                                         return_dict=True,
+                                         max_new_tokens=max_new_tokens,
+                                         do_sample=False,
+                                        top_p=top_p,
+                                        top_k=top_k,
+                                        temperature=temperature)
+                end_time = time.time()
+                run_time = end_time - start_time
                 
-            output = tokenizer.decode(outputs[0], skip_special_tokens=True)[len(input_text):]
+                logits = output.logits.detach().cpu().numpy()         # Save these to analyze model confidence later
+                attentions = output.attentions                        # Save these to build attention maps later
+                hidden_states = output.hidden_states                  # Save these to compare internal layers later
+
+                with open(f"results/{model_name}/{dataset_name}/logits/{example_id}.json", "w") as f:
+                    json.dump(logits, f, indent=2)
+                with open(f"results/{model_name}/{dataset_name}/attentions/{example_id}.json", "w") as f:
+                    json.dump(attentions, f, indent=2)
+                with open(f"results/{model_name}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
+                    json.dump(hidden_states, f, indent=2)
+
+
+            output_text = tokenizer.decode(output[0], skip_special_tokens=True)[len(input_text):]
             print("----------------------------------------------------------------")
-            print(f"output: {output}")
+            print(f"output: {output_text}")
             print("----------------------------------------------------------------")
 
-            generations[example_id] = output
+            predictions[example_id] = output_text
+            run_times[example_id] = run_time
 
-        total_time = time.time() - start_time
-        avg_time_per_example = total_time / len(dataset['train'])
+        with open(f"results/{model_name}/{dataset_name}/predictions.json", "w") as f:
+            json.dump(predictions, f, indent=2)
+        with open(f"results/{model_name}/{dataset_name}/run_times.json", "w") as f:
+            json.dump(run_times, f, indent=2)
+        # save all the hyper parameters to the model_name/dataset_name folder json file
+        with open(f"results/{model_name}/{dataset_name}/run_config.json", "w") as f:
+            json.dump({
+                "model_name": model_name,
+                "duplication_instructions": duplication_instructions,
+                "dataset_name": dataset_name,
+                "seed": seed,
+                "max_new_tokens": max_new_tokens,
+                "top_p": top_p,
+                "top_k": top_k,
+                "temperature": temperature,
+                "precision": "4bit" if is_large else "fp16",
+                "device": str(device),
+                "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
+                "num_layers_original": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
+            }, f, indent=2)
 
         print(f"Finished {dataset_name}:")
-        print(f"    Total time: {total_time:.2f} seconds")
-        print(f"    Avg time per example: {avg_time_per_example:.4f} seconds")
 
-        # Save outputs + timing
-        # if the model is with layer duplication, save the model name with _duplication
-        if duplication_instructions:
-            model_name = f"{model_name}_duplication"
-        output_path = os.path.join("outputs", f"{model_name}_{dataset_name}.json")
-        # Create the output data structure
-        output_data = {
-            "generations": generations,
-            "timing": {
-                "total_time_seconds": total_time,
-                "avg_time_per_example_seconds": avg_time_per_example
-            }
-        }
-        # Save the generations and timing information to a JSON file
-        # Ensure the output directory exists
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        # Save the output data to a JSON file
-        with open(output_path, "w") as f:
-            json.dump(output_data, f, indent=2)
 
-        print(f"Saved generations and timing to {output_path}")
-
+    
 if __name__ == "__main__":
     main()

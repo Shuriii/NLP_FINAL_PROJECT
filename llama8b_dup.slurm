@@ -18,6 +18,6 @@ conda activate sharon_env
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
 # Run your experiment
-python run_exp.py --model_name "meta-llama/Meta-Llama-3-8B" [(0,1)]
+python run_exp.py --model_name "meta-llama/Meta-Llama-3-8B" --duplications "[(0,1)]"
 
 echo "Job done!"

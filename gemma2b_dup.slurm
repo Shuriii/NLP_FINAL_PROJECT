@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=run_exp
-#SBATCH --output=logs/gemma9b_dup.out
-#SBATCH --error=logs/gemma9b_dup.err
+#SBATCH --output=logs/gemma2b_dup.out
+#SBATCH --error=logs/gemma2b_dup.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=studentkillable
 #SBATCH --gres=gpu:4     # Request 4 GPUs (you can adjust based on availability)
@@ -18,6 +18,6 @@ conda activate sharon_env
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
 # Run your experiment
-python run_exp.py --model_name "google/gemma-2-9b" [(0,1)]
+python run_exp.py --model_name "google/gemma-2-2b" --duplications "[(0,1)]"
 
-echo "Job done!"
+echo "Job done!"  
