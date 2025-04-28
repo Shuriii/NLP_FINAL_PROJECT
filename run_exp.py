@@ -150,11 +150,14 @@ def main():
                 os.makedirs(f"results/{model_name}/{dataset_name}/hidden_states/{example_id}", exist_ok=True)
                 # Save the logits, attentions, and hidden states to json files
                 with open(f"results/{model_name}/{dataset_name}/logits/{example_id}.json", "w") as f:
-                    json.dump(logits, f, indent=2)
+                    logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
+                    json.dump(logits_data, f, indent=2)
                 with open(f"results/{model_name}/{dataset_name}/attentions/{example_id}.json", "w") as f:
-                    json.dump(attentions, f, indent=2)
+                    attentions_data = [attn.detach().cpu().numpy().tolist() for attn in attentions]  # Convert tensors to lists
+                    json.dump(attentions_data, f, indent=2)
                 with open(f"results/{model_name}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
-                    json.dump(hidden_states, f, indent=2)
+                    hidden_states_data = [hidden_state.detach().cpu().numpy().tolist() for hidden_state in hidden_states]
+                    json.dump(hidden_states_data, f, indent=2)
 
 
             output_text = tokenizer.decode(output[0], skip_special_tokens=True)[len(input_text):]
