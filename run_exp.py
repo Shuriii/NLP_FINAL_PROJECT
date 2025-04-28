@@ -33,7 +33,7 @@ def duplicate_layers(model, duplication_instructions):
         model.model.layers = torch.nn.ModuleList(new_layers)
     else:
         model.model.transformer.h = torch.nn.ModuleList(new_layers)
-
+    print(f"Duplicated layers: {len(new_layers)} total layers (original: {len(layers)})")
     return model
 
 def load_model(model_name, duplication_instructions):
@@ -101,7 +101,7 @@ def main():
         start_time = time.time()
 
         for idx, example in enumerate(dataset['train']):
-            print("======================================================================")
+            print("#######################################################################")
             print(f"Processing example {idx + 1}/{len(dataset)}...")
             print(f"Example ID: {example['id']}")
             print(f"Input: {example['input']}")
