@@ -56,7 +56,7 @@ def load_model(model_name, duplication_instructions):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)    
     tokenizer.pad_token = tokenizer.eos_token
-    
+
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
@@ -109,10 +109,13 @@ def main():
             example_id = example["id"]      # Always take 'id' field
 
             input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)["input_ids"].to(device)
-            
+            if dataset_name == 'mmlu':
+                max_new_tokens = 1
+            else:
+                max_new_tokens = 128
             with torch.no_grad():
                 outputs = model.generate(input,
-                                        max_new_tokens=50,
+                                        max_new_tokens=max_new_tokens,
                                         do_sample=False,
                                         top_p=0,
                                         top_k=0,
