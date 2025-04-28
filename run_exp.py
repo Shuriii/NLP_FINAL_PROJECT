@@ -111,7 +111,7 @@ def main():
             
             with torch.no_grad():
                 outputs = model.generate(input,
-                                        max_new_tokens=20,
+                                        max_new_tokens=1024,
                                         do_sample=False,
                                         top_p=0,
                                         top_k=0,
