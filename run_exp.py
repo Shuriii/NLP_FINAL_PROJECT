@@ -50,10 +50,9 @@ def load_model(model_name, duplication_instructions):
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="auto",
+        device_map="cuda:0" if device == "cuda" else "auto",
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
-        load_in_8bit_fp32_cpu_offload=True,  # Allow for offloading
         use_auth_token=True
     )
 
