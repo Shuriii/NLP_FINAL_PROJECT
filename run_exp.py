@@ -91,7 +91,7 @@ def main():
 
         start_time = time.time()
 
-        for idx, example in enumerate(dataset):
+        for idx, example in enumerate(dataset['train']):
             print(f"Processing example {idx + 1}/{len(dataset)}...")
             print("example:" , example)
             print(f"Example ID: {example['id']}")
