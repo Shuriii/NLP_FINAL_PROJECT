@@ -4,7 +4,7 @@
 #SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=studentkillable
-#SBATCH --gres=gpu:titan:2     # Request 2 GPUs (you can adjust based on availability)
+#SBATCH --gres=gpu:titan:4     # Request 2 GPUs (you can adjust based on availability)
 #SBATCH --cpus-per-task=16    # Use 16 CPU cores
 #SBATCH --mem=240G            # Request sufficient memory (adjust as needed)
 
