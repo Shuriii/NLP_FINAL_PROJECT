@@ -100,20 +100,27 @@ def main():
         start_time = time.time()
 
         for idx, example in enumerate(dataset['train']):
+            print("======================================================================")
             print(f"Processing example {idx + 1}/{len(dataset)}...")
             print(f"Example ID: {example['id']}")
             print(f"Input: {example['input']}")
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
-            inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
-            inputs = {k: v.to(device) for k, v in inputs.items()}
+            input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
             
             with torch.no_grad():
-                outputs = model.generate(**inputs, max_new_tokens=256)
+                outputs = model.generate(input,
+                                        max_new_tokens=1024,
+                                        do_sample=False,
+                                        top_p=0,
+                                        top_k=0,
+                                        temperature=1)
                 
             decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-            print(f"Decoded output: {decoded}")
+            print("----------------------------------------------------------------")
+            print(f"output: {decoded}")
+            print("----------------------------------------------------------------")
 
             generations[example_id] = decoded
 
