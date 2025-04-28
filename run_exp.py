@@ -42,12 +42,18 @@ def load_model(model_name, duplication_instructions):
 
     quantization_config = None
     if is_large:
-        print(f"Loading large model {model_name} with 8-bit precision (8bfp).")
-        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+        print(f"Loading large model {model_name} with 4-bit precision (4bfp).")
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,               # <<<<<<<<<<<<<<<< 4bit
+            bnb_4bit_quant_type="nf4",        # (better quantization type for LLaMA models)
+            bnb_4bit_compute_dtype=torch.bfloat16,  # you can also use float16 if bfloat16 isn't supported
+        )
+    
     else:
         print(f"Loading smaller model {model_name} with fp16.")
     
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)
+    tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
@@ -93,9 +99,8 @@ def main():
 
         for idx, example in enumerate(dataset['train']):
             print(f"Processing example {idx + 1}/{len(dataset)}...")
-            print("example:" , example)
             print(f"Example ID: {example['id']}")
-            print(f"Input: {example['input']}")
+            print(f"Input: {example['input'][:30]}")
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
