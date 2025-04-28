@@ -18,7 +18,7 @@ conda activate sharon_env
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
 # Run your experiment
-python run_exp.py --model_name "meta-llama/Llama-3-70b"
+python run_exp.py --model_name "meta-llama/Meta-Llama-3-70B"
 
 echo "Job done!"
 
