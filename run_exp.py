@@ -42,7 +42,7 @@ def load_model(model_name, duplication_instructions):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
     quantization_config = None
-    
+
     if is_large:
         print(f"Loading large model {model_name} with 4-bit precision (4bfp).")
         quantization_config = BitsAndBytesConfig(
@@ -93,7 +93,7 @@ def main():
 
     for dataset_name in datasets_to_run:
         print(f"Running dataset {dataset_name}...")
-        dataset = load_dataset(dataset_name)
+        dataset = load_dataset("sharonsaban/"+dataset_name)
 
         generations = {}
 
@@ -102,7 +102,7 @@ def main():
         for idx, example in enumerate(dataset['train']):
             print(f"Processing example {idx + 1}/{len(dataset)}...")
             print(f"Example ID: {example['id']}")
-            print(f"Input: {example['input'][:30]}")
+            print(f"Input: {example['input']}")
             input_text = example["input"]  # Always take 'input' field
             example_id = example["id"]      # Always take 'id' field
 
@@ -111,8 +111,10 @@ def main():
             
             with torch.no_grad():
                 outputs = model.generate(**inputs, max_new_tokens=256)
-            
+                
             decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            print(f"Decoded output: {decoded}")
+
             generations[example_id] = decoded
 
         total_time = time.time() - start_time
@@ -131,6 +133,10 @@ def main():
                 "avg_time_per_example_seconds": avg_time_per_example
             }
         }
+        # Save the generations and timing information to a JSON file
+        # Ensure the output directory exists
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        # Save the output data to a JSON file
         with open(output_path, "w") as f:
             json.dump(output_data, f, indent=2)
 
