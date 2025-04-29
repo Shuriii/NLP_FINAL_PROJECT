@@ -62,6 +62,7 @@ def load_model(model_name, duplication_instructions):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
+        attn_implementation="eager",
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
         use_auth_token=True
@@ -96,7 +97,7 @@ def main():
 
     for dataset_name in datasets_to_run:
         print(f"loading dataset {dataset_name}...")
-        dataset = load_dataset("sharonsaban/"+dataset_name)
+        dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
         print(f"loaded dataset {dataset_name}")
         print(f"dataset size: {len(dataset['train'])}")
         predictions = {}
