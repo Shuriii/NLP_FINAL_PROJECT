@@ -138,6 +138,7 @@ def main():
                                 top_p=top_p,
                                 top_k=top_k,
                                 temperature=temperature)
+                print("got an output")
                 end_time = time.time()
                 run_time = end_time - start_time
                 
@@ -156,8 +157,9 @@ def main():
                     hidden_states_data = [hidden_state.detach().cpu().numpy().tolist() for hidden_state in hidden_states]
                     json.dump(hidden_states_data, f, indent=2)
 
+                print("saved the logits, attentions, and hidden states to json files")
 
-            output_text = tokenizer.decode(output[0], skip_special_tokens=True)[len(input_text):]
+            output_text = tokenizer.decode(output.logits[0, -1, :].argmax(-1).item(), skip_special_tokens=True)
             print("----------------------------------------------------------------")
             print(f"output: {output_text}")
             print("----------------------------------------------------------------")
