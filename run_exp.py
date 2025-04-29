@@ -95,6 +95,11 @@ def main():
 
     datasets_to_run = ['mmlu', 'musique']
 
+    if duplication_instructions:
+            model_name_to_save = f"{model_name}_duplication_{duplication_instructions}"
+    else:
+            model_name_to_save = model_name
+        
     for dataset_name in datasets_to_run:
         print(f"loading dataset {dataset_name}...")
         dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
@@ -102,14 +107,11 @@ def main():
         print(f"dataset size: {len(dataset['train'])}")
         predictions = {}
         run_times = {}
-
-        if duplication_instructions:
-            model_name = f"{model_name}_duplication"
      
         # save the logits, attentions, hidden_states, and run_times to the model_name/dataset_name folder json file for each catagory
-        os.makedirs(f"results/{model_name}/{dataset_name}/logits", exist_ok=True)
-        os.makedirs(f"results/{model_name}/{dataset_name}/attentions", exist_ok=True)
-        os.makedirs(f"results/{model_name}/{dataset_name}/hidden_states", exist_ok=True)
+        os.makedirs(f"results/{model_name_to_save}/{dataset_name}/logits", exist_ok=True)
+        os.makedirs(f"results/{model_name_to_save}/{dataset_name}/attentions", exist_ok=True)
+        os.makedirs(f"results/{model_name_to_save}/{dataset_name}/hidden_states", exist_ok=True)
 
         for idx, example in enumerate(dataset['train']):
             print("#######################################################################")
@@ -148,13 +150,13 @@ def main():
                 hidden_states = output.hidden_states                  # Save these to compare internal layers later
 
                 # Save the logits, attentions, and hidden states to json files
-                with open(f"results/{model_name}/{dataset_name}/logits/{example_id}.json", "w") as f:
+                with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
                     logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
                     json.dump(logits_data, f, indent=2)
-                with open(f"results/{model_name}/{dataset_name}/attentions/{example_id}.json", "w") as f:
+                with open(f"results/{model_name_to_save}/{dataset_name}/attentions/{example_id}.json", "w") as f:
                     attentions_data = [attn.detach().cpu().numpy().tolist() for attn in attentions]  # Convert tensors to lists
                     json.dump(attentions_data, f, indent=2)
-                with open(f"results/{model_name}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
+                with open(f"results/{model_name_to_save}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
                     hidden_states_data = [hidden_state.detach().cpu().numpy().tolist() for hidden_state in hidden_states]
                     json.dump(hidden_states_data, f, indent=2)
 
@@ -168,12 +170,12 @@ def main():
             predictions[example_id] = output_text
             run_times[example_id] = run_time
 
-        with open(f"results/{model_name}/{dataset_name}/predictions.json", "w") as f:
+        with open(f"results/{model_name_to_save}/{dataset_name}/predictions.json", "w") as f:
             json.dump(predictions, f, indent=2)
-        with open(f"results/{model_name}/{dataset_name}/run_times.json", "w") as f:
+        with open(f"results/{model_name_to_save}/{dataset_name}/run_times.json", "w") as f:
             json.dump(run_times, f, indent=2)
         # save all the hyper parameters to the model_name/dataset_name folder json file
-        with open(f"results/{model_name}/{dataset_name}/run_config.json", "w") as f:
+        with open(f"results/{model_name_to_save}/{dataset_name}/run_config.json", "w") as f:
             json.dump({
                 "model_name": model_name,
                 "duplication_instructions": duplication_instructions,
