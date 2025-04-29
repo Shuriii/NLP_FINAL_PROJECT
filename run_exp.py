@@ -90,12 +90,13 @@ def main():
 
     tokenizer, model, device = load_model(model_name, duplication_instructions)
 
-    datasets_to_run = ['musique', 'mmlu']
+    datasets_to_run = ['mmlu', 'musique']
 
     for dataset_name in datasets_to_run:
-        print(f"Running dataset {dataset_name}...")
+        print(f"loading dataset {dataset_name}...")
         dataset = load_dataset("sharonsaban/"+dataset_name)
-
+        print(f"loaded dataset {dataset_name}")
+        print(f"dataset size: {len(dataset['train'])}")
         predictions = {}
         run_times = {}
 
