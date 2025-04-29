@@ -7,6 +7,8 @@ import argparse
 import os
 import json
 
+is_large = False
+
 def duplicate_layers(model, duplication_instructions):
     """Duplicate specific layers in the model according to the instructions."""
     if not duplication_instructions:
@@ -180,7 +182,7 @@ def main():
                 "top_p": top_p,
                 "top_k": top_k,
                 "temperature": temperature,
-                "precision": "4bit" if is_large else "fp16",
+                "precision:": "fp16" if not is_large else "4bfp",
                 "device": str(device),
                 "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
                 "num_layers_original": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
