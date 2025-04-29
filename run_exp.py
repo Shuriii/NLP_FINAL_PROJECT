@@ -103,12 +103,9 @@ def main():
             model_name = f"{model_name}_duplication"
      
         # save the logits, attentions, hidden_states, and run_times to the model_name/dataset_name folder json file for each catagory
-        os.makedirs(os.path.dirname(f"results/{model_name}"), exist_ok=True)
-        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}"), exist_ok=True) 
-        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/logits"), exist_ok=True)
-        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/attentions"), exist_ok=True)
-        os.makedirs(os.path.dirname(f"results/{model_name}/{dataset_name}/hidden_states"), exist_ok=True)
-     
+        os.makedirs(f"results/{model_name}/{dataset_name}/logits", exist_ok=True)
+        os.makedirs(f"results/{model_name}/{dataset_name}/attentions", exist_ok=True)
+        os.makedirs(f"results/{model_name}/{dataset_name}/hidden_states", exist_ok=True)
 
         for idx, example in enumerate(dataset['train']):
             print("#######################################################################")
