@@ -24,8 +24,6 @@ def duplicate_layers(model, duplication_instructions):
     else:
         raise ValueError("Model structure not recognized.")
 
-    num_layers_original = len(layers)
-
     print(f"Original number of layers: {num_layers_original}")
     new_layers = []
     for idx, layer in enumerate(layers):
@@ -71,7 +69,8 @@ def load_model(model_name, duplication_instructions):
         quantization_config=quantization_config,
         use_auth_token=True
     )
-
+    num_layers_original = len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
+    print(f"Original number of layers: {num_layers_original}")
     model.eval()
 
     if duplication_instructions:
@@ -205,7 +204,7 @@ def main():
                 "precision:": "fp16" if not is_large else "4bfp",
                 "device": str(device),
                 "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
-                "num_layers_original": num_layers_original if duplication_instructions else None
+                "num_layers_original": num_layers_original 
                 "model_config": model.config.to_dict(),
                 "tokenizer_config": tokenizer.get_vocab()
             }, f, indent=2)
