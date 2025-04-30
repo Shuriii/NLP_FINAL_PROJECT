@@ -96,7 +96,12 @@ def main():
     os.makedirs('results', exist_ok=True)
 
     tokenizer, model, device = load_model(model_name, duplication_instructions)
-
+    # print the model config
+    print("model config:")
+    print(model.config.to_dict())
+    print("tokenizer config:")
+    print(tokenizer.get_vocab())
+    
     datasets_to_run = ['mmlu', 'musique']
 
     if duplication_instructions:
@@ -201,6 +206,8 @@ def main():
                 "device": str(device),
                 "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
                 "num_layers_original": num_layers_original if duplication_instructions else None
+                "model_config": model.config.to_dict(),
+                "tokenizer_config": tokenizer.get_vocab()
             }, f, indent=2)
 
         print(f"Finished {dataset_name}:")
