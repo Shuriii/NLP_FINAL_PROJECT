@@ -98,8 +98,7 @@ def main():
     # print the model config
     print("model config:")
     print(model.config.to_dict())
-    print("tokenizer config:")
-    print(tokenizer.get_vocab())
+  
 
     datasets_to_run = ['musique', 'mmlu']
 
@@ -148,7 +147,7 @@ def main():
                 top_k = 0
                 temperature = 1
 
-                output = model(**input,
+                output = model(input,
                                 output_attentions=True,
                                 output_hidden_states=True,
                                 return_dict=True,
