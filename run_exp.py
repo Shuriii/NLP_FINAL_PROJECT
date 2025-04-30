@@ -204,7 +204,7 @@ def main():
                 "precision:": "fp16" if not is_large else "4bfp",
                 "device": str(device),
                 "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
-                "num_layers_original": num_layers_original 
+                "num_layers_original": num_layers_original,
                 "model_config": model.config.to_dict(),
                 "tokenizer_config": tokenizer.get_vocab()
             }, f, indent=2)
