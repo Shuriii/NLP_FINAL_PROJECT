@@ -138,12 +138,12 @@ def main():
         for idx, example in enumerate(dataset):
             print("#######################################################################")
             print(f"Processing example {idx + 1}/{len(dataset)}...")
-            print(f"Example ID: {example['id']}")
+            print(f"Example ID: {example['research_id']}")
             print(f"Input: {example['input']}")
             input_text = example["input"]  # Always take 'input' field
-            example_id = example["id"]      # Always take 'id' field
+            example_id = example["research_id"]      # Always take 'id' field
 
-            input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)["input_ids"].to(device)
+            input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
  
             with torch.no_grad():
                 start_time = time.time()
@@ -151,22 +151,28 @@ def main():
                 top_k = 0
                 temperature = 1
 
-                output = model(input,
-                                output_attentions=True,
-                                output_hidden_states=True,
+                # get the logits, attentions, and hidden states
+                outputs = model(**input,
                                 return_dict=True,
-                                max_new_tokens=max_new_tokens,
-                                do_sample=False,
-                                top_p=top_p,
-                                top_k=top_k,
-                                temperature=temperature)
+                                output_attentions=True,
+                                output_hidden_states=True)
+                
+                generated_ids = model.generate(
+                    **input,
+                    max_new_tokens=max_new_tokens,
+                    do_sample=False,
+                    top_p=top_p,
+                    top_k=top_k,
+                    temperature=temperature)
+                
+                output_text = tokenizer.decode(generated_ids[0], skip_special_tokens=True)
                 print("got an output")
                 end_time = time.time()
                 run_time = end_time - start_time
                 
-                logits = output.logits.detach().cpu().numpy()
-                attentions = output.attentions
-                hidden_states = output.hidden_states
+                logits = outputs.logits.detach().cpu().numpy()
+                attentions = outputs.attentions
+                hidden_states = outputs.hidden_states
 
                 # Save the logits, attentions, and hidden states to json files
                 with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
@@ -180,8 +186,8 @@ def main():
                     json.dump(hidden_states_data, f, indent=2)
 
                 print("saved the logits, attentions, and hidden states to json files")
-
-            output_text = tokenizer.decode(output.logits[0, -1, :].argmax(-1).item(), skip_special_tokens=True)
+            # get the output text from 
+           
             print("----------------------------------------------------------------")
             print(f"output: {output_text}")
             print("----------------------------------------------------------------")
