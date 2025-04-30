@@ -120,7 +120,7 @@ def main():
                         dataset = json.load(f)
 
 
-        print(f"dataset size: {len(dataset['train'])}")
+        print(f"dataset size: {len(dataset)}")
         predictions = {}
         run_times = {}
         if dataset_name == 'mmlu':
