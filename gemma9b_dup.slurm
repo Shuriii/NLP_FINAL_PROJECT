@@ -3,9 +3,10 @@
 #SBATCH --output=logs/gemma9b_dup.out
 #SBATCH --error=logs/gemma9b_dup.err
 #SBATCH --time=24:00:00
-#SBATCH --partition=studentkillable
+#SBATCH --partition=killable
+#SBATCH --account=gpu-research
 #SBATCH --gres=gpu:4     # Request 4 GPUs (you can adjust based on availability)
-#SBATCH --cpus-per-task=16    # Use 16 CPU cores
+#SBATCH --cpus-per-task=4    # Use 16 CPU cores
 #SBATCH --mem=257500           # Request sufficient memory (adjust as needed)
 
 echo "Starting job..."
