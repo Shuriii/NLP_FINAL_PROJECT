@@ -101,8 +101,8 @@ def main():
     print(model.config.to_dict())
     print("tokenizer config:")
     print(tokenizer.get_vocab())
-    
-    datasets_to_run = ['mmlu', 'musique']
+
+    datasets_to_run = ['musique', 'mmlu']
 
     if duplication_instructions:
             model_name_to_save = f"{model_name}_duplication_{duplication_instructions}"
