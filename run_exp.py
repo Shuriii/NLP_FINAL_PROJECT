@@ -108,17 +108,18 @@ def main():
             model_name_to_save = model_name
         
     for dataset_name in datasets_to_run:
-        try:
-            print(f"loading dataset {dataset_name} from disk...")
-            # Load the dataset from disk if it exists
-            dataset = load_from_disk(f"datasets/{dataset_name}/")
-            print(f"loaded dataset {dataset_name} from disk")
-        except:
-            print(f"loading dataset {dataset_name} from huggingface...")
-            dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
-            dataset.save_to_disk(f"datasets/{dataset_name}/")
-            print(f"loaded dataset {dataset_name} from huggingface")
- 
+        # load the datasets manually
+        # search for the json files in the dataset folder
+        # open the dataset folder and load the json files dont use load disk
+
+        dataset_path = f"datasets/{dataset_name}"
+        if os.path.exists(dataset_path):
+            for file in os.listdir(dataset_path):
+                if file.endswith(".json"):
+                    with open(os.path.join(dataset_path, file), 'r') as f:
+                        dataset = json.load(f)
+
+
         print(f"dataset size: {len(dataset['train'])}")
         predictions = {}
         run_times = {}
@@ -132,7 +133,7 @@ def main():
         os.makedirs(f"results/{model_name_to_save}/{dataset_name}/attentions", exist_ok=True)
         os.makedirs(f"results/{model_name_to_save}/{dataset_name}/hidden_states", exist_ok=True)
 
-        for idx, example in enumerate(dataset['train']):
+        for idx, example in enumerate(dataset):
             print("#######################################################################")
             print(f"Processing example {idx + 1}/{len(dataset)}...")
             print(f"Example ID: {example['id']}")
