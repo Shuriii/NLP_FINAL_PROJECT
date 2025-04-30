@@ -58,9 +58,10 @@ def load_model(model_name, duplication_instructions):
     else:
         print(f"Loading smaller model {model_name} with fp16.")
 
+    print(f"loading tokenizer")
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)    
     tokenizer.pad_token = tokenizer.eos_token
-
+    print(f"loading model")
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         device_map= "auto",
@@ -69,6 +70,7 @@ def load_model(model_name, duplication_instructions):
         quantization_config=quantization_config,
         use_auth_token=True
     )
+    print(f"loaded model")
     num_layers_original = len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
     print(f"Original number of layers: {num_layers_original}")
     model.eval()
@@ -111,14 +113,14 @@ def main():
         # load the datasets manually
         # search for the json files in the dataset folder
         # open the dataset folder and load the json files dont use load disk
-
+        print("loading dataset")
         dataset_path = f"datasets/{dataset_name}"
         if os.path.exists(dataset_path):
             for file in os.listdir(dataset_path):
                 if file.endswith(".json"):
                     with open(os.path.join(dataset_path, file), 'r') as f:
                         dataset = json.load(f)
-
+        print(f"loaded dataset {dataset_name}")
 
         print(f"dataset size: {len(dataset)}")
         predictions = {}
