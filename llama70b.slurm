@@ -3,10 +3,11 @@
 #SBATCH --output=logs/llama70b.out
 #SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
-#SBATCH --partition=studentkillable
-#SBATCH --gres=gpu:titan:4     # Request 2 GPUs (you can adjust based on availability)
+#SBATCH --partition=killable
+#SBATCH --account=gpu-research
+#SBATCH --constraint=geforce_rtx_3090
 #SBATCH --cpus-per-task=16    # Use 16 CPU cores
-#SBATCH --mem=240G            # Request sufficient memory (adjust as needed)
+#SBATCH --mem=257000           # Request sufficient memory (adjust as needed)
 
 echo "Starting job..."
 
