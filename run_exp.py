@@ -152,13 +152,14 @@ def main():
                 temperature = 1
 
                 # get the logits, attentions, and hidden states
-                outputs = model(**input,
+                input_ids = input["input_ids"].to(device)
+                outputs = model(input_ids=input_ids,
                                 return_dict=True,
                                 output_attentions=True,
                                 output_hidden_states=True)
                 
                 generated_ids = model.generate(
-                    **input,
+                    input_ids=input_ids,
                     max_new_tokens=max_new_tokens,
                     do_sample=False,
                     top_p=top_p,
