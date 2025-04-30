@@ -1,6 +1,6 @@
 import time
 import torch
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 import argparse
@@ -8,6 +8,7 @@ import os
 import json
 
 is_large = False
+num_layers_original = 0
 
 def duplicate_layers(model, duplication_instructions):
     """Duplicate specific layers in the model according to the instructions."""
@@ -23,6 +24,9 @@ def duplicate_layers(model, duplication_instructions):
     else:
         raise ValueError("Model structure not recognized.")
 
+    num_layers_original = len(layers)
+
+    print(f"Original number of layers: {num_layers_original}")
     new_layers = []
     for idx, layer in enumerate(layers):
         new_layers.append(layer)
@@ -101,12 +105,23 @@ def main():
             model_name_to_save = model_name
         
     for dataset_name in datasets_to_run:
-        print(f"loading dataset {dataset_name}...")
-        dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
-        print(f"loaded dataset {dataset_name}")
+        try:
+            print(f"loading dataset {dataset_name} from disk...")
+            # Load the dataset from disk if it exists
+            dataset = load_from_disk(f"datasets/{dataset_name}/")
+            print(f"loaded dataset {dataset_name} from disk")
+        except:
+            print(f"loading dataset {dataset_name} from huggingface...")
+            dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
+            print(f"loaded dataset {dataset_name} from huggingface")
+ 
         print(f"dataset size: {len(dataset['train'])}")
         predictions = {}
         run_times = {}
+        if dataset_name == 'mmlu':
+            max_new_tokens = 1
+        else:
+            max_new_tokens = 128
      
         # save the logits, attentions, hidden_states, and run_times to the model_name/dataset_name folder json file for each catagory
         os.makedirs(f"results/{model_name_to_save}/{dataset_name}/logits", exist_ok=True)
@@ -122,17 +137,14 @@ def main():
             example_id = example["id"]      # Always take 'id' field
 
             input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)["input_ids"].to(device)
-            if dataset_name == 'mmlu':
-                max_new_tokens = 1
-            else:
-                max_new_tokens = 128
+ 
             with torch.no_grad():
                 start_time = time.time()
                 top_p = 0
                 top_k = 0
                 temperature = 1
 
-                output = model(input,
+                output = model(**input,
                                 output_attentions=True,
                                 output_hidden_states=True,
                                 return_dict=True,
@@ -145,9 +157,9 @@ def main():
                 end_time = time.time()
                 run_time = end_time - start_time
                 
-                logits = output.logits.detach().cpu().numpy()         # Save these to analyze model confidence later
-                attentions = output.attentions                        # Save these to build attention maps later
-                hidden_states = output.hidden_states                  # Save these to compare internal layers later
+                logits = output.logits.detach().cpu().numpy()
+                attentions = [a.detach().cpu().numpy() for a in output.attentions]
+                hidden_states = [h.detach().cpu().numpy() for h in output.hidden_states]
 
                 # Save the logits, attentions, and hidden states to json files
                 with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
@@ -188,7 +200,7 @@ def main():
                 "precision:": "fp16" if not is_large else "4bfp",
                 "device": str(device),
                 "num_layers": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h),
-                "num_layers_original": len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
+                "num_layers_original": num_layers_original if duplication_instructions else None
             }, f, indent=2)
 
         print(f"Finished {dataset_name}:")

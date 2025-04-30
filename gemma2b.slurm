@@ -4,9 +4,9 @@
 #SBATCH --error=logs/gemma2b.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=studentkillable
-#SBATCH --gres=gpu:1     # Request 4 GPUs (you can adjust based on availability)
-#SBATCH --cpus-per-task=4    # Use 16 CPU cores
-#SBATCH --mem=50000          # Request sufficient memory (adjust as needed)
+#SBATCH --gres=gpu:2     # Request 4 GPUs (you can adjust based on availability)
+#SBATCH --cpus-per-task=10   # Use 16 CPU cores
+#SBATCH --mem=100000          # Request sufficient memory (adjust as needed)
 
 echo "Starting job..."
 
