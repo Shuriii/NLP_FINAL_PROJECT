@@ -6,7 +6,7 @@
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
 #SBATCH --constraint=geforce_rtx_3090
-#SBATCH --cpus-per-task=16    # Use 16 CPU cores
+#SBATCH --cpus-per-task=4    # Use 16 CPU cores
 #SBATCH --mem=257000           # Request sufficient memory (adjust as needed)
 
 echo "Starting job..."
