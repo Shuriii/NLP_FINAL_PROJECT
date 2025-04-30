@@ -97,7 +97,7 @@ def main():
     tokenizer, model, device = load_model(model_name, duplication_instructions)
     # print the model config
     print("model config:")
-    print(model.config.to_dict())
+    print(model.config)
   
 
     datasets_to_run = ['musique', 'mmlu']
@@ -116,6 +116,7 @@ def main():
         except:
             print(f"loading dataset {dataset_name} from huggingface...")
             dataset = load_dataset("sharonsaban/"+dataset_name, cache_dir="./hf_cache")
+            dataset.save_to_disk(f"datasets/{dataset_name}/")
             print(f"loaded dataset {dataset_name} from huggingface")
  
         print(f"dataset size: {len(dataset['train'])}")
@@ -161,18 +162,18 @@ def main():
                 run_time = end_time - start_time
                 
                 logits = output.logits.detach().cpu().numpy()
-                attentions = [a.detach().cpu().numpy() for a in output.attentions]
-                hidden_states = [h.detach().cpu().numpy() for h in output.hidden_states]
+                attentions = output.attentions
+                hidden_states = output.hidden_states
 
                 # Save the logits, attentions, and hidden states to json files
                 with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
                     logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
                     json.dump(logits_data, f, indent=2)
                 with open(f"results/{model_name_to_save}/{dataset_name}/attentions/{example_id}.json", "w") as f:
-                    attentions_data = [attn.detach().cpu().numpy().tolist() for attn in attentions]  # Convert tensors to lists
+                    attentions_data = [attn.tolist() for attn in attentions]  # Convert tensors to lists
                     json.dump(attentions_data, f, indent=2)
                 with open(f"results/{model_name_to_save}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
-                    hidden_states_data = [hidden_state.detach().cpu().numpy().tolist() for hidden_state in hidden_states]
+                    hidden_states_data = [hidden_state.tolist() for hidden_state in hidden_states]
                     json.dump(hidden_states_data, f, indent=2)
 
                 print("saved the logits, attentions, and hidden states to json files")
