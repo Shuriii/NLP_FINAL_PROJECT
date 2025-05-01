@@ -102,7 +102,7 @@ def main():
     print(model.config)
   
 
-    datasets_to_run = ['musique']
+    datasets_to_run = ['musique','mmlu','drop']
 
     if duplication_instructions:
             model_name_to_save = f"{model_name.split('/')[1]}_duplication_{duplication_instructions}"
