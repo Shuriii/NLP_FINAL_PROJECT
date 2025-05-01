@@ -1,4 +1,5 @@
 #!/bin/bash
+#added by sharon 15:27
 #SBATCH --job-name=run_exp
 #SBATCH --output=logs/gemma2b_dup.out
 #SBATCH --error=logs/gemma2b_dup.err
