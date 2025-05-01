@@ -1,0 +1,33 @@
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA driver initialization failed, you might not have a CUDA gpu. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:898: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [04:13<12:39, 253.27s/it]Fetching 4 files: 100%|██████████| 4/4 [04:13<00:00, 63.32s/it] 
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/torch/cuda/__init__.py:734: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [01:23<04:11, 83.77s/it]Loading checkpoint shards:  50%|█████     | 2/4 [02:49<02:49, 84.95s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [04:15<01:25, 85.28s/it]Loading checkpoint shards: 100%|██████████| 4/4 [04:36<00:00, 59.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [04:36<00:00, 69.01s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 231, in <module>
+    main()
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 170, in main
+    torch.cuda.ipc_collect()
+  File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/torch/cuda/__init__.py", line 997, in ipc_collect
+    _lazy_init()
+  File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/torch/cuda/__init__.py", line 319, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: CUDA driver initialization failed, you might not have a CUDA gpu.
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 3781810 to init root cgroup (null)

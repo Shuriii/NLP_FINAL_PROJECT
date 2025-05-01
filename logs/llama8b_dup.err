@@ -1,0 +1,16 @@
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:898: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:49<02:27, 49.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:37<01:37, 48.87s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:26<00:48, 48.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:37<00:00, 33.94s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:37<00:00, 39.39s/it]
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 226, in <module>
+    main()
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 141, in main
+    print(f"Example ID: {example['research_id']}")
+KeyError: 'research_id'
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 2159564 to init root cgroup (null)

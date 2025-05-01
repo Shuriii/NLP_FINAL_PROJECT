@@ -1,3 +1,6 @@
-Starting job
-Loading model: meta-llama/Llama-3-70b
-Done!
+Starting job...
+Using device: cpu
+Loading large model meta-llama/Meta-Llama-3-70B with 4-bit precision (4bfp).
+loading tokenizer
+loading model
+Job done!

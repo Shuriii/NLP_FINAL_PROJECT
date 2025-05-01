@@ -1,0 +1,6 @@
+Starting job...
+Using device: cpu
+Loading large model google/gemma-2-27b with 4-bit precision (4bfp).
+loading tokenizer
+loading model
+Job done!

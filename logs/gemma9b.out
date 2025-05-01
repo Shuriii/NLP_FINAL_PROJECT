@@ -1,0 +1,141 @@
+Starting job...
+Using device: cpu
+Loading smaller model google/gemma-2-9b with fp16.
+loading tokenizer
+loading model
+loaded model
+Original number of layers: 42
+model config:
+Gemma2Config {
+  "_attn_implementation_autoset": true,
+  "architectures": [
+    "Gemma2ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "attn_logit_softcapping": 50.0,
+  "bos_token_id": 2,
+  "cache_implementation": "hybrid",
+  "eos_token_id": 1,
+  "final_logit_softcapping": 30.0,
+  "head_dim": 256,
+  "hidden_act": "gelu_pytorch_tanh",
+  "hidden_activation": "gelu_pytorch_tanh",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "max_position_embeddings": 8192,
+  "model_type": "gemma2",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 42,
+  "num_key_value_heads": 8,
+  "pad_token_id": 0,
+  "query_pre_attn_scalar": 256,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 10000.0,
+  "sliding_window": 4096,
+  "sliding_window_size": 4096,
+  "torch_dtype": "float16",
+  "transformers_version": "4.51.3",
+  "use_cache": true,
+  "vocab_size": 256000
+}
+
+loading dataset
+loaded dataset musique
+dataset size: 500
+#######################################################################
+Processing example 1/500...
+Example ID: 1
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Richard Feynman
+Feynman's other work at Los Alamos included calculating neutron equations for the Los Alamos "Water Boiler", a small nuclear reactor, to measure how close an assembly of fissile material was to criticality. On completing this work he was transferred to the Oak Ridge facility, where he aided engineers in devising safety procedures for material storage so that criticality accidents (for example, due to sub-critical amounts of fissile material inadvertently stored in proximity on opposite sides of a wall) could be avoided. He also did theoretical work and calculations on the proposed uranium hydride bomb, which later proved not to be feasible.
+
+Title: Manhattan Project
+The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada. From 1942 to 1946, the project was under the direction of Major General Leslie Groves of the U.S. Army Corps of Engineers. Nuclear physicist Robert Oppenheimer was the director of the Los Alamos Laboratory that designed the actual bombs. The Army component of the project was designated the Manhattan District; ``Manhattan ''gradually superseded the official codename, Development of Substitute Materials, for the entire project. Along the way, the project absorbed its earlier British counterpart, Tube Alloys. The Manhattan Project began modestly in 1939, but grew to employ more than 130,000 people and cost nearly US $2 billion (about $22 billion in 2016 dollars). Over 90% of the cost was for building factories and to produce fissile material, with less than 10% for development and production of the weapons. Research and production took place at more than 30 sites across the United States, the United Kingdom, and Canada.
+
+Title: W41
+A warhead version of the B41 thermonuclear bomb, development of the W41 began in November 1956 at Lawrence Livermore National Laboratory. Investigated as a possible warhead for the SM-64 Navaho, a cruise missile then in development, work on the warhead continued through July 1957, when the project was cancelled.
+
+Title: The Making of the Atomic Bomb
+The Making of the Atomic Bomb is a contemporary history book written by the American journalist and historian Richard Rhodes, first published by Simon & Schuster in 1987. It won the Pulitzer Prize for General Non-Fiction, the National Book Award for Nonfiction, and a National Book Critics Circle Award. The narrative covers people and events from early 20th century discoveries leading to the science of nuclear fission, through the Manhattan Project and the atomic bombings of Hiroshima and Nagasaki.
+
+Title: Josiah Parsons Cooke
+Josiah Parsons Cooke (October 12, 1827 – September 3, 1894) was an American scientist who worked at Harvard University and was instrumental in the measurement of atomic weights, inspiring America's first Nobel laureate in chemistry, Theodore Richards, to pursue similar research. Cooke's 1854 paper on atomic weights has been said to foreshadow the periodic law developed later by Mendeleev and others. Historian I. Bernard Cohen described Cooke "as the first university chemist to do truly distinguished work in the field of chemistry" in the United States.
+
+Title: Richard Feynman
+In the late 1980s, according to "Richard Feynman and the Connection Machine", Feynman played a crucial role in developing the first massively parallel computer, and in finding innovative uses for it in numerical computations, in building neural networks, as well as physical simulations using cellular automata (such as turbulent fluid flow), working with Stephen Wolfram at Caltech. His son Carl also played a role in the development of the original Connection Machine engineering; Feynman influencing the interconnects while his son worked on the software.
+
+Question: Who was the US physicist who directed the project that developed the first atomic bomb at the same place where Feynman worked on Water Boiler?
+Answer:
+Job done!
