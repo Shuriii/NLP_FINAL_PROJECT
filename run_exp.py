@@ -153,11 +153,11 @@ def main():
 
                 # get the logits, attentions, and hidden states
                 input_ids = input["input_ids"].to(device)
-                outputs = model(input_ids=input_ids,
-                                return_dict=True,
-                                output_attentions=True,
-                                output_hidden_states=True)
-                
+        #        outputs = model(input_ids=input_ids,
+        #                    return_dict=True,
+        #                        output_attentions=True,
+        #                        output_hidden_states=True)
+        #        
                 generated_ids = model.generate(
                     input_ids=input_ids,
                     max_new_tokens=max_new_tokens,
@@ -174,20 +174,20 @@ def main():
                 end_time = time.time()
                 run_time = end_time - start_time
                 
-                logits = outputs.logits.detach().cpu().numpy()
-                attentions = outputs.attentions
-                hidden_states = outputs.hidden_states
+        #        logits = outputs.logits.detach().cpu().numpy()
+        #        attentions = outputs.attentions
+        #        hidden_states = outputs.hidden_states
 
                 # Save the logits, attentions, and hidden states to json files
-                with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
-                    logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
-                    json.dump(logits_data, f, indent=2)
-                with open(f"results/{model_name_to_save}/{dataset_name}/attentions/{example_id}.json", "w") as f:
-                    attentions_data = [attn.tolist() for attn in attentions]  # Convert tensors to lists
-                    json.dump(attentions_data, f, indent=2)
-                with open(f"results/{model_name_to_save}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
-                    hidden_states_data = [hidden_state.tolist() for hidden_state in hidden_states]
-                    json.dump(hidden_states_data, f, indent=2)
+        #        with open(f"results/{model_name_to_save}/{dataset_name}/logits/{example_id}.json", "w") as f:
+        #            logits_data = logits.tolist()  # Convert numpy array to list for JSON serialization
+        #            json.dump(logits_data, f, indent=2)
+        #        with open(f"results/{model_name_to_save}/{dataset_name}/attentions/{example_id}.json", "w") as f:
+        #            attentions_data = [attn.tolist() for attn in attentions]  # Convert tensors to lists
+        #            json.dump(attentions_data, f, indent=2)
+        #        with open(f"results/{model_name_to_save}/{dataset_name}/hidden_states/{example_id}.json", "w") as f:
+        #            hidden_states_data = [hidden_state.tolist() for hidden_state in hidden_states]
+        #            json.dump(hidden_states_data, f, indent=2)
 
                 print("saved the logits, attentions, and hidden states to json files")
             # get the output text from 
