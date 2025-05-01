@@ -1,0 +1,21 @@
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA driver initialization failed, you might not have a CUDA gpu. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:898: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 231, in <module>
+    main()
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 99, in main
+    tokenizer, model, device = load_model(model_name, duplication_instructions)
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp.py", line 62, in load_model
+    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True, force_download=True)    
+  File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 1028, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2046, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'google/gemma-2-29b'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'google/gemma-2-29b' is the correct path to a directory containing all relevant files for a GemmaTokenizerFast tokenizer.
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 3776611 to init root cgroup (null)

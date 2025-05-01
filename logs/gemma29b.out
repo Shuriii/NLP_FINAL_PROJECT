@@ -1,0 +1,5 @@
+Starting job...
+Using device: cpu
+Loading smaller model google/gemma-2-29b with fp16.
+loading tokenizer
+Job done!

@@ -1,0 +1,6 @@
+Starting job...
+Using device: cuda
+Loading smaller model google/gemma-2-9b with fp16.
+loading tokenizer
+loading model
+Job done!
