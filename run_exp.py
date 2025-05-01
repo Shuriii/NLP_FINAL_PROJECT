@@ -48,12 +48,11 @@ def load_model(model_name, duplication_instructions):
     quantization_config = None
 
     if is_large:
-        print(f"Loading large model {model_name} with 4-bit precision (4bfp).")
+        print(f"Loading large model {model_name} with 8-bit precision (8bfp).")
         quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,               # <<<<<<<<<<<<<<<< 4bit
-            bnb_4bit_quant_type="nf4",        # (better quantization type for LLaMA models)
-            bnb_4bit_compute_dtype=torch.bfloat16,  # you can also use float16 if bfloat16 isn't supported
+            load_in_8bit=True
         )
+        print(f"Using quantization config: {quantization_config}")
     
     else:
         print(f"Loading smaller model {model_name} with fp16.")
