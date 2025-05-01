@@ -173,6 +173,7 @@ def main():
                 print("got an output")
                 end_time = time.time()
                 run_time = end_time - start_time
+                print(f"Run time: {run_time:.2f} seconds")
                 
         #        logits = outputs.logits.detach().cpu().numpy()
         #        attentions = outputs.attentions
