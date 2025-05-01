@@ -101,7 +101,7 @@ def main():
     print(model.config)
   
 
-    datasets_to_run = ['musique', 'mmlu']
+    datasets_to_run = ['musique']
 
     if duplication_instructions:
             model_name_to_save = f"{model_name}_duplication_{duplication_instructions}"
@@ -113,7 +113,7 @@ def main():
         # search for the json files in the dataset folder
         # open the dataset folder and load the json files dont use load disk
         print("loading dataset")
-        dataset_path = f"datasets/{dataset_name}"
+        dataset_path = f"data_sets/{dataset_name}/input_prompt_samples/"
         if os.path.exists(dataset_path):
             for file in os.listdir(dataset_path):
                 if file.endswith(".json"):
