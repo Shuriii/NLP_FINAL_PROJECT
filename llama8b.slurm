@@ -6,7 +6,7 @@
 #SBATCH --account=gpu-research
 #SBATCH --constraint=geforce_rtx_3090
 #SBATCH --partition=killable
-#SBATCH --gres=gpu:4     # Request 2 GPUs (you can adjust based on availability)
+#SBATCH --gres=gpu:2     # Request 2 GPUs (you can adjust based on availability)
 #SBATCH --cpus-per-task=4    # Use 16 CPU cores
 #SBATCH --mem=257500           # Request sufficient memory (adjust as needed)
 
