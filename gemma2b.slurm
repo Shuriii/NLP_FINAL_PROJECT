@@ -14,8 +14,7 @@ echo "Starting job..."
 source /home/joberant/NLP_2425a/sharonsaban/anaconda3/etc/profile.d/conda.sh
 conda activate sharon_env
 
-# Set Hugging Face cache directory
-export HF_HOME=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface
+export HF_TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 # Run your experiment
 python run_exp.py --model_name "google/gemma-2-2b"
