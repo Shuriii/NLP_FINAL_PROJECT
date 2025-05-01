@@ -59,7 +59,7 @@ def load_model(model_name, duplication_instructions):
         print(f"Loading smaller model {model_name} with fp16.")
 
     print(f"loading tokenizer")
-    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True)    
+    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True, use_auth_token=True, force_download=True)    
     tokenizer.pad_token = tokenizer.eos_token
     print(f"loading model")
     model = AutoModelForCausalLM.from_pretrained(
@@ -67,7 +67,8 @@ def load_model(model_name, duplication_instructions):
         device_map= "auto",
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
-        use_auth_token=True
+        use_auth_token=True,
+        force_download=True
     )
     print(f"loaded model")
     num_layers_original = len(model.model.layers) if hasattr(model.model, 'layers') else len(model.model.transformer.h)
