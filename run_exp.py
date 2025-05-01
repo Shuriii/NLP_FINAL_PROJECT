@@ -144,7 +144,7 @@ def main():
 
             input = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True)
  
-            with torch.no_grad():
+            with torch.inference_mode():
                 start_time = time.time()
                 top_p = 0
                 top_k = 0
@@ -165,7 +165,10 @@ def main():
                     top_k=top_k,
                     temperature=temperature)
                 
-                output_text = tokenizer.decode(generated_ids[0], skip_special_tokens=True)
+                torch.cuda.empty_cache()
+                torch.cuda.ipc_collect()
+                
+                output_text = tokenizer.decode(generated_ids[0], skip_special_tokens=True)[len(input_text):]
                 print("got an output")
                 end_time = time.time()
                 run_time = end_time - start_time
