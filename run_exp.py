@@ -104,9 +104,9 @@ def main():
     datasets_to_run = ['musique']
 
     if duplication_instructions:
-            model_name_to_save = f"{model_name}_duplication_{duplication_instructions}"
+            model_name_to_save = f"{model_name.split('/')[1]}_duplication_{duplication_instructions}"
     else:
-            model_name_to_save = model_name
+            model_name_to_save = model_name.split('/')[1]
         
     for dataset_name in datasets_to_run:
         # load the datasets manually
