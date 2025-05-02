@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=run_exp
+#SBATCH --job-name=gemma27b
 #SBATCH --output=logs/gemma27b_vllm.out
 #SBATCH --error=logs/gemma27b_vllm.err
 #SBATCH --time=24:00:00

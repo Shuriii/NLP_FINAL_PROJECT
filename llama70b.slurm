@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=run_exp
+#SBATCH --job-name=llama70b
 #SBATCH --output=logs/llama70b.out
 #SBATCH --error=logs/llama70b.err
 #SBATCH --time=24:00:00
