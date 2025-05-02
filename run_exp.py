@@ -2,7 +2,7 @@ import time
 import torch
 from datasets import load_dataset, load_from_disk
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-
+from transformers import infer_auto_device_map, dispatch_model
 import argparse
 import os
 import json
@@ -41,7 +41,7 @@ def duplicate_layers(model, duplication_instructions, device):
     # Update the model config to reflect the new number of layers
     model.config.num_hidden_layers = len(new_layers)
     # move the model to the device
-    model.to(device)
+    
     return model
 
 def load_model(model_name, duplication_instructions):
@@ -67,7 +67,7 @@ def load_model(model_name, duplication_instructions):
     print(f"loading model")
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map= "auto",
+        device_map= None,
         torch_dtype=torch.float16 if not is_large else None,
         quantization_config=quantization_config,
         use_auth_token=True,
@@ -80,7 +80,21 @@ def load_model(model_name, duplication_instructions):
 
     if duplication_instructions:
         model = duplicate_layers(model, duplication_instructions, device)
+        
+    if "llama" in model_name.lower():
+        no_split_modules = ["LlamaDecoderLayer"]
+    elif "gemma" in model_name.lower():
+        no_split_modules = ["GemmaDecoderLayer"]
+    else:
+        raise ValueError("Unknown model type for no_split_module_classes.")
 
+    device_map = infer_auto_device_map(
+        model,
+        max_memory = {i: "23GiB" for i in range(torch.cuda.device_count())},
+        no_split_module_classes=no_split_modules
+    )
+
+    model = dispatch_model(model, device_map=device_map)
     return tokenizer, model, device
 
 def main():
