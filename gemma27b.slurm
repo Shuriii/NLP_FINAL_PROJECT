@@ -6,7 +6,7 @@
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
 #SBATCH --constraint="a6000|quadro_rtx_8000"
-#SBATCH --gres=gpu:2     # Request 4 GPUs (you can adjust based on availability)
+#SBATCH --gres=gpu:1     # Request 4 GPUs (you can adjust based on availability)
 #SBATCH --cpus-per-task=4   # Use 16 CPU cores
 #SBATCH --mem=257000          # Request sufficient memory (adjust as needed)
 
