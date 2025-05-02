@@ -1,8 +1,8 @@
 /home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
   warnings.warn(
 Traceback (most recent call last):
-  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp_large.py", line 10, in <module>
-    import vllm
+  File "/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp_large.py", line 9, in <module>
+    from vllm import LLM, SamplingParams
   File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/vllm/__init__.py", line 12, in <module>
     from vllm.engine.arg_utils import AsyncEngineArgs, EngineArgs
   File "/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/vllm/engine/arg_utils.py", line 18, in <module>
@@ -43,4 +43,4 @@ Traceback (most recent call last):
 vllm.third_party.pynvml.NVMLError_Unknown: Unknown Error
 slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
 slurmstepd: error: Cannot write to cgroup.procs for (null)
-slurmstepd: error: Unable to move pid 3892452 to init root cgroup (null)
+slurmstepd: error: Unable to move pid 3932088 to init root cgroup (null)
