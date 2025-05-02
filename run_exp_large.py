@@ -127,7 +127,11 @@ def main():
 
     # Load model and tokenizer
     model, tokenizer, device = load_model(model_name)
-
+    # verify you use multi-gpu
+    if torch.cuda.device_count() > 1:
+        print(f"Using {torch.cuda.device_count()} GPUs for inference.")
+    else:
+        print("Using a single GPU for inference.")
     # Datasets to run inference on
     datasets_to_run = ['musique', 'mmlu', 'drop']
 
