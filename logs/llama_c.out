@@ -1,0 +1,5 @@
+Starting job...
+Using device: cuda
+Loading smaller model meta-llama/Meta-Llama-3-8B with fp16.
+loading tokenizer
+loading model
