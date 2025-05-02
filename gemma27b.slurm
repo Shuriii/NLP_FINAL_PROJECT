@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name=run_exp
-#SBATCH --output=logs/gemma27b.out
-#SBATCH --error=logs/gemma27b.err
+#SBATCH --output=logs/gemma27b_vllm.out
+#SBATCH --error=logs/gemma27b_vllm.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
-#SBATCH --constraint="a6000|quadro_rtx_8000"
-#SBATCH --gres=gpu:1     # Request 4 GPUs (you can adjust based on availability)
+#SBATCH --constraint="geforce_rtx_3090"
+#SBATCH --gres=gpu:4     # Request 4 GPUs (you can adjust based on availability)
 #SBATCH --cpus-per-task=4   # Use 16 CPU cores
 #SBATCH --mem=257000          # Request sufficient memory (adjust as needed)
 
@@ -20,6 +20,6 @@ conda activate sharon_env
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 # Run your experiment
-python run_exp.py --model_name "google/gemma-2-27b"
+python run_exp_large.py --model_name "google/gemma-2-27b"
 
 echo "Job done!"

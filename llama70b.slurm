@@ -5,8 +5,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
-#SBATCH --constraint="a6000|quadro_rtx_8000"
-#SBATCH --gres=gpu:2     # Request 4 GPUs (you can adjust based on availability)
+#SBATCH --constraint="geforce_rtx_3090"
+#SBATCH --gres=gpu:4     # Request 4 GPUs (you can adjust based on availability)
 #SBATCH --cpus-per-task=4    # Use 16 CPU cores
 #SBATCH --mem=257000           # Request sufficient memory (adjust as needed)
 
@@ -20,7 +20,7 @@ conda activate sharon_env
 export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers
 
 # Run your experiment
-python run_exp.py --model_name "meta-llama/Meta-Llama-3-70B"
+python run_exp_large.py --model_name "meta-llama/Meta-Llama-3-70B"
 
 echo "Job done!"
 
