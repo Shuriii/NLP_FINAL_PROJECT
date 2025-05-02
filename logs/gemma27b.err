@@ -4,4 +4,8 @@
   warnings.warn(
 /home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
   warnings.warn(
-Fetching 24 files:   0%|          | 0/24 [00:00<?, ?it/s]
+Fetching 24 files:   0%|          | 0/24 [00:00<?, ?it/s]Fetching 24 files:   4%|▍         | 1/24 [58:51<22:33:33, 3531.02s/it]Fetching 24 files:   8%|▊         | 2/24 [1:09:00<11:04:30, 1812.28s/it]Fetching 24 files:  17%|█▋        | 4/24 [1:15:25<4:25:36, 796.84s/it]  Fetching 24 files:  38%|███▊      | 9/24 [1:30:12<1:32:10, 368.70s/it]Fetching 24 files:  38%|███▊      | 9/24 [1:30:13<2:30:22, 601.47s/it]
+slurmstepd: error: *** JOB 634873 ON n-602 CANCELLED AT 2025-05-02T10:25:48 DUE TO PREEMPTION ***
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 3705584 to init root cgroup (null)
