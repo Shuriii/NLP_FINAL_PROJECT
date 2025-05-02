@@ -2,7 +2,7 @@ import time
 import torch
 from datasets import load_dataset, load_from_disk
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-from transformers import infer_auto_device_map, dispatch_model
+from accelerate import dispatch_model, infer_auto_device_map
 import argparse
 import os
 import json
@@ -80,7 +80,7 @@ def load_model(model_name, duplication_instructions):
 
     if duplication_instructions:
         model = duplicate_layers(model, duplication_instructions, device)
-        
+
     if "llama" in model_name.lower():
         no_split_modules = ["LlamaDecoderLayer"]
     elif "gemma" in model_name.lower():
