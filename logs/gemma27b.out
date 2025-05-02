@@ -1,6 +1,21 @@
 Starting job...
-Using device: cpu
-Loading large model google/gemma-2-27b with 4-bit precision (4bfp).
+Using device: cuda
+Loading large model google/gemma-2-27b with 8-bit precision (8bfp).
+Using quantization config: BitsAndBytesConfig {
+  "_load_in_4bit": false,
+  "_load_in_8bit": true,
+  "bnb_4bit_compute_dtype": "float32",
+  "bnb_4bit_quant_storage": "uint8",
+  "bnb_4bit_quant_type": "fp4",
+  "bnb_4bit_use_double_quant": false,
+  "llm_int8_enable_fp32_cpu_offload": false,
+  "llm_int8_has_fp16_weight": false,
+  "llm_int8_skip_modules": null,
+  "llm_int8_threshold": 6.0,
+  "load_in_4bit": false,
+  "load_in_8bit": true,
+  "quant_method": "bitsandbytes"
+}
+
 loading tokenizer
 loading model
-Job done!

@@ -1,0 +1,1146 @@
+Starting job...
+Using device: cuda
+Loading smaller model google/gemma-2-2b with fp16.
+loading tokenizer
+loading model
+loaded model
+Original number of layers: 26
+Duplicating layers: [(12, 1), (13, 1)]
+Original number of layers: 0
+Duplicated layers: 28 total layers (original: 26)
+model config:
+Gemma2Config {
+  "_attn_implementation_autoset": true,
+  "architectures": [
+    "Gemma2ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "attn_logit_softcapping": 50.0,
+  "bos_token_id": 2,
+  "cache_implementation": "hybrid",
+  "eos_token_id": 1,
+  "final_logit_softcapping": 30.0,
+  "head_dim": 256,
+  "hidden_act": "gelu_pytorch_tanh",
+  "hidden_activation": "gelu_pytorch_tanh",
+  "hidden_size": 2304,
+  "initializer_range": 0.02,
+  "intermediate_size": 9216,
+  "max_position_embeddings": 8192,
+  "model_type": "gemma2",
+  "num_attention_heads": 8,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": 0,
+  "query_pre_attn_scalar": 256,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 10000.0,
+  "sliding_window": 4096,
+  "torch_dtype": "float16",
+  "transformers_version": "4.51.3",
+  "use_cache": true,
+  "vocab_size": 256000
+}
+
+loading dataset
+loaded dataset musique
+dataset size: 500
+#######################################################################
+Processing example 1/500...
+Example ID: 1
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Richard Feynman
+Feynman's other work at Los Alamos included calculating neutron equations for the Los Alamos "Water Boiler", a small nuclear reactor, to measure how close an assembly of fissile material was to criticality. On completing this work he was transferred to the Oak Ridge facility, where he aided engineers in devising safety procedures for material storage so that criticality accidents (for example, due to sub-critical amounts of fissile material inadvertently stored in proximity on opposite sides of a wall) could be avoided. He also did theoretical work and calculations on the proposed uranium hydride bomb, which later proved not to be feasible.
+
+Title: Manhattan Project
+The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada. From 1942 to 1946, the project was under the direction of Major General Leslie Groves of the U.S. Army Corps of Engineers. Nuclear physicist Robert Oppenheimer was the director of the Los Alamos Laboratory that designed the actual bombs. The Army component of the project was designated the Manhattan District; ``Manhattan ''gradually superseded the official codename, Development of Substitute Materials, for the entire project. Along the way, the project absorbed its earlier British counterpart, Tube Alloys. The Manhattan Project began modestly in 1939, but grew to employ more than 130,000 people and cost nearly US $2 billion (about $22 billion in 2016 dollars). Over 90% of the cost was for building factories and to produce fissile material, with less than 10% for development and production of the weapons. Research and production took place at more than 30 sites across the United States, the United Kingdom, and Canada.
+
+Title: W41
+A warhead version of the B41 thermonuclear bomb, development of the W41 began in November 1956 at Lawrence Livermore National Laboratory. Investigated as a possible warhead for the SM-64 Navaho, a cruise missile then in development, work on the warhead continued through July 1957, when the project was cancelled.
+
+Title: The Making of the Atomic Bomb
+The Making of the Atomic Bomb is a contemporary history book written by the American journalist and historian Richard Rhodes, first published by Simon & Schuster in 1987. It won the Pulitzer Prize for General Non-Fiction, the National Book Award for Nonfiction, and a National Book Critics Circle Award. The narrative covers people and events from early 20th century discoveries leading to the science of nuclear fission, through the Manhattan Project and the atomic bombings of Hiroshima and Nagasaki.
+
+Title: Josiah Parsons Cooke
+Josiah Parsons Cooke (October 12, 1827 – September 3, 1894) was an American scientist who worked at Harvard University and was instrumental in the measurement of atomic weights, inspiring America's first Nobel laureate in chemistry, Theodore Richards, to pursue similar research. Cooke's 1854 paper on atomic weights has been said to foreshadow the periodic law developed later by Mendeleev and others. Historian I. Bernard Cohen described Cooke "as the first university chemist to do truly distinguished work in the field of chemistry" in the United States.
+
+Title: Richard Feynman
+In the late 1980s, according to "Richard Feynman and the Connection Machine", Feynman played a crucial role in developing the first massively parallel computer, and in finding innovative uses for it in numerical computations, in building neural networks, as well as physical simulations using cellular automata (such as turbulent fluid flow), working with Stephen Wolfram at Caltech. His son Carl also played a role in the development of the original Connection Machine engineering; Feynman influencing the interconnects while his son worked on the software.
+
+Question: Who was the US physicist who directed the project that developed the first atomic bomb at the same place where Feynman worked on Water Boiler?
+Answer:
+got an output
+Run time: 11.62 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  Richard Feynman
+
+Title: The Manhattan Project
+The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada. From 1942 to 1946, the project was under the direction of Major General Leslie Groves of the U.S. Army Corps of Engineers. Nuclear physicist Robert Oppenheimer was the director of the Los Alamos Laboratory that designed the actual bombs.
+
+Title: Manhattan Project
+The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led
+----------------------------------------------------------------
+#######################################################################
+Processing example 2/500...
+Example ID: 2
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: South Central Coast
+South Central Coast (Vietnamese: Duyên hải Nam Trung Bộ) is one of the regions of Vietnam. It consists of the independent municipality of Đà Nẵng and seven other provinces. The two southern provinces Ninh Thuận and Bình Thuận are sometimes seen as part of the Southeast region.The Paracel Islands (Hoàng Sa District), and Spratly Islands (Trường Sa District), are also part of this region.
+
+Title: An Phú District
+An Phú is a district of An Giang Province in the Mekong Delta region of Vietnam on the border with Cambodia. An Phú juts out at the western edge of Vietnam into Cambodia. As of 2003 the district had a population of 178,613. The district covers an area of 226 km². The district capital lies at An Phú town.
+
+Title: John Phan
+Bon "John" Phan (born October 10, 1974 in Da Nang, Vietnam) is a Vietnamese-American professional poker player based in Stockton, California who is a two time World Series of Poker bracelet winner and is a winner and four time final tablist of World Poker Tour Championships.
+
+Title: Hunt Country Vineyards
+Hunt Country Vineyards is a vineyard and winery located near Keuka Lake in the Finger Lakes AVA region of New York State, USA.
+
+Title: Mutiloa
+Mutiloa is a town and municipality located in the Goierri region of the province of Gipuzkoa, in the autonomous community of the Basque Country, northern Spain.
+
+Title: Mount Voi
+Voi (núi Voi, núi Ten và núi Cẩn) is a mountain of the Xuân Sơn National Park in Phú Thọ Province in northern Vietnam. It is the highest point in the park at 1347 metres.
+
+Question: In what region of the country where An Phu is located is John Phan's birthplace?
+Answer:
+got an output
+Run time: 4.57 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  Southeast
+
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in
+----------------------------------------------------------------
+#######################################################################
+Processing example 3/500...
+Example ID: 3
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: How I Met Your Mother
+The series concerns the adventures of Ted Mosby (played by Josh Radnor) narrating the story of how he met the mother of his children. The story goes into a flashback and starts in 2005 with a 27 - year - old Ted Mosby living in New York City and working as an architect; the narrative deals primarily with his best friends, including the long - lasting couple Marshall Eriksen (Jason Segel) and Lily Aldrin (Alyson Hannigan); the eccentric, womanizing - playboy Barney Stinson (Neil Patrick Harris); and news reporter Robin Scherbatsky (Cobie Smulders). The lives of all characters are entwined in each others. The series explores many storylines, including a ``will they or wo n't they ''relationship between Robin and each of the two single male friends, Marshall and Lily's relationship, and the ups and downs of the characters' careers.
+
+Title: The Mother (How I Met Your Mother)
+Tracy McConnell (colloquial: ``The Mother '') is the title character from the CBS television sitcom How I Met Your Mother. The show, narrated by Future Ted (Bob Saget), tells the story of how Ted Mosby (Josh Radnor) met The Mother. Tracy McConnell appears in eight episodes, from`` Lucky Penny'' to ``The Time Travelers '', as an unseen character; she was first seen fully in`` Something New'' and was promoted to a main character in season 9. The Mother is played by Cristin Milioti.
+
+Title: How I Met Your Mother
+Bob Saget as Future Ted Mosby (voice only, uncredited), Ted's future self, telling his children the story of how he met their mother, in the year 2030.
+
+Title: Bad News (How I Met Your Mother)
+``Bad News ''is the 13th episode of the sixth season of the CBS sitcom How I Met Your Mother and their 125th episode overall. It aired January 3, 2011. TV Guide listed`` Bad News'' in its list of 2011's Top TV Episodes.
+
+Title: To Kill a Mockingbird
+Lee had lost her mother, who suffered from mental illness, six years before she met Hohoff at Lippincott’s offices. Her father, a lawyer on whom Atticus was modeled, would die two years after the publication of To Kill a Mockingbird.
+
+Title: Cobie Smulders
+Jacoba Francisca Maria ``Cobie ''Smulders (born April 3, 1982) is a Canadian actress and model. She is best known for her roles as Robin Scherbatsky on the television series How I Met Your Mother (2005 -- 2014) and Maria Hill in the Marvel Cinematic Universe.
+
+Question: Who does the person telling the story in How I Met Your Mother end up with?
+Answer:
+got an output
+Run time: 4.63 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  unanswerable
+
+Example 6:
+Paragraphs:
+Title: The Great Gatsby
+The Great Gatsby is a novel by American author F. Scott Fitzgerald, published by Scribner in 1925. It is set in the fictional town of West Egg, Long Island, New York, and follows the story of Jay Gatsby, a mysterious millionaire who throws lavish parties in the hopes of reuniting with his former lover, Daisy Buchanan.
+
+Title: The Great Gatsby
+The Great Gatsby is a novel by American author F. Scott Fitzgerald, published by Scribner in 1925. It is set in the fictional town
+----------------------------------------------------------------
+#######################################################################
+Processing example 4/500...
+Example ID: 4
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Lee Aaron (album)
+Lee Aaron is the self-titled fourth studio album by singer Lee Aaron, released on 17 February 1987 through Attic Records; a remastered edition was reissued in 2002 through Unidisc Music. It is Aaron's third-highest charting album, reaching No. 39 on the Canadian albums chart and remaining on that chart for seventeen weeks, as well as reaching the top 60 in three other countries. Two singles reached the Canadian singles chart: "Only Human" at No. 44 and "Goin' Off the Deep End" at No. 93.
+
+Title: Emotional Rain
+Emotional Rain is the seventh studio album by singer Lee Aaron, released on August 3, 1994 through A&M Records (Canada) and in 1995 through Koch Entertainment (Europe); it was later reissued in 2004 through Solid Gold Records.
+
+Title: Bach to the Blues
+Bach to the Blues is an album performed by the Ramsey Lewis Trio that was recorded in 1964 and released on the Argo label.
+
+Title: Soundsigns
+Soundsigns is an album by the American jazz saxophonist Dewey Redman of performances recorded in 1978 for the Galaxy label.
+
+Title: The Voice That Is!
+The Voice That Is! is an album by American jazz vocalist Johnny Hartman featuring performances recorded in 1964 for the Impulse! label.
+
+Title: Rain, Hail or Shine
+Rain, Hail or Shine, an album by The Battlefield Band, was released in 1998 on the Temple Records label. The total running time is 45:38.
+
+Question: What record label does the performer of Emotional Rain belong to?
+Answer:
+got an output
+Run time: 5.02 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  Unidisc Music
+
+Title: The Voice That Is!
+The Voice That Is! is an album by American jazz vocalist Johnny Hartman featuring performances recorded in 1964 for the Impulse! label.
+
+Title: The Voice That Is!
+The Voice That Is! is an album by American jazz vocalist Johnny Hartman featuring performances recorded in 1964 for the Impulse! label.
+
+Title: The Voice That Is!
+The Voice That Is! is an album by American jazz vocalist Johnny Hartman featuring performances recorded in 1964 for the Impulse! label.
+
+Title: The Voice That Is!
+The
+----------------------------------------------------------------
+#######################################################################
+Processing example 5/500...
+Example ID: 5
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Switzerland
+Swiss are fans of football and the national team is nicknamed the 'Nati'. The headquarters of the sport's governing body, the International Federation of Association Football (FIFA), is located in Zürich. Switzerland hosted the 1954 FIFA World Cup, and was the joint host, with Austria, of the Euro 2008 tournament. The Swiss Super League is the nation's professional club league. For the Brasil 2014 World Cup finals tournament, the country's German-speaking cantons will be closely monitored by local police forces to prevent celebrations beyond one hour after matches end. Europe's highest football pitch, at 2,000 metres (6,600 ft) above sea level, is located in Switzerland and is named the Ottmar Hitzfeld Stadium.
+
+Title: David Will
+Will, a solicitor by profession, was Chairman of Brechin City for two decades, before becoming President of the Scottish Football Association (the governing body of Scottish football) and Vice-President of FIFA (the governing body of world football).
+
+Title: John Jack
+John Jack (9 March 1932 – 1988) was a Scottish footballer, who played for the Celtic and Greenock Morton football clubs.
+
+Title: Archie Shaw
+Archie Shaw (7 August 1922 – 1985) was a Scottish footballer who played for Motherwell. He also represented the Scottish League twice.
+
+Title: Adam Davidson (footballer)
+Adam Richmond Davidson (28 November 1929 – 2007) was a Scottish footballer who played in the Football League as a winger for Colchester United.
+
+Title: James Dornan
+James Dornan (born 17 March 1953) is a Scottish National Party (SNP) politician who is Member of the Scottish Parliament (MSP) for Glasgow Cathcart.
+
+Question: What does the abbreviated name of the organization that includes the Scottish Football Association as a member, stand for?
+Answer:
+got an output
+Run time: 4.65 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  unanswerable
+
+Title: The United States
+The United States is a country in North America, consisting of the 50 states, 13 territories, and 5,000 islands. The country is the world's largest economy, with a GDP of $17.5 trillion (2010), and has the world's largest military, with 1,000,000 active-duty personnel. The United States is also the world's largest exporter of goods, with a total of $1.5 trillion in 2010, and has the world'
+----------------------------------------------------------------
+#######################################################################
+Processing example 6/500...
+Example ID: 6
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: All That Echoes
+All That Echoes is the sixth studio album by American singer-songwriter Josh Groban, produced by Rob Cavallo. The album debuted at number one on the "Billboard" 200, selling 145,000 copies in its first week. The album has sold 532,000 copies in the United States as of April 2015.
+
+Title: Adult contemporary music
+While most artists became established in other formats before moving to adult contemporary, Michael Bublé and Josh Groban started out as AC artists. Throughout this decade, artists such as Nick Lachey, James Blunt, John Mayer, Bruno Mars, Jason Mraz, Kelly Clarkson, Adele, Clay Aiken and Susan Boyle have become successful thanks to a ballad heavy sound. Much as some hot AC and modern rock artists have crossed over into each other, so too has soft AC crossed with country music in this decade. Country musicians such as Faith Hill, Shania Twain, LeAnn Rimes and Carrie Underwood have had success on both charts.
+
+Title: WXKC
+WXKC (99.9 FM, "Classy 100") is a radio station in Erie, Pennsylvania. It plays adult contemporary music and is owned by Cumulus Media.
+
+Title: CHCD-FM
+CHCD-FM is a Canadian radio station, broadcasting at 98.9 FM in Simcoe, Ontario, Canada. The station airs an Adult Contemporary format branded as myFM.
+
+Title: CJRL-FM
+CJRL-FM is a Canadian radio station, broadcasting at 89.5 FM in Kenora, Ontario. The station broadcasts an adult contemporary format branded as 89.5 The Lake.
+
+Title: Sunshine Radio (Thailand)
+Sunshine Radio (Thailand) is a community radio station in Thailand which plays Thai adult contemporary music. It broadcasts in Pattaya, Hat Yai and Phuket. Its slogan is "Good Life, Good Music".
+
+Question: Who started out his career on adult contemporary radio along with the performer of All That Echoes?
+Answer:
+got an output
+Run time: 4.64 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  Josh Groban
+
+Example 6:
+Paragraphs:
+Title: The Beatles
+The Beatles were an English rock band that formed in Liverpool, England, in 1960.
+Title: The Beatles – Career
+The Beatles were an English rock band that formed in Liverpool, England, in 1960.
+Title: The Beatles – Career
+The Beatles were an English rock band that formed in Liverpool, England, in 1960.
+Title: The Beatles – Career
+The Beatles were an English rock band that formed in Liverpool, England, in 1960.
+Question
+----------------------------------------------------------------
+#######################################################################
+Processing example 7/500...
+Example ID: 7
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: List of National Basketball Association annual scoring leaders
+Wilt Chamberlain holds the all - time records for total points scored (4,029) and points per game (50.4) in a season; both records were achieved in the 1961 -- 62 season. He also holds the rookie records for points per game when he averaged 37.6 points in the 1959 -- 60 season. Among active players, Kevin Durant has the highest point total (2,593) and the highest scoring average (32.0) in a season; both were achieved in the 2013 -- 14 season.
+
+Title: 2009–10 Oklahoma City Thunder season
+With NBA scoring champion Kevin Durant, second-year point guard Russell Westbrook, and forward Jeff Green leading the way, the Thunder made the playoffs as the youngest team in the NBA with the 28th highest total salary in the league. The team became the youngest NBA playoff team (23.19, using data going back to 1952) based on average age weighted by minutes played. The Thunder were then eliminated by the eventual NBA champions, the Los Angeles Lakers in six games in the First Round. The 2009-10 Oklahoma City Thunder and the 2007-08 Denver Nuggets are tied at 50-32 for having the best 8th seed record in NBA history.
+
+Title: Nathan Scott
+Occupation Sports agent (for Fortitude) Former: Basketball coach (Tree Hill Ravens) Basketball player in the NBA (Point guard for the Charlotte Bobcats)
+
+Title: FC South End
+FC South End was a football team from Trinidad and Tobago based in Point Fortin/La Brea and is a former member of the TT Pro League, the highest level of football in Trinidad.
+
+Title: List of National Basketball Association annual scoring leaders
+At 21 years and 197 days, Durant is the youngest scoring leader in NBA history, averaging 30.1 points in the 2009 -- 10 season. The most recent champion is Russell Westbrook, who averaged a career - high 31.6 points in the 2016 -- 17 season.
+
+Title: T&TEC Sports Club
+The Trinidad and Tobago Electricity Commission Sports Club, often referred to as T&TEC Sports Club is a state-owned football team from Trinidad and Tobago based in Gooding Village and was a member of the TT Pro League, the highest level of football in Trinidad.
+
+Question: What team is the person with the highest point average in NBA history on?
+Answer:
+got an output
+Run time: 4.64 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  unanswerable
+
+Title: List of National Basketball Association annual scoring leaders
+The most recent player to average 30 points per game in a season is Kevin Durant, who averaged 30.1 points per game in the 2016 -- 17 season.
+
+Title: List of National Basketball Association annual scoring leaders
+The most recent player to average 30 points per game in a season is Kevin Durant, who averaged 30.1 points per game in the 2016 -- 17 season.
+
+Title: List of National Basketball Association annual scoring leaders
+The most recent player to
+----------------------------------------------------------------
+#######################################################################
+Processing example 8/500...
+Example ID: 8
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Sebastian Cabot (explorer)
+Sebastian Cabot (Italian and , ; , "Gaboto" or "Cabot"; 1474 – December 1557) was an Italian explorer, likely born in the Venetian Republic. He was the son of Italian explorer John Cabot (Giovanni Caboto) and his Venetian wife Mattea.
+
+Title: John Cabot
+John Cabot (Italian: Giovanni Caboto; c. 1450 -- c. 1500) was a Venetian navigator and explorer whose 1497 discovery of the coast of North America under the commission of Henry VII of England was the first European exploration of coastal North America since the Norse visits to Vinland in the eleventh century. To mark the celebration of the 500th anniversary of Cabot's expedition, both the Canadian and British governments elected Cape Bonavista, Newfoundland, as representing Cabot's first landing site. However, alternative locations have also been proposed.
+
+Title: Paula Santiago
+Paula Santiago (born 1969 in Guadalajara) is a Mexican mixed media artist whose works have been displayed at the Monterrey Museum of Modern Art and several galleries in Europe and North America. Most of her work stands out by being made with her own blood and hair.
+
+Title: Eduardo Cuervo
+Eduardo Cuervo (born August 2, 1977 in Guadalajara, Jalisco) is a Mexican actor. Best known for his participation in various telenovelas produced by Televisa, such as Abrázame muy fuerte, Amigas y Rivales, and Mujer de Madera.
+
+Title: Giovanni Battista Caviglia
+Giovanni Battista Caviglia (1770 in Genoa – September 7, 1845 in Paris) was an explorer, navigator and Italian Egyptologist. He was one of the pioneers of Egyptian archeology of his time. He was influential in the excavation of the Sphinx of Giza near Cairo.
+
+Title: David Melgueiro
+David Melgueiro (Porto, ? – Porto, 1673?) is supposed to have been a Portuguese navigator and explorer. He allegedly sailed across the Northeast Passage in 1660 by travelling from Japan to Portugal through the Arctic Ocean at a time when Portuguese vessels were banned from Japan.
+
+Question: Who was the child of the Italian navigator who sailed for England, and explored the eastern coast of the continent where the birthplace of Eduardo Cuervo is found?
+Answer:
+got an output
+Run time: 4.61 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  Giovanni Battista Caviglia
+
+Example 6:
+Paragraphs:
+Title: The United States
+The United States is a country in North America.
+Title: The United States
+The United States is a country in North America.
+Title: The United States
+The United States is a country in North America.
+Question: What is the name of the country where the United States is located?
+Answer: unanswerable
+
+Example 7:
+Paragraphs:
+Title: The United States
+The United States is a country in North America.
+Title: The United States
+The United States is a country in North
+----------------------------------------------------------------
+#######################################################################
+Processing example 9/500...
+Example ID: 9
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Over-the-counter drug
+A similar regulation applies to some forms of emergency contraception. The FDA considers them to be OTC substances for females 17 or over but prescription drugs for younger women. To enforce the restriction and to provide counseling and education on proper use, an agreement between the manufacturer and the FDA requires the drugs are stored behind the pharmacy counter. Women may obtain the medication without a prescription after providing proof of age to pharmacy staff and receiving any necessary patient education.
+
+Title: FDA Food Safety Modernization Act
+The Food Safety Modernization Act (FSMA) was signed into law by President Barack Obama on January 4, 2011. The FSMA has given the Food and Drug Administration (FDA) new authorities to regulate the way foods are grown, harvested and processed. The law grants the FDA a number of new powers, including mandatory recall authority, which the agency has sought for many years. The FSMA requires the FDA to undertake more than a dozen rulemakings and issue at least 10 guidance documents, as well as a host of reports, plans, strategies, standards, notices, and other tasks.
+
+Title: Marketed Health Products Directorate
+The Marketed Health Products Directorate (MHPD) is the Canadian federal authority that monitors the safety and effectiveness of health products marketed in Canada. These include:
+
+Title: Marks & Spencer
+It specialises in the selling of clothing, home products and luxury food products. M&S was founded in 1884 by Michael Marks and Thomas Spencer in Leeds. The company also began to sell branded goods like Kellogg's Corn Flakes in November 2008. M&S currently has 959 stores across the U.K including 615 that only sell food products.
+
+Title: Basic Food Flavors
+On March 4, 2010 the United States Food and Drug Administration announced it was conducting an investigation after a customer of Basic Food Flavors reported finding Salmonella in one production lot of HVP. Affected bulk, ready-to-eat and ready-to-cook HVP products were recalled in the U.S. and Canada. The recall resulted in 177 products being removed from grocery shelves.
+
+Title: Prescription charges
+In the English NHS charges are made for prescription drugs, and the majority of adults (though not a majority of patients) are required to pay them. Charges were abolished in NHS Wales in 2007, Health and Social Care in Northern Ireland in 2010 and by NHS Scotland in 2011. In 2010 / 11, in England, £450m was raised through prescription charges, some 0.5% of the total NHS budget.
+
+Question: The food safety system of the agency that has the authority to decide if a drug is marketed otc or prescription is known as?
+Answer:
+got an output
+Run time: 4.63 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  FDA
+
+Title: The FDA Food Safety Modernization Act
+The Food Safety Modernization Act (FSMA) was signed into law by President Barack Obama on January 4, 2011. The FSMA has given the Food and Drug Administration (FDA) new authorities to regulate the way foods are grown, harvested and processed. The law grants the FDA a number of new powers, including mandatory recall authority, which the agency has sought for many years.
+
+Title: The FDA Food Safety Modernization Act
+The Food Safety Modernization Act (FSMA) was signed into law by President Barack Obama on January 4, 
+----------------------------------------------------------------
+#######################################################################
+Processing example 10/500...
+Example ID: 10
+Input: You are given several paragraphs from Wikipedia and a question.
+
+You should:
+- Find the paragraph(s) that are relevant to answering the question.
+- Ignore irrelevant paragraphs.
+- If multiple facts are needed, combine them carefully.
+- Answer the question using as few words as possible, ideally a single phrase.
+- Only answer if the answer is explicitly stated in the paragraphs.
+- If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+
+Example 1:
+Paragraphs:
+Title: J.K. Rowling
+J.K. Rowling is the author of the Harry Potter book series.
+Title: Voldemort
+Voldemort is the main antagonist in the Harry Potter book series.
+Title: J.K. Rowling – Biography
+J.K. Rowling was born in England.
+Title: London
+London is the capital of England.
+Question: In what country was the author of the Harry Potter book series born?
+Answer: England
+
+Example 2:
+Paragraphs:
+Title: Christopher Nolan
+Christopher Nolan is the director of the film *Inception*.
+Title: Dom Cobb
+Dom Cobb is the main character in *Inception*, portrayed by Leonardo DiCaprio. Cobb was born in the United States.
+Title: Academy Awards
+*Inception* won several technical awards at the Oscars, including Best Cinematography and Best Sound Mixing.
+Question: Where was the director of *Inception* born?
+Answer: unanswerable
+
+Example 3:
+Paragraphs:
+Title: Katharine Hepburn
+Katharine Hepburn is the actress who has won the most Academy Awards of all time.
+Title: Hepburn – Early Life
+Katharine Hepburn was born in 1907 in Hartford, Connecticut.
+Title: First Oscar Ceremony
+The first Academy Awards ceremony took place in 1929.
+Question: In what year was the actress who has won the most Academy Awards of all time born?
+Answer: 1907
+
+Example 4:
+Paragraphs:
+Title: The Amazon Rainforest
+The Amazon Rainforest is the largest tropical rainforest in the world, covering much of northwestern Brazil and extending into Colombia, Peru, and other South American countries.
+Title: Pope John Paul II
+Pope John Paul II served as the head of the Catholic Church and sovereign of the Vatican City State from 1978 to 2005.
+Title: Papal Visits to Israel
+Pope John Paul II visited Israel in March 2000, meeting with religious and political leaders.
+Title: The Dead Sea
+The Dead Sea, located between Israel and Jordan, is the Earth's lowest elevation on land and is one of the saltiest bodies of water in the world.
+Question: In what year did the Pope visit the country where the lowest place on Earth is located?
+Answer: 2000
+
+Example 5:
+Paragraphs:
+Title: World War I
+World War I began in 1914 and involved major powers from Europe and around the world.
+Title: Battle of Gettysburg
+The Battle of Gettysburg was a major battle fought during the American Civil War in 1863.
+Title: Napoleon Bonaparte
+Napoleon Bonaparte was a French military leader during the French Revolution.
+Question: When did the war that started in 1914 end?
+Answer: unanswerable
+
+Title: Real Time with Bill Maher
+Season Episodes Originally aired First aired Last aired 20 February 21, 2003 (2003 - 02 - 21) September 26, 2003 (2003 - 09 - 26) 23 January 16, 2004 (2004 - 01 - 16) November 5, 2004 (2004 - 11 - 05) 23 February 18, 2005 (2005 - 02 - 18) November 4, 2005 (2005 - 11 - 04) 24 February 17, 2006 (2006 - 02 - 17) November 17, 2006 (2006 - 11 - 17) 5 24 February 16, 2007 (2007 - 02 - 16) November 2, 2007 (2007 - 11 - 02) 6 27 January 11, 2008 (2008 - 01 - 11) November 14, 2008 (2008 - 11 - 14) 7 31 February 20, 2009 (2009 - 02 - 20) October 16, 2009 (2009 - 10 - 16) 8 25 February 19, 2010 (2010 - 02 - 19) November 12, 2010 (2010 - 11 - 12) 9 35 January 14, 2011 (2011 - 01 - 14) November 11, 2011 (2011 - 11 - 11) 10 35 January 13, 2012 (2012 - 01 - 13) November 16, 2012 (2012 - 11 - 16) 11 35 January 18, 2013 (2013 - 01 - 18) November 22, 2013 (2013 - 11 - 22) 12 35 January 17, 2014 (2014 - 01 - 17) November 21, 2014 (2014 - 11 - 21) 13 35 January 9, 2015 (2015 - 01 - 09) November 20, 2015 (2015 - 11 - 20) 14 38 January 15, 2016 (2016 - 01 - 15) November 11, 2016 (2016 - 11 - 11) 15 TBA January 20, 2017 (2017 - 01 - 20) TBA
+
+Title: Politically Incorrect
+Politically Incorrect was an American late-night, half-hour political talk show hosted by Bill Maher that aired from 1993 to 2002. It premiered on Comedy Central in 1993, moved to ABC in January 1997, and was canceled in 2002.
+
+Title: One Tree Hill (season 6)
+Season six is the final season for original cast members Chad Michael Murray and Hilarie Burton. Their characters, Lucas and Peyton, leave Tree Hill with their newborn baby in the finale.
+
+Title: Michael McElhatton
+Michael McElhatton (born 12 September 1963) is an Irish actor and writer best known for playing the role of Roose Bolton in the HBO series Game of Thrones. He joined the series as a guest star in the second season, and continued to play this role until season 6, promoted to a regular cast member from the fifth season onwards.
+
+Title: The Gossip Game
+The Gossip Game is an American reality television series on VH1 that debuted on April 1, 2013, and chronicles the lives of seven media personalities who cover the urban entertainment market and reside in New York City. Cast member Vivian Billings confirmed via her blog in June 2013 that the series will not be returning for a second season.
+
+Title: Parenthood (season 6)
+The sixth and final season of the American television series Parenthood premiered on September 25, 2014 and concluded on January 29, 2015. The season order consists of 13 episodes. As part of the budget cuts made by NBC so that the series would have a sixth season, none of the main cast members appear in every episode. The season five budget was reportedly $3.5 million per episode, but the season six budget was only $3 million per episode.
+
+Question: When does the new season of the show named for the Politically Incorrect cast member?
+Answer:
+got an output
+Run time: 4.73 seconds
+saved the logits, attentions, and hidden states to json files
+----------------------------------------------------------------
+output:  2017
+
+Title: The Gossip Game
+The Gossip Game is an American reality television series that premiered on April 1, 2013, and chronicles the lives of seven media personalities who cover the urban entertainment market and reside in New York City.
+
+Title: The Gossip Game
+The Gossip Game is an American reality television series that premiered on April 1, 2013, and chronicles the lives of seven media personalities who cover the urban entertainment market and reside in New York City.
+
+Title: The Gossip Game
+The Gossip Game is an American reality television series that premiered on April 1,
+----------------------------------------------------------------
+#######################################################################
+Processing example 11/500...
+Example ID: 11
