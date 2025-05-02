@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=run_exp
-#SBATCH --output=logs/llama8bb_first_last.out
+#SBATCH --output=logs/llama8b_first_last.out
 #SBATCH --error=logs/llama8b_first_last.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
