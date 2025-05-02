@@ -38,6 +38,8 @@ def duplicate_layers(model, duplication_instructions):
     else:
         model.model.transformer.h = torch.nn.ModuleList(new_layers)
     print(f"Duplicated layers: {len(new_layers)} total layers (original: {len(layers)})")
+    # Update the model config to reflect the new number of layers
+    model.config.num_hidden_layers = len(new_layers)
     return model
 
 def load_model(model_name, duplication_instructions):
