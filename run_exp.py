@@ -40,9 +40,8 @@ def duplicate_layers(model, duplication_instructions, device):
     print(f"Duplicated layers: {len(new_layers)} total layers (original: {len(layers)})")
     # Update the model config to reflect the new number of layers
     model.config.num_hidden_layers = len(new_layers)
-    # ensure all the layers are in the same device as the model
-    for layer in new_layers:
-        layer.to(device)
+    # move the model to the device
+    model.to(device)
     return model
 
 def load_model(model_name, duplication_instructions):
