@@ -10,7 +10,7 @@ import json
 is_large = False
 num_layers_original = 0
 
-def duplicate_layers(model, duplication_instructions):
+def duplicate_layers(model, duplication_instructions, device):
     """Duplicate specific layers in the model according to the instructions."""
     if not duplication_instructions:
         return model
@@ -40,6 +40,9 @@ def duplicate_layers(model, duplication_instructions):
     print(f"Duplicated layers: {len(new_layers)} total layers (original: {len(layers)})")
     # Update the model config to reflect the new number of layers
     model.config.num_hidden_layers = len(new_layers)
+    # ensure all the layers are in the same device as the model
+    for layer in new_layers:
+        layer.to(device)
     return model
 
 def load_model(model_name, duplication_instructions):
@@ -77,7 +80,7 @@ def load_model(model_name, duplication_instructions):
     model.eval()
 
     if duplication_instructions:
-        model = duplicate_layers(model, duplication_instructions)
+        model = duplicate_layers(model, duplication_instructions, device)
 
     return tokenizer, model, device
 
