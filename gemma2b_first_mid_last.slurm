@@ -1,3 +1,4 @@
+#!/bin/bash
 #SBATCH --job-name=run_exp
 #SBATCH --output=logs/gemma2b_first_mid_last.out
 #SBATCH --error=logs/gemma2b_first_mid_last.err
