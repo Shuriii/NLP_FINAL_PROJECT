@@ -1,0 +1,18 @@
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:898: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Could not set the permissions on the file '/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers/models--google--gemma-2-2b/blobs/3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922.incomplete'. Error: [Errno 2] No such file or directory: '/home/joberant/NLP_2425a/sharonsaban/.cache/huggingface/transformers/models--google--gemma-2-2b/blobs/3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922.incomplete'.
+Continuing without setting permissions.
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [13:04<26:08, 784.18s/it]Fetching 3 files:  33%|███▎      | 1/3 [13:04<26:08, 784.48s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [04:05<08:10, 245.32s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [04:05<01:41, 101.41s/it]Loading checkpoint shards: 100%|██████████| 3/3 [04:06<00:00, 82.02s/it] 
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 1227310 to init root cgroup (null)
