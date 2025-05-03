@@ -1,0 +1,11 @@
+,model,average_f1,average_f1_percent,total_evaluated,% improvement
+,Meta-Llama-3-8B,0.4509150510703142,45.09,500,0.0
+,"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",0.1399331581727571,13.99,500,0.0
+,"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",0.16881846487312674,16.88,500,0.0
+,"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",0.34028220551378446,34.03,500,0.0
+,"Meta-Llama-3-8B_duplication_[(0,5)]",0.3584636168671014,35.85,500,0.0
+,"Meta-Llama-3-8B_duplication_[(13,5)]",0.4306888814888815,43.07,500,0.0
+,"Meta-Llama-3-8B_duplication_[(14,3)]",0.4195418555825126,41.95,500,0.0
+,"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",0.446665813496848,44.67,500,0.0
+,"Meta-Llama-3-8B_duplication_[(16,2)]",0.2923123870281764,29.23,500,0.0
+,"Meta-Llama-3-8B_duplication_[(27,5)]",0.20396656735179539,20.4,500,0.0
