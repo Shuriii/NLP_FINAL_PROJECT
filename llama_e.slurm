@@ -5,7 +5,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
-#SBATCH --gres=gpu:2
+#SBATCH --gpus=4
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100000
 

@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=gemma_e
-#SBATCH --output=logs/gemma_e.out
-#SBATCH --error=logs/gemma_e.err
+#SBATCH --job-name=gemma_s
+#SBATCH --output=logs/gemma_s.out
+#SBATCH --error=logs/gemma_s.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
@@ -19,6 +19,6 @@ export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingfac
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Run your experiment
-python run_exp_dup_chunks.py --model_name "google/gemma-2-2b" --duplications '[(22,4)]'
+python run_exp.py --model_name "google/gemma-2-2b" --duplications '[(23,1),(24,1),(25,1),(26,1),(27,1)]'
 
 echo "Job done!"

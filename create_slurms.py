@@ -7,7 +7,7 @@ template = """#!/bin/bash
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
-#SBATCH --gres=gpu:2
+#SBATCH --gpus=4
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100000
 
@@ -33,7 +33,17 @@ configs = {
     "D": {"type": "New", "Gemma": [(0, 4)], "LLaMA": [(0, 5)]},
     "E": {"type": "New", "Gemma": [(22, 4)], "LLaMA": [(27, 5)]},
     "F": {"type": "New", "Gemma": [(0, 3), (22, 3)], "LLaMA": [(0, 4), (27, 4)]},
+    "K": {"type": "Old", "Gemma": [(12, 1), (13, 1), (14, 1), (15, 1)], "LLaMA": [(14, 1), (15, 1), (16, 1), (17, 1)]},
+    "L": {"type": "Old", "Gemma": [(13, 1), (14, 1), (15, 1)], "LLaMA": [(15, 1), (16, 1), (17, 1)]},
+    "M": {"type": "New", "Gemma": [(14, 2), (16, 2), (18, 2)], "LLaMA": [(16, 2), (18, 2), (20, 2)]},
+    "N": {"type": "New", "Gemma": [(12, 3), (15, 3)], "LLaMA": [(14, 3), (17, 3)]},
+    "O": {"type": "New", "Gemma": [(14, 2), (14, 2), (16, 2), (16, 2)], "LLaMA": [(16, 2), (16, 2), (18, 2), (18, 2)]},
+    "P": {"type": "New", "Gemma": [(24, 2)], "LLaMA": [(28, 2)]},
+    "Q": {"type": "New", "Gemma": [(21, 7)], "LLaMA": [(25, 7)]},
+    "R": {"type": "New", "Gemma": [(22, 3), (25, 3)], "LLaMA": [(26, 3), (29, 3)]},
+    "S": {"type": "Old", "Gemma": [(23, 1), (24, 1), (25, 1), (26, 1), (27, 1)], "LLaMA": [(27, 1), (28, 1), (29, 1), (30, 1), (31, 1)]},
 }
+
 
 models = {
     "Gemma": "google/gemma-2-2b",
