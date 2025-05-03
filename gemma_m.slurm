@@ -19,6 +19,6 @@ export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingfac
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Run your experiment
-python run_exp_dup_chunks.py --model_name "google/gemma-2-2b" --duplications '[(14,2),(16,2),(18,2)]'
+python run_exp_dup_chunks.py --model_name "google/gemma-2-2b" --duplications '[(12,2),(14,2),(16,2)]'
 
 echo "Job done!"

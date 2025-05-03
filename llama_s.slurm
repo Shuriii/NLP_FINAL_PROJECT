@@ -5,8 +5,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=killable
 #SBATCH --account=gpu-research
-#SBATCH --constraint="geforce_rtx_3090"   # Request 4 GPUs (you can adjust based on availability)
-#SBATCH --gpus=2     # Request 2 GPUs (you can adjust based on availability)
+#SBATCH --gpus=4
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=100000
 
