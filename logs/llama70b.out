@@ -1,6 +1,3 @@
 Starting job...
-Using device: cpu
-Loading large model meta-llama/Meta-Llama-3-70B with 4-bit precision (4bfp).
-loading tokenizer
-loading model
+INFO 05-02 19:27:21 [__init__.py:239] Automatically detected platform cuda.
 Job done!
