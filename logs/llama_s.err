@@ -1,0 +1,8 @@
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:898: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [05:03<15:10, 303.63s/it]Fetching 4 files: 100%|██████████| 4/4 [05:03<00:00, 75.91s/it] 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [01:05<03:15, 65.20s/it]
