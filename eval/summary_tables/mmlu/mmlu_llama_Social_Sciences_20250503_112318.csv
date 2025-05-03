@@ -1,0 +1,11 @@
+model,configuration,accuracy,total,correct,accuracy_percent
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,0.8,110,88,80.0
+Meta-Llama-3-8B,original,0.7818181818181819,110,86,78.18
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,0.7727272727272727,110,85,77.27
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,0.7727272727272727,110,85,77.27
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,0.7727272727272727,110,85,77.27
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,0.7363636363636363,110,81,73.64
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,0.6090909090909091,110,67,60.91
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,0.5818181818181818,110,64,58.18
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,0.5636363636363636,110,62,56.36
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,0.5454545454545454,110,60,54.55

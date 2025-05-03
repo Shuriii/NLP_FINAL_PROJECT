@@ -1,0 +1,18 @@
+{
+  "exact_match": 0.302,
+  "average_f1": 0.38370000000000004,
+  "average_f1_percent": 38.37,
+  "total_evaluated": 500,
+  "per_super_category": {
+    "history": {
+      "average_f1": 0.3078571428571429,
+      "average_f1_percent": 30.79,
+      "total_evaluated": 350
+    },
+    "nfl": {
+      "average_f1": 0.5606666666666666,
+      "average_f1_percent": 56.07,
+      "total_evaluated": 150
+    }
+  }
+}
