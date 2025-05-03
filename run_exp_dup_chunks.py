@@ -149,7 +149,8 @@ def main():
             model_name_to_save = f"{model_name.split('/')[1]}_duplication_{duplication_instructions}"
     else:
             model_name_to_save = model_name.split('/')[1]
-        
+    # drop spaces in model_name_to_save
+    model_name_to_save = model_name_to_save.replace(" ", "")
     for dataset_name in datasets_to_run:
         # load the datasets manually
         # search for the json files in the dataset folder
