@@ -6,6 +6,7 @@ from accelerate import dispatch_model, infer_auto_device_map
 import argparse
 import os
 import json
+from datetime import datetime
 
 is_large = False
 num_layers_original = 0
@@ -151,6 +152,8 @@ def main():
             model_name_to_save = model_name.split('/')[1]
     # drop spaces in model_name_to_save
     model_name_to_save = model_name_to_save.replace(" ", "")
+    now = time.strftime("%Y%m%d-%H%M%S")
+    model_name_to_save = f"{model_name_to_save}_{now}"
     for dataset_name in datasets_to_run:
         # load the datasets manually
         # search for the json files in the dataset folder
