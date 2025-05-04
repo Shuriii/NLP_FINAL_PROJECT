@@ -1,0 +1,6 @@
+{
+  "exact_match": 0.17,
+  "average_f1": 0.25570000000000004,
+  "average_f1_percent": 25.57,
+  "total_evaluated": 500
+}

@@ -1,0 +1,5 @@
+,model,average_f1,average_f1_percent,total_evaluated
+,Meta-Llama-3-8B,0.4509150510703142,45.09,500
+,"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",0.16881846487312674,16.88,500
+,"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",0.446665813496848,44.67,500
+,"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",0.1399331581727571,13.99,500

@@ -1,0 +1,11 @@
+model,configuration,position,technique,size,continuous,average_f1_percent,% improvement
+Meta-Llama-3-8B,original,,,,False,49.49,0.0
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,43.74,-11.62
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,42.09,-14.95
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in_place,small,True,39.3,-20.59
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in_place,medium,False,38.49,-22.23
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,30.68,-38.01
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,29.87,-39.64
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,28.0,-43.42
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in_place,small,False,27.28,-44.88
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in_place,small,False,19.78,-60.03
