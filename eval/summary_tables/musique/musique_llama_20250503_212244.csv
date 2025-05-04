@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,average_f1,average_f1,average_f1_percent,total_evaluated,% improvement
+Meta-Llama-3-8B,original,,,,,0.4509150510703142,0.4509150510703142,45.09,500.0,0.0
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,0.446665813496848,0.446665813496848,44.67,500.0,-0.94
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,0.4306888814888815,0.4306888814888815,43.07,500.0,-4.49
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,0.4195418555825126,0.4195418555825126,41.95,500.0,-6.96
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,0.3584636168671014,0.3584636168671014,35.85,500.0,-20.5
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,0.34028220551378446,0.34028220551378446,34.03,500.0,-24.54
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,0.2923123870281764,0.2923123870281764,29.23,500.0,-35.17
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,0.20396656735179539,0.20396656735179539,20.4,500.0,-54.77
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,0.16881846487312674,0.16881846487312674,16.88,500.0,-62.56
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,0.1399331581727571,0.1399331581727571,13.99,500.0,-68.97
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,,,,,
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,,,,,
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,,,,,
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,,,,,
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,,,,,
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,,,,,
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,,,,,
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,,,,,
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,,,,,

@@ -1,0 +1,21 @@
+model,configuration,position,technique,size,continuous,accuracy,total,correct,accuracy_percent,% improvement
+gemma-2-9b,original,,,,,0.7321428571428571,112,82,73.21,57.69
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",,,,,,0.49107142857142855,112,55,49.11,5.77
+"gemma-2-2b_duplication_[(24,2)]",,,,,,0.48214285714285715,112,54,48.21,3.85
+"gemma-2-2b_duplication_[(22,3),(25,3)]",,,,,,0.48214285714285715,112,54,48.21,3.85
+"gemma-2-2b_duplication_[(21,7)]",,,,,,0.4642857142857143,112,52,46.43,0.0
+gemma-2-2b,original,,,,,0.4642857142857143,112,52,46.43,0.0
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,0.42857142857142855,112,48,42.86,-7.69
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,0.39285714285714285,112,44,39.29,-15.38
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,0.375,112,42,37.5,-19.23
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,0.375,112,42,37.5,-19.23
+"gemma-2-2b_duplication_[(12,3),(15,3)]",,,,,,0.375,112,42,37.5,-19.23
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",,,,,,0.35714285714285715,112,40,35.71,-23.08
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",,,,,,0.35714285714285715,112,40,35.71,-23.08
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",,,,,,0.35714285714285715,112,40,35.71,-23.08
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,0.3482142857142857,112,39,34.82,-25.0
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,0.3482142857142857,112,39,34.82,-25.0
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",,,,,,0.3482142857142857,112,39,34.82,-25.0
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,0.3392857142857143,112,38,33.93,-26.92
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,0.2857142857142857,112,32,28.57,-38.46
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,0.23214285714285715,112,26,23.21,-50.0

@@ -1,0 +1,12 @@
+model,configuration,position,technique,size,continuous,accuracy,total,correct,accuracy_percent,% improvement
+gemma-2-9b,original,,,,False,0.8090909090909091,110,89,80.91,21.92
+gemma-2-2b,original,,,,False,0.6636363636363637,110,73,66.36,0.0
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,0.6181818181818182,110,68,61.82,-6.85
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in_place,small,True,0.5727272727272728,110,63,57.27,-13.7
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,0.5636363636363636,110,62,56.36,-15.07
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in_place,small,False,0.5363636363636364,110,59,53.64,-19.18
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in_place,small,False,0.5181818181818182,110,57,51.82,-21.92
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,0.5181818181818182,110,57,51.82,-21.92
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,0.4090909090909091,110,45,40.91,-38.36
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in_place,medium,False,0.4090909090909091,110,45,40.91,-38.36
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,0.4,110,44,40.0,-39.73
