@@ -1,0 +1,32 @@
+{
+  "average_f1": 0.2661373473869126,
+  "average_f1_percent": 26.61,
+  "total_evaluated": 500,
+  "per_super_category": {
+    "2hop": {
+      "average_f1": 0.28291591531423227,
+      "average_f1_percent": 28.29,
+      "total_evaluated": 248
+    },
+    "answerable": {
+      "average_f1": 0.10556224564485434,
+      "average_f1_percent": 10.56,
+      "total_evaluated": 300
+    },
+    "3hop": {
+      "average_f1": 0.26979957381120173,
+      "average_f1_percent": 26.98,
+      "total_evaluated": 172
+    },
+    "4hop": {
+      "average_f1": 0.20625,
+      "average_f1_percent": 20.62,
+      "total_evaluated": 80
+    },
+    "unanswerable": {
+      "average_f1": 0.507,
+      "average_f1_percent": 50.7,
+      "total_evaluated": 200
+    }
+  }
+}
