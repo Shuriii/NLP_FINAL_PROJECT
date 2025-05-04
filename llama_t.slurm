@@ -19,6 +19,6 @@ export TRANSFORMERS_CACHE=/home/joberant/NLP_2425a/sharonsaban/.cache/huggingfac
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Run your experiment
-python run_exp_dup_chunks.py --model_name "meta-llama/Meta-Llama-3-8B" --duplications '[(14,1),(15,1),(16,1)]'
+python run_exp.py --model_name "meta-llama/Meta-Llama-3-8B" --duplications '[(14,1),(15,1),(16,1)]'
 
 echo "Job done!"
