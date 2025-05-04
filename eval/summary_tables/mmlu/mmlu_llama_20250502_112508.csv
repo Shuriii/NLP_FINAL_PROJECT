@@ -1,5 +1,0 @@
-,model,accuracy,total,correct,accuracy_percent
-,Meta-Llama-3-8B,0.656,500,328,65.6
-,"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",0.492,500,246,49.2
-,"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",0.652,500,326,65.2
-,"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",0.454,500,227,45.4
