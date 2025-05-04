@@ -1,0 +1,25 @@
+model,configuration,position,technique,size,continuous,average_f1,average_f1_percent,total_evaluated,% improvement
+gemma-2-9b,original,,,,,0.4493573406879858,44.94,248,34.18
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",S,last,in place,small,True,0.33973130047248945,33.97,248,1.44
+gemma-2-2b,original,,,,,0.3349004240014677,33.49,248,0.0
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",L,middle,in place,small,True,0.3259600614439324,32.6,248,-2.67
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,0.30861262393520456,30.86,248,-7.85
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,0.3009427183984937,30.09,248,-10.14
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,0.28625126981388843,28.63,248,-14.53
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,0.28291591531423227,28.29,248,-15.52
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,0.2761680747567844,27.62,248,-17.54
+"gemma-2-2b_duplication_[(22,3),(25,3)]",R,last,blocks,medium,True,0.26897564010941616,26.9,248,-19.68
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,0.2563052180794116,25.63,248,-23.47
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,0.2519983518179613,25.2,248,-24.75
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,0.24631823181146562,24.63,248,-26.45
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,0.24616542255027243,24.62,248,-26.5
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,0.23253852431804348,23.25,248,-30.56
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,0.2243334161621638,22.43,248,-33.01
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,0.21070564337013095,21.07,248,-37.08
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,0.20514074730096926,20.51,248,-38.75
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,0.2045778118499925,20.46,248,-38.91
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,0.1737931582786373,17.38,248,-48.11
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,0.1530655077515253,15.31,248,-54.3
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,0.14064695058702556,14.06,248,-58.0
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,0.07156870877175638,7.16,248,-78.63
+"gemma-2-2b_duplication_[(21,7)]",Q,last,blocks,big,False,0.03655475458864191,3.66,248,-89.08

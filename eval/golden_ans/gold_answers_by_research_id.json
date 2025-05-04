@@ -1,0 +1,7042 @@
+{
+  "1001": {
+    "answers_spans": {
+      "spans": [
+        "93.1",
+        "93.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1002": {
+    "answers_spans": {
+      "spans": [
+        "9751",
+        "9751",
+        "64898"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1003": {
+    "answers_spans": {
+      "spans": [
+        "14",
+        "14"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1004": {
+    "answers_spans": {
+      "spans": [
+        "19 July 1941",
+        "19 July 1941"
+      ],
+      "types": [
+        "date",
+        "date"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1005": {
+    "answers_spans": {
+      "spans": [
+        "8",
+        "8",
+        "8"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1006": {
+    "answers_spans": {
+      "spans": [
+        "14280",
+        "14280"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1007": {
+    "answers_spans": {
+      "spans": [
+        "4750",
+        "4750",
+        "4750",
+        "4750"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1008": {
+    "answers_spans": {
+      "spans": [
+        "6.39",
+        "6.39"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1009": {
+    "answers_spans": {
+      "spans": [
+        "women",
+        "women"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1010": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1011": {
+    "answers_spans": {
+      "spans": [
+        "72.3",
+        "72.3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1012": {
+    "answers_spans": {
+      "spans": [
+        "9522",
+        "9522"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1013": {
+    "answers_spans": {
+      "spans": [
+        "889638"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1014": {
+    "answers_spans": {
+      "spans": [
+        "56",
+        "56"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1015": {
+    "answers_spans": {
+      "spans": [
+        "96.51"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1016": {
+    "answers_spans": {
+      "spans": [
+        "females"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1017": {
+    "answers_spans": {
+      "spans": [
+        "79.9",
+        "79.9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1018": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "25 to 44",
+        "under the age of 18",
+        "25 to 44"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1019": {
+    "answers_spans": {
+      "spans": [
+        "Jafargulu Khan Nakhchivanski",
+        "Azeris of Nakhchivan"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1020": {
+    "answers_spans": {
+      "spans": [
+        "87.3",
+        "87.3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1021": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1022": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1023": {
+    "answers_spans": {
+      "spans": [
+        "5282",
+        "5282"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1024": {
+    "answers_spans": {
+      "spans": [
+        "78.2",
+        "78.2",
+        "78.2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1025": {
+    "answers_spans": {
+      "spans": [
+        "90",
+        "90",
+        "90",
+        "90",
+        "90"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1026": {
+    "answers_spans": {
+      "spans": [
+        "religious",
+        "economic",
+        "economic",
+        "religious"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1027": {
+    "answers_spans": {
+      "spans": [
+        "1939",
+        "1929",
+        "1947",
+        "1939",
+        "1947"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1028": {
+    "answers_spans": {
+      "spans": [
+        "80 and 89",
+        "80 and 89"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1029": {
+    "answers_spans": {
+      "spans": [
+        "98.4",
+        "98.4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1030": {
+    "answers_spans": {
+      "spans": [
+        "1633680",
+        "1,962,059"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1031": {
+    "answers_spans": {
+      "spans": [
+        "18 to 24",
+        "18 to 24"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1032": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1033": {
+    "answers_spans": {
+      "spans": [
+        "2000",
+        "2000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1034": {
+    "answers_spans": {
+      "spans": [
+        "Muslims",
+        "Buddhists",
+        "Buddhists",
+        "Muslims"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1035": {
+    "answers_spans": {
+      "spans": [
+        "financial embarrassments",
+        "financial embarrassments"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1036": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1037": {
+    "answers_spans": {
+      "spans": [
+        "20506",
+        "20506"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1038": {
+    "answers_spans": {
+      "spans": [
+        "45 to 64",
+        "45 to 64"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1039": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1040": {
+    "answers_spans": {
+      "spans": [
+        "94.9",
+        "94.9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1041": {
+    "answers_spans": {
+      "spans": [
+        "78613"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1042": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "26.20%"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1043": {
+    "answers_spans": {
+      "spans": [
+        "78.6",
+        "78.6"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1044": {
+    "answers_spans": {
+      "spans": [
+        "Liu's immediate recall and demotion",
+        "Liu's immediate recall and demotion",
+        "Liu's immediate recall and demotion",
+        "Liu's immediate recall and demotion"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1045": {
+    "answers_spans": {
+      "spans": [
+        "1507",
+        "1477",
+        "1507",
+        "1507",
+        "1507"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1046": {
+    "answers_spans": {
+      "spans": [
+        "99.9",
+        "99.7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1047": {
+    "answers_spans": {
+      "spans": [
+        ".25",
+        ".25"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1048": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1049": {
+    "answers_spans": {
+      "spans": [
+        "8",
+        "8"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1050": {
+    "answers_spans": {
+      "spans": [
+        "3989",
+        "3989"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1051": {
+    "answers_spans": {
+      "spans": [
+        "24",
+        "25"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1052": {
+    "answers_spans": {
+      "spans": [
+        "English",
+        "Irish",
+        "polish",
+        "French",
+        "English",
+        "Irish",
+        "polish",
+        "French"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1053": {
+    "answers_spans": {
+      "spans": [
+        "12.1",
+        "12.1",
+        "12.1",
+        "12.10",
+        "12.1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1054": {
+    "answers_spans": {
+      "spans": [
+        "made up of individuals",
+        "made up of individuals"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1055": {
+    "answers_spans": {
+      "spans": [
+        "95.05",
+        "95.05"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1056": {
+    "answers_spans": {
+      "spans": [
+        "1st Earl of Tyrconnell",
+        "1st Earl of Tyrconnell"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1057": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1058": {
+    "answers_spans": {
+      "spans": [
+        "the Siamese court",
+        "Siamese court",
+        "Siamese",
+        "Siamese court",
+        "Siam",
+        "Siam",
+        "the Siamese court",
+        "the Siamese"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1059": {
+    "answers_spans": {
+      "spans": [
+        "19",
+        "19"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1060": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1061": {
+    "answers_spans": {
+      "spans": [
+        "under age 18",
+        "under age 18"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1062": {
+    "answers_spans": {
+      "spans": [
+        "14000",
+        "84000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1063": {
+    "answers_spans": {
+      "spans": [
+        "Toungoo",
+        "lord of Yamethin",
+        "lord of Yamethin"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1064": {
+    "answers_spans": {
+      "spans": [
+        "6529",
+        "18.7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1065": {
+    "answers_spans": {
+      "spans": [
+        "25",
+        "25",
+        "10 ordinary galleys",
+        "15 smaller galleys"
+      ],
+      "types": [
+        "number",
+        "number",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1066": {
+    "answers_spans": {
+      "spans": [
+        "680",
+        "680"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1067": {
+    "answers_spans": {
+      "spans": [
+        "1990",
+        "1990"
+      ],
+      "types": [
+        "span",
+        "date"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1068": {
+    "answers_spans": {
+      "spans": [
+        "24055",
+        "24.055"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1069": {
+    "answers_spans": {
+      "spans": [
+        "25 to 44",
+        "25 to 44"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1070": {
+    "answers_spans": {
+      "spans": [
+        "4636",
+        "2396"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1071": {
+    "answers_spans": {
+      "spans": [
+        "king Chulalongkorn enacted two decrees banning the capture and sale of Kha slaves",
+        "two decrees",
+        "king Chulalongkorn enacted two decrees"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1072": {
+    "answers_spans": {
+      "spans": [
+        "99.27"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1073": {
+    "answers_spans": {
+      "spans": [
+        "Poland promising to pay",
+        "Poland promising to pay",
+        "220,000 zlotys",
+        "ruler of Poland"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1074": {
+    "answers_spans": {
+      "spans": [
+        "Germans",
+        "16.5"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1075": {
+    "answers_spans": {
+      "spans": [
+        "90",
+        "90"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1076": {
+    "answers_spans": {
+      "spans": [
+        ".3",
+        "0.3",
+        ".3"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1077": {
+    "answers_spans": {
+      "spans": [
+        "11",
+        "11"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1078": {
+    "answers_spans": {
+      "spans": [
+        "70",
+        "70",
+        "70",
+        "70",
+        "70"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1079": {
+    "answers_spans": {
+      "spans": [
+        "26.8",
+        "26.8"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1080": {
+    "answers_spans": {
+      "spans": [
+        "1300"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1081": {
+    "answers_spans": {
+      "spans": [
+        "Italian",
+        "Italian"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1082": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "6"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1083": {
+    "answers_spans": {
+      "spans": [
+        "left Kengtung",
+        "left Kengtung"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1084": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1085": {
+    "answers_spans": {
+      "spans": [
+        "75.1",
+        "75.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1086": {
+    "answers_spans": {
+      "spans": [
+        "Soroca",
+        "Soroca",
+        "Soroca"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1087": {
+    "answers_spans": {
+      "spans": [
+        "89.7",
+        "89.7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1088": {
+    "answers_spans": {
+      "spans": [
+        "households",
+        "15,557 people, 6,123 households"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1089": {
+    "answers_spans": {
+      "spans": [
+        "Georgians",
+        "Georgians"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1090": {
+    "answers_spans": {
+      "spans": [
+        "Bosnian troops",
+        "Bosnian troops"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1091": {
+    "answers_spans": {
+      "spans": [
+        "families",
+        "families"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1092": {
+    "answers_spans": {
+      "spans": [
+        "European",
+        "European troops",
+        "European troops"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1093": {
+    "answers_spans": {
+      "spans": [
+        "99.67",
+        "99.67"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1094": {
+    "answers_spans": {
+      "spans": [
+        "45 to 64",
+        "45 to 64"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1095": {
+    "answers_spans": {
+      "spans": [
+        "49.7",
+        "49.7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1096": {
+    "answers_spans": {
+      "spans": [
+        "invasions of Burma",
+        "invasion",
+        "truce",
+        "the invasion of Burma"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1097": {
+    "answers_spans": {
+      "spans": [
+        "87.4",
+        "87.4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1098": {
+    "answers_spans": {
+      "spans": [
+        "national",
+        "Nashville"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1099": {
+    "answers_spans": {
+      "spans": [
+        "5400",
+        "5400"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1100": {
+    "answers_spans": {
+      "spans": [
+        "173000",
+        "173000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1101": {
+    "answers_spans": {
+      "spans": [
+        "9",
+        "9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1102": {
+    "answers_spans": {
+      "spans": [
+        "11761",
+        "11761"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1103": {
+    "answers_spans": {
+      "spans": [
+        "35.1",
+        "35.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1104": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1105": {
+    "answers_spans": {
+      "spans": [
+        "1384",
+        "1384"
+      ],
+      "types": [
+        "number",
+        "date"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1106": {
+    "answers_spans": {
+      "spans": [
+        "2205",
+        "2475",
+        "2205"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1107": {
+    "answers_spans": {
+      "spans": [
+        "Scottish people",
+        "Canadian",
+        "Irish people",
+        "Scottish",
+        "Canadian",
+        "Irish"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1108": {
+    "answers_spans": {
+      "spans": [
+        "Dominican",
+        "Dominicans"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1109": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1110": {
+    "answers_spans": {
+      "spans": [
+        "81.2",
+        "80.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1111": {
+    "answers_spans": {
+      "spans": [
+        "males",
+        "males"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1112": {
+    "answers_spans": {
+      "spans": [
+        "1060",
+        "1060",
+        "1060"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1113": {
+    "answers_spans": {
+      "spans": [
+        "20",
+        "20"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1114": {
+    "answers_spans": {
+      "spans": [
+        "technical professionals or scientists",
+        "movement and storage of goods",
+        "movement and storage of goods",
+        "technical professionals or scientists",
+        "education"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1115": {
+    "answers_spans": {
+      "spans": [
+        "Macedonians",
+        "Macedonians"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1116": {
+    "answers_spans": {
+      "spans": [
+        "0.9",
+        "0.9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1117": {
+    "answers_spans": {
+      "spans": [
+        "88",
+        "88"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1118": {
+    "answers_spans": {
+      "spans": [
+        "females",
+        "females"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1119": {
+    "answers_spans": {
+      "spans": [
+        "47",
+        "47"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1120": {
+    "answers_spans": {
+      "spans": [
+        "African American",
+        "African American",
+        "African American"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1121": {
+    "answers_spans": {
+      "spans": [
+        "households had individuals under 18",
+        "female householder with no husband"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1122": {
+    "answers_spans": {
+      "spans": [
+        "33",
+        "33"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1123": {
+    "answers_spans": {
+      "spans": [
+        "40.62",
+        "75.81"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1124": {
+    "answers_spans": {
+      "spans": [
+        "150",
+        "150"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1125": {
+    "answers_spans": {
+      "spans": [
+        "23",
+        "61.5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1126": {
+    "answers_spans": {
+      "spans": [
+        "Federal District",
+        "Federal District",
+        "Nuevo Le\u00f3n"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1127": {
+    "answers_spans": {
+      "spans": [
+        "Tendulkar",
+        "Tendulkar",
+        "Tendulkar",
+        "Allan Border"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1128": {
+    "answers_spans": {
+      "spans": [
+        "Polish",
+        "Polish"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1129": {
+    "answers_spans": {
+      "spans": [
+        "Portuguese Colonial War",
+        "Six-Day War by Israel",
+        "3"
+      ],
+      "types": [
+        "span",
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1130": {
+    "answers_spans": {
+      "spans": [
+        "85 percent",
+        "Indonesia"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1131": {
+    "answers_spans": {
+      "spans": [
+        "58",
+        "58"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1132": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "under the age of 18"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1133": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1134": {
+    "answers_spans": {
+      "spans": [
+        "20",
+        "20"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1135": {
+    "answers_spans": {
+      "spans": [
+        "Mechanized Infantry Battalions",
+        "Mechanized Infantry Battalions"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1136": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1137": {
+    "answers_spans": {
+      "spans": [
+        "1.7",
+        "1.7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1138": {
+    "answers_spans": {
+      "spans": [
+        "Ceylon tea",
+        "Treaty of Amiens",
+        "Ceylon tea becomes a staple"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1139": {
+    "answers_spans": {
+      "spans": [
+        "5.6",
+        "5.6"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1140": {
+    "answers_spans": {
+      "spans": [
+        "92.9",
+        "92.9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1141": {
+    "answers_spans": {
+      "spans": [
+        "Pakistani citizens",
+        "Romanian citizenship",
+        "Romanian",
+        "Pakistani"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1142": {
+    "answers_spans": {
+      "spans": [
+        "98.75",
+        "98.75"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1143": {
+    "answers_spans": {
+      "spans": [
+        "76.5",
+        "76.5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1144": {
+    "answers_spans": {
+      "spans": [
+        "95.04",
+        "95.04"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1145": {
+    "answers_spans": {
+      "spans": [
+        "under 18",
+        "under the age of 18"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1146": {
+    "answers_spans": {
+      "spans": [
+        "33",
+        "167",
+        "33"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1147": {
+    "answers_spans": {
+      "spans": [
+        "97.5",
+        "97.5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1148": {
+    "answers_spans": {
+      "spans": [
+        "Catherine",
+        "Ja\u00e9l de Peigne",
+        "Catherine",
+        "Ja\u00e9l de Peigne"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1149": {
+    "answers_spans": {
+      "spans": [
+        "families",
+        "families",
+        "13,629 families"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1150": {
+    "answers_spans": {
+      "spans": [
+        "96.2",
+        "96.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1151": {
+    "answers_spans": {
+      "spans": [
+        "115",
+        "115"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1152": {
+    "answers_spans": {
+      "spans": [
+        "74.6",
+        "74.6"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1153": {
+    "answers_spans": {
+      "spans": [
+        "99.26",
+        "99.26",
+        "99.26"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1154": {
+    "answers_spans": {
+      "spans": [
+        "25",
+        "25",
+        "25"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1155": {
+    "answers_spans": {
+      "spans": [
+        "Prince Akishino",
+        "Prince Akishino",
+        "Prince Akishino",
+        "Prince Hisahito",
+        "Prince Akishino",
+        "Prince Akishino",
+        "Prince Akishino",
+        "Prince Hisahito",
+        "Prince Akishino"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1156": {
+    "answers_spans": {
+      "spans": [
+        "99.33",
+        "99.33"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1157": {
+    "answers_spans": {
+      "spans": [
+        "75.1",
+        "75.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1158": {
+    "answers_spans": {
+      "spans": [
+        "6.1",
+        "6.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1159": {
+    "answers_spans": {
+      "spans": [
+        "25 to 44",
+        "between 25 and 44"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1160": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1161": {
+    "answers_spans": {
+      "spans": [
+        "78.55",
+        "78.55"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1162": {
+    "answers_spans": {
+      "spans": [
+        "African American",
+        "African American"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1163": {
+    "answers_spans": {
+      "spans": [
+        "Burmese",
+        "Burmese"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1164": {
+    "answers_spans": {
+      "spans": [
+        "1700000",
+        "1719075",
+        "1719075"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1165": {
+    "answers_spans": {
+      "spans": [
+        "African American",
+        "African American"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1166": {
+    "answers_spans": {
+      "spans": [
+        "2"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1167": {
+    "answers_spans": {
+      "spans": [
+        "The Sack of Brescia",
+        "The Sack of Brescia",
+        "The Sack of Brescia"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1168": {
+    "answers_spans": {
+      "spans": [
+        "2014-15",
+        "3"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1169": {
+    "answers_spans": {
+      "spans": [
+        "32",
+        "28",
+        "32",
+        "32",
+        "32"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1170": {
+    "answers_spans": {
+      "spans": [
+        "English",
+        "english"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1171": {
+    "answers_spans": {
+      "spans": [
+        "25 to 44",
+        "24 and younger"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1172": {
+    "answers_spans": {
+      "spans": [
+        "8.95",
+        "8.95"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1173": {
+    "answers_spans": {
+      "spans": [
+        "English American",
+        "English American"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1174": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "under the age of 18"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1175": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1176": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1177": {
+    "answers_spans": {
+      "spans": [
+        "38",
+        "38",
+        "38",
+        "38"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1178": {
+    "answers_spans": {
+      "spans": [
+        "650000",
+        "650000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1179": {
+    "answers_spans": {
+      "spans": [
+        "For every 100 females there are 95.90 males",
+        "males"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1180": {
+    "answers_spans": {
+      "spans": [
+        "household size",
+        "family size",
+        "household size",
+        "family size"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1181": {
+    "answers_spans": {
+      "spans": [
+        "27.1",
+        "27.1",
+        "27.1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1182": {
+    "answers_spans": {
+      "spans": [
+        "520",
+        "520"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1183": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "7",
+        "7"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1184": {
+    "answers_spans": {
+      "spans": [
+        "94.9",
+        "94.9",
+        "5.1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1185": {
+    "answers_spans": {
+      "spans": [
+        "Dutch East India Company",
+        "the Dutch Reformed Church"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1186": {
+    "answers_spans": {
+      "spans": [
+        "women and children"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1187": {
+    "answers_spans": {
+      "spans": [
+        "12.72",
+        "12.72"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1188": {
+    "answers_spans": {
+      "spans": [
+        "37",
+        "37"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1189": {
+    "answers_spans": {
+      "spans": [
+        "25 to 44",
+        "25 to 44"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1190": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1191": {
+    "answers_spans": {
+      "spans": [
+        "20000",
+        "20000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1192": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "25 to 44"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1193": {
+    "answers_spans": {
+      "spans": [
+        "9"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1194": {
+    "answers_spans": {
+      "spans": [
+        "14",
+        "14"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1195": {
+    "answers_spans": {
+      "spans": [
+        "African American",
+        "African American"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1196": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1197": {
+    "answers_spans": {
+      "spans": [
+        "84.5",
+        "84.5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1198": {
+    "answers_spans": {
+      "spans": [
+        "78.2",
+        "78.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1199": {
+    "answers_spans": {
+      "spans": [
+        "12 December 1575",
+        "12 December 1575"
+      ],
+      "types": [
+        "date",
+        "date"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1200": {
+    "answers_spans": {
+      "spans": [
+        "households",
+        "households"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1201": {
+    "answers_spans": {
+      "spans": [
+        "Vientiane",
+        "Luang Prabang"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1202": {
+    "answers_spans": {
+      "spans": [
+        "20.3",
+        "20.39"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1203": {
+    "answers_spans": {
+      "spans": [
+        "28.8",
+        "28.8"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1204": {
+    "answers_spans": {
+      "spans": [
+        "7714524",
+        "7714524"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1205": {
+    "answers_spans": {
+      "spans": [
+        "7000",
+        "7000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1206": {
+    "answers_spans": {
+      "spans": [
+        "127",
+        "127"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1207": {
+    "answers_spans": {
+      "spans": [
+        "4239",
+        "4239"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1208": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1209": {
+    "answers_spans": {
+      "spans": [
+        ".54",
+        "average family size"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1210": {
+    "answers_spans": {
+      "spans": [
+        "Ottoman",
+        "Habsburg"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1211": {
+    "answers_spans": {
+      "spans": [
+        "82.8",
+        "86.8"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1212": {
+    "answers_spans": {
+      "spans": [
+        "33",
+        "33"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1213": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1214": {
+    "answers_spans": {
+      "spans": [
+        "16",
+        "16",
+        "16"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1215": {
+    "answers_spans": {
+      "spans": [
+        "177",
+        "177"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1216": {
+    "answers_spans": {
+      "spans": [
+        "9.72",
+        "9.72",
+        "9.72",
+        "9.72"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1217": {
+    "answers_spans": {
+      "spans": [
+        "17.61",
+        "17.61"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1218": {
+    "answers_spans": {
+      "spans": [
+        "3004898",
+        "3004898"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1219": {
+    "answers_spans": {
+      "spans": [
+        "89",
+        "89",
+        "89"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1220": {
+    "answers_spans": {
+      "spans": [
+        "1149",
+        "1149"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1221": {
+    "answers_spans": {
+      "spans": [
+        "56",
+        "56"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1222": {
+    "answers_spans": {
+      "spans": [
+        "66",
+        "1069"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1223": {
+    "answers_spans": {
+      "spans": [
+        "Fort James",
+        "Fort James"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1224": {
+    "answers_spans": {
+      "spans": [
+        "83.3",
+        "83.3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1225": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1226": {
+    "answers_spans": {
+      "spans": [
+        "women",
+        "women"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1227": {
+    "answers_spans": {
+      "spans": [
+        "Commonwealth resumed the offensive",
+        "Commonwealth resumed the offensive"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1228": {
+    "answers_spans": {
+      "spans": [
+        "53",
+        "53",
+        "53"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1229": {
+    "answers_spans": {
+      "spans": [
+        "99.99",
+        "99.99"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1230": {
+    "answers_spans": {
+      "spans": [
+        "75.65",
+        "75.65"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1231": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1232": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1233": {
+    "answers_spans": {
+      "spans": [
+        "60",
+        "60"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1234": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1235": {
+    "answers_spans": {
+      "spans": [
+        "99.89",
+        "99.89"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1236": {
+    "answers_spans": {
+      "spans": [
+        "76.5",
+        "76.5",
+        "76.5",
+        "66.5"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1237": {
+    "answers_spans": {
+      "spans": [
+        "150",
+        "150"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1238": {
+    "answers_spans": {
+      "spans": [
+        "27.1",
+        "27.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1239": {
+    "answers_spans": {
+      "spans": [
+        "under the age of 18",
+        "25 to 44",
+        "under the age of 18",
+        "25 to 44"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1240": {
+    "answers_spans": {
+      "spans": [
+        "19757",
+        "1171"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1241": {
+    "answers_spans": {
+      "spans": [
+        "54.3",
+        "54.3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1242": {
+    "answers_spans": {
+      "spans": [
+        "Poles",
+        "Tatars",
+        "Poles",
+        "Tatars",
+        "Poles",
+        "Tatars"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1243": {
+    "answers_spans": {
+      "spans": [
+        "Rice",
+        "Rice",
+        "mung bean",
+        "soy",
+        "Azuki bean beans"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1244": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1245": {
+    "answers_spans": {
+      "spans": [
+        "non-families",
+        "non-families"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1246": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1247": {
+    "answers_spans": {
+      "spans": [
+        "people",
+        "people"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1248": {
+    "answers_spans": {
+      "spans": [
+        "Yancey Thigpen",
+        "Erric Pegram",
+        "Yancey Thigpen",
+        "Erric Pegram"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1249": {
+    "answers_spans": {
+      "spans": [
+        "66",
+        "66",
+        "66"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1250": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1251": {
+    "answers_spans": {
+      "spans": [
+        "Urdu",
+        "Urdu"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1252": {
+    "answers_spans": {
+      "spans": [
+        "the Liao dynasty",
+        "Liao",
+        "the Liao dynasty",
+        "Liao dynasty"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1253": {
+    "answers_spans": {
+      "spans": [
+        "Francis",
+        "Francis",
+        "Francis",
+        "Francis could muster about 70,000",
+        "Francis could muster about 70,000"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1254": {
+    "answers_spans": {
+      "spans": [
+        "Polish",
+        "French",
+        "Polish",
+        "French"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1255": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1256": {
+    "answers_spans": {
+      "spans": [
+        "Dmitry Donskoy",
+        "the Horde"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1257": {
+    "answers_spans": {
+      "spans": [
+        "51",
+        "51"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1258": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "7",
+        "7"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1259": {
+    "answers_spans": {
+      "spans": [
+        "Mavrovouni and Skouriotissa",
+        "Mavrovouni and Skouriotissa"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1260": {
+    "answers_spans": {
+      "spans": [
+        "14000",
+        "14000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1261": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1262": {
+    "answers_spans": {
+      "spans": [
+        "soldiers",
+        "officers"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1263": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2",
+        "4",
+        "2",
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1264": {
+    "answers_spans": {
+      "spans": [
+        "New York (state)",
+        "New York"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1265": {
+    "answers_spans": {
+      "spans": [
+        "80",
+        "80"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1266": {
+    "answers_spans": {
+      "spans": [
+        "16221",
+        "16221",
+        "16221"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1267": {
+    "answers_spans": {
+      "spans": [
+        "0.6",
+        "0.6"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1268": {
+    "answers_spans": {
+      "spans": [
+        "87.9",
+        "87.9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1269": {
+    "answers_spans": {
+      "spans": [
+        "78.2",
+        "78.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1270": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1271": {
+    "answers_spans": {
+      "spans": [
+        "The third invasion",
+        "The third invasion",
+        "third invasion",
+        "third",
+        "The third",
+        "The third invasion"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1272": {
+    "answers_spans": {
+      "spans": [
+        "60",
+        "60"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1273": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1274": {
+    "answers_spans": {
+      "spans": [
+        "1500"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1275": {
+    "answers_spans": {
+      "spans": [
+        "families",
+        "families"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1276": {
+    "answers_spans": {
+      "spans": [
+        "made up of individuals"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1277": {
+    "answers_spans": {
+      "spans": [
+        "93.2",
+        "93.2",
+        "93.2",
+        "93.2",
+        "93.8"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1278": {
+    "answers_spans": {
+      "spans": [
+        "Left Socialist-Revolutionaries",
+        "745"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1279": {
+    "answers_spans": {
+      "spans": [
+        "Antonio Freeman",
+        "Dorsey Levens",
+        "Antonio Freeman"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1280": {
+    "answers_spans": {
+      "spans": [
+        "people",
+        "people"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1281": {
+    "answers_spans": {
+      "spans": [
+        "86.1",
+        "86.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1282": {
+    "answers_spans": {
+      "spans": [
+        "46.28",
+        "11.68"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1283": {
+    "answers_spans": {
+      "spans": [
+        "95.48",
+        "95.48"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1284": {
+    "answers_spans": {
+      "spans": [
+        "14.4",
+        "14.4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1285": {
+    "answers_spans": {
+      "spans": [
+        "60.99",
+        "30.11"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1286": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1287": {
+    "answers_spans": {
+      "spans": [
+        "66.6"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1288": {
+    "answers_spans": {
+      "spans": [
+        "the population pre-war",
+        "pre-war",
+        "population pre-war",
+        "pre-war",
+        "population pre-war"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1289": {
+    "answers_spans": {
+      "spans": [
+        "5"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1290": {
+    "answers_spans": {
+      "spans": [
+        "83.8",
+        "83.8"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1291": {
+    "answers_spans": {
+      "spans": [
+        "11.16",
+        "11.16"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1292": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1293": {
+    "answers_spans": {
+      "spans": [
+        "Emperor John V Palaiologos",
+        "Emperor John V Palaiologos",
+        "Emperor John V Palaiologos"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1294": {
+    "answers_spans": {
+      "spans": [
+        "7.5",
+        "7.5",
+        "7.5",
+        "7.5"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1295": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1296": {
+    "answers_spans": {
+      "spans": [
+        "Cumans",
+        "Cumans"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1297": {
+    "answers_spans": {
+      "spans": [
+        "19",
+        "19"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1298": {
+    "answers_spans": {
+      "spans": [
+        "Vlachs",
+        "5028"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1299": {
+    "answers_spans": {
+      "spans": [
+        "2.1",
+        "2.1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1300": {
+    "answers_spans": {
+      "spans": [
+        "27",
+        "10",
+        "17"
+      ],
+      "types": [
+        "number",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1301": {
+    "answers_spans": {
+      "spans": [
+        "79.20",
+        "79.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1302": {
+    "answers_spans": {
+      "spans": [
+        "101001",
+        "101001"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1303": {
+    "answers_spans": {
+      "spans": [
+        "African American",
+        "African American",
+        "African American"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1304": {
+    "answers_spans": {
+      "spans": [
+        "female householder with no husband"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1305": {
+    "answers_spans": {
+      "spans": [
+        "233",
+        "233"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1306": {
+    "answers_spans": {
+      "spans": [
+        "15",
+        "15"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1307": {
+    "answers_spans": {
+      "spans": [
+        "78.2",
+        "78.2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1308": {
+    "answers_spans": {
+      "spans": [
+        "Prince Ethirimana Cinkam being wounded",
+        "Prince Ethirimana Cinkam was wounded"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1309": {
+    "answers_spans": {
+      "spans": [
+        "Khitans",
+        "Korea",
+        "Khitans",
+        "Korea"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1310": {
+    "answers_spans": {
+      "spans": [
+        "85",
+        "85"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1311": {
+    "answers_spans": {
+      "spans": [
+        "Messenia",
+        "Messenia",
+        "Messenia",
+        "Messenia",
+        "Messenia"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1312": {
+    "answers_spans": {
+      "spans": [
+        "20 and 24",
+        "25 and 29"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1313": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "19"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1314": {
+    "answers_spans": {
+      "spans": [
+        "6.39",
+        "6.39"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1315": {
+    "answers_spans": {
+      "spans": [
+        "3018",
+        "3018"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1316": {
+    "answers_spans": {
+      "spans": [
+        "9000",
+        "9000",
+        "9000",
+        "9000"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1317": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1318": {
+    "answers_spans": {
+      "spans": [
+        "Lord Egremont",
+        "Lord Egremont",
+        "Lord Egremont"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1319": {
+    "answers_spans": {
+      "spans": [
+        "attacks in Italy against the line at Monte Cassino",
+        "Monte Cassino"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1320": {
+    "answers_spans": {
+      "spans": [
+        "Wilder",
+        "Star",
+        "Melba",
+        "Notus",
+        "Greenleaf",
+        "Notus",
+        "Greenleaf",
+        "Wilder"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1321": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "1916"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1322": {
+    "answers_spans": {
+      "spans": [
+        "Italian",
+        "Italian"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1323": {
+    "answers_spans": {
+      "spans": [
+        "Pacific Islander",
+        "Asian",
+        "Italian",
+        "danish"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1324": {
+    "answers_spans": {
+      "spans": [
+        "983",
+        "7"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1325": {
+    "answers_spans": {
+      "spans": [
+        "94.5",
+        "94.5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1326": {
+    "answers_spans": {
+      "spans": [
+        "900",
+        "900"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1327": {
+    "answers_spans": {
+      "spans": [
+        "capture the city of Nakhchivan",
+        "city of Nakhchivan being captured"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1328": {
+    "answers_spans": {
+      "spans": [
+        "45 to 64",
+        "45 to 64"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1329": {
+    "answers_spans": {
+      "spans": [
+        "20000",
+        "20000"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1330": {
+    "answers_spans": {
+      "spans": [
+        "Clemens",
+        "Clemens",
+        "Clemens"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1331": {
+    "answers_spans": {
+      "spans": [
+        "non-families"
+      ],
+      "types": [
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1332": {
+    "answers_spans": {
+      "spans": [
+        "0.54",
+        "20.85"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1333": {
+    "answers_spans": {
+      "spans": [
+        "8000000",
+        "8000000",
+        "8000000"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1334": {
+    "answers_spans": {
+      "spans": [
+        "Asian",
+        "Asian"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1335": {
+    "answers_spans": {
+      "spans": [
+        "non-families",
+        "non-families"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1336": {
+    "answers_spans": {
+      "spans": [
+        "35863",
+        "35863",
+        "35863"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1337": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1338": {
+    "answers_spans": {
+      "spans": [
+        "Yamethin",
+        "uncle at Prome",
+        "his younger brother",
+        "uncle",
+        "his younger brother",
+        "Minkhaung's uncle"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1339": {
+    "answers_spans": {
+      "spans": [
+        "571",
+        "571"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1340": {
+    "answers_spans": {
+      "spans": [
+        "14",
+        "14",
+        "14"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1341": {
+    "answers_spans": {
+      "spans": [
+        "15",
+        "15"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1342": {
+    "answers_spans": {
+      "spans": [
+        "2018",
+        "2016",
+        "2018",
+        "2016"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1343": {
+    "answers_spans": {
+      "spans": [
+        "living off government benefits",
+        "living off government benefits"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1344": {
+    "answers_spans": {
+      "spans": [
+        "Eric Wright",
+        "Eric Wright"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1345": {
+    "answers_spans": {
+      "spans": [
+        "410180",
+        "As of the census of 2000, there were 250,291 people, 99,187 households, and 60,702 families residing in the county"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1346": {
+    "answers_spans": {
+      "spans": [
+        "73.5",
+        "73.5",
+        "73.5",
+        "73.5"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1347": {
+    "answers_spans": {
+      "spans": [
+        "families",
+        "families"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1348": {
+    "answers_spans": {
+      "spans": [
+        "Asians",
+        "American Indians",
+        "American Indians",
+        "Asians",
+        "American Indians"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1349": {
+    "answers_spans": {
+      "spans": [
+        "Nintendo",
+        "Nintendo Entertainment Systems"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1350": {
+    "answers_spans": {
+      "spans": [
+        "12",
+        "12",
+        "12",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "history"
+  },
+  "1351": {
+    "answers_spans": {
+      "spans": [
+        "55",
+        "55"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1352": {
+    "answers_spans": {
+      "spans": [
+        "41",
+        "26",
+        "67"
+      ],
+      "types": [
+        "span",
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1353": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1354": {
+    "answers_spans": {
+      "spans": [
+        "45",
+        "45"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1355": {
+    "answers_spans": {
+      "spans": [
+        "Carolina",
+        "Carolina"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1356": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1357": {
+    "answers_spans": {
+      "spans": [
+        "second",
+        "second"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1358": {
+    "answers_spans": {
+      "spans": [
+        "12",
+        "12"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1359": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1360": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1361": {
+    "answers_spans": {
+      "spans": [
+        "35",
+        "35"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1362": {
+    "answers_spans": {
+      "spans": [
+        "7",
+        "63-yard"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1363": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1364": {
+    "answers_spans": {
+      "spans": [
+        "20",
+        "20"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1365": {
+    "answers_spans": {
+      "spans": [
+        "Derrick Mason",
+        "Derrick Mason"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1366": {
+    "answers_spans": {
+      "spans": [
+        "17",
+        "17"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1367": {
+    "answers_spans": {
+      "spans": [
+        "Tennessee",
+        "Tennessee",
+        "Tennessee"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1368": {
+    "answers_spans": {
+      "spans": [
+        "Jamal Lewis",
+        "Jamal Lewis"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1369": {
+    "answers_spans": {
+      "spans": [
+        "Jaguars",
+        "Jaguars"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1370": {
+    "answers_spans": {
+      "spans": [
+        "Lynch",
+        "Doug Baldwin"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1371": {
+    "answers_spans": {
+      "spans": [
+        "30",
+        "30"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1372": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1373": {
+    "answers_spans": {
+      "spans": [
+        "Travis Henry",
+        "Travis Henry"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1374": {
+    "answers_spans": {
+      "spans": [
+        "33",
+        "24-yard field goal",
+        "24",
+        "24"
+      ],
+      "types": [
+        "number",
+        "span",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1375": {
+    "answers_spans": {
+      "spans": [
+        "Denver",
+        "Raiders",
+        "Raiders"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1376": {
+    "answers_spans": {
+      "spans": [
+        "Matt Prater",
+        "Prater"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1377": {
+    "answers_spans": {
+      "spans": [
+        "66-yard",
+        "66-yard field goal"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1378": {
+    "answers_spans": {
+      "spans": [
+        "second",
+        "second quarter",
+        "second quarter"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1379": {
+    "answers_spans": {
+      "spans": [
+        "23"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1380": {
+    "answers_spans": {
+      "spans": [
+        "DeAngelo Williams",
+        "DeAngelo Williams"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1381": {
+    "answers_spans": {
+      "spans": [
+        "Brown",
+        "Brown"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1382": {
+    "answers_spans": {
+      "spans": [
+        "37",
+        "37"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1383": {
+    "answers_spans": {
+      "spans": [
+        "50-yard",
+        "50-yard field goal",
+        "50",
+        "50",
+        "50"
+      ],
+      "types": [
+        "span",
+        "span",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1384": {
+    "answers_spans": {
+      "spans": [
+        "0",
+        "0",
+        "0"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1385": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1386": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1387": {
+    "answers_spans": {
+      "spans": [
+        "0",
+        "0",
+        "0"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1388": {
+    "answers_spans": {
+      "spans": [
+        "the Patriots",
+        "Patriots"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1389": {
+    "answers_spans": {
+      "spans": [
+        "105",
+        "22"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1390": {
+    "answers_spans": {
+      "spans": [
+        "36",
+        "36"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1391": {
+    "answers_spans": {
+      "spans": [
+        "32",
+        "32",
+        "32",
+        "32"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1392": {
+    "answers_spans": {
+      "spans": [
+        "35",
+        "35",
+        "35"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1393": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1394": {
+    "answers_spans": {
+      "spans": [
+        "122",
+        "122"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1395": {
+    "answers_spans": {
+      "spans": [
+        "46",
+        "46"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1396": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1397": {
+    "answers_spans": {
+      "spans": [
+        "24",
+        "24",
+        "24"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1398": {
+    "answers_spans": {
+      "spans": [
+        "27",
+        "27",
+        "27",
+        "27"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1399": {
+    "answers_spans": {
+      "spans": [
+        "20",
+        "43"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1400": {
+    "answers_spans": {
+      "spans": [
+        "51",
+        "51",
+        "51",
+        "51"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1401": {
+    "answers_spans": {
+      "spans": [
+        "Greg Olsen",
+        "Maurice Jones-Drew",
+        "Maurice Jones-Drew"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1402": {
+    "answers_spans": {
+      "spans": [
+        "22",
+        "18"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1403": {
+    "answers_spans": {
+      "spans": [
+        "Brees",
+        "Drew Brees"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1404": {
+    "answers_spans": {
+      "spans": [
+        "49",
+        "49"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1405": {
+    "answers_spans": {
+      "spans": [
+        "DeShaun Foster",
+        "Jeff King"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1406": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1407": {
+    "answers_spans": {
+      "spans": [
+        "22",
+        "Sebastian Janikowski"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1408": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "47"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1409": {
+    "answers_spans": {
+      "spans": [
+        "St. Louis",
+        "Rams"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1410": {
+    "answers_spans": {
+      "spans": [
+        "Adam Vinatieri",
+        "Adam Vinatieri"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1411": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1412": {
+    "answers_spans": {
+      "spans": [
+        "Falcons",
+        "the Bengals",
+        "59",
+        "the Bengals",
+        "Adam Jones"
+      ],
+      "types": [
+        "span",
+        "span",
+        "number",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1413": {
+    "answers_spans": {
+      "spans": [
+        "Giants",
+        "Falcons",
+        "Atlanta",
+        "Falcons"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1414": {
+    "answers_spans": {
+      "spans": [
+        "safety",
+        "safety"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1415": {
+    "answers_spans": {
+      "spans": [
+        "David Akers",
+        "David Akers",
+        "David Akers",
+        "David Akers"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1416": {
+    "answers_spans": {
+      "spans": [
+        "29",
+        "29",
+        "29",
+        "29",
+        "29"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1417": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1418": {
+    "answers_spans": {
+      "spans": [
+        "Denver",
+        "Broncos"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1419": {
+    "answers_spans": {
+      "spans": [
+        "26",
+        "26",
+        "26"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1420": {
+    "answers_spans": {
+      "spans": [
+        "Colts",
+        "Colts"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1421": {
+    "answers_spans": {
+      "spans": [
+        "49",
+        "49-yard"
+      ],
+      "types": [
+        "number",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1422": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1423": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1424": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1425": {
+    "answers_spans": {
+      "spans": [
+        "13",
+        "12",
+        "12"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1426": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1427": {
+    "answers_spans": {
+      "spans": [
+        "76"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1428": {
+    "answers_spans": {
+      "spans": [
+        "19",
+        "19"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1429": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1430": {
+    "answers_spans": {
+      "spans": [
+        "a 22-yard field goal",
+        "a 36-yard field goal",
+        "a 35-yard field goal",
+        "22-yard",
+        "36-yard",
+        "35-yard"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1431": {
+    "answers_spans": {
+      "spans": [
+        "1:24",
+        "11",
+        "1:24",
+        "1:24",
+        "1:24 remaining",
+        "1:24",
+        "11 seconds",
+        "11 seconds"
+      ],
+      "types": [
+        "span",
+        "number",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1432": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1433": {
+    "answers_spans": {
+      "spans": [
+        "Drew Brees",
+        "Drew Brees"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1434": {
+    "answers_spans": {
+      "spans": [
+        "2"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1435": {
+    "answers_spans": {
+      "spans": [
+        "11-yard TD run",
+        "37"
+      ],
+      "types": [
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1436": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "6",
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1437": {
+    "answers_spans": {
+      "spans": [
+        "Broncos",
+        "Broncos"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1438": {
+    "answers_spans": {
+      "spans": [
+        "Foxboro",
+        "Foxboro",
+        "Foxboro"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1439": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "3",
+        "1",
+        "3",
+        "1",
+        "3",
+        "0",
+        "1",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1440": {
+    "answers_spans": {
+      "spans": [
+        "Eagles",
+        "Eagles"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1441": {
+    "answers_spans": {
+      "spans": [
+        "10",
+        "10"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1442": {
+    "answers_spans": {
+      "spans": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1443": {
+    "answers_spans": {
+      "spans": [
+        "9",
+        "33"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1444": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1445": {
+    "answers_spans": {
+      "spans": [
+        "70",
+        "8",
+        "70",
+        "70",
+        "70",
+        "70",
+        "70"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1446": {
+    "answers_spans": {
+      "spans": [
+        "2"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1447": {
+    "answers_spans": {
+      "spans": [
+        "4",
+        "4"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1448": {
+    "answers_spans": {
+      "spans": [
+        "second",
+        "second",
+        "the second quarter",
+        "second"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1449": {
+    "answers_spans": {
+      "spans": [
+        "26",
+        "26",
+        "26"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1450": {
+    "answers_spans": {
+      "spans": [
+        "Geno Smith",
+        "Geno Smith"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1451": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "3",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1452": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1453": {
+    "answers_spans": {
+      "spans": [
+        "Saints",
+        "Which team scored first?"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1454": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1455": {
+    "answers_spans": {
+      "spans": [
+        "65",
+        "65",
+        "65"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1456": {
+    "answers_spans": {
+      "spans": [
+        "Jared Allen",
+        "Jared Allen"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1457": {
+    "answers_spans": {
+      "spans": [
+        "Redskins",
+        "The Redskins",
+        "The Redskins",
+        "Washington Redskins"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1458": {
+    "answers_spans": {
+      "spans": [
+        "9",
+        "9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1459": {
+    "answers_spans": {
+      "spans": [
+        "9",
+        "9"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1460": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1461": {
+    "answers_spans": {
+      "spans": [
+        "Cowboys",
+        "Dallas Cowboys"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1462": {
+    "answers_spans": {
+      "spans": [
+        "41"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1463": {
+    "answers_spans": {
+      "spans": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1464": {
+    "answers_spans": {
+      "spans": [
+        "21",
+        "21",
+        "21",
+        "21"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1465": {
+    "answers_spans": {
+      "spans": [
+        "63",
+        "63",
+        "20",
+        "109"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1466": {
+    "answers_spans": {
+      "spans": [
+        "42",
+        "42",
+        "42"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1467": {
+    "answers_spans": {
+      "spans": [
+        "Thad Lewis",
+        "Thad Lewis"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1468": {
+    "answers_spans": {
+      "spans": [
+        "7-7",
+        "7-7",
+        "7\u20137",
+        "7-7"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1469": {
+    "answers_spans": {
+      "spans": [
+        "Adrian Peterson",
+        "Adrian Peterson",
+        "Adrian Peterson",
+        "Adrian Peterson",
+        "Adrian Peterson"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1470": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1471": {
+    "answers_spans": {
+      "spans": [
+        "102",
+        "51"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1472": {
+    "answers_spans": {
+      "spans": [
+        "0",
+        "0"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1473": {
+    "answers_spans": {
+      "spans": [
+        "Dolphins",
+        "Miami"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1474": {
+    "answers_spans": {
+      "spans": [
+        "2"
+      ],
+      "types": [
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1475": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1476": {
+    "answers_spans": {
+      "spans": [
+        "Jeff Garcia",
+        "Jeff Garcia"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1477": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "51"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1478": {
+    "answers_spans": {
+      "spans": [
+        "5",
+        "5"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1479": {
+    "answers_spans": {
+      "spans": [
+        "6",
+        "18"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1480": {
+    "answers_spans": {
+      "spans": [
+        "Buccaneers",
+        "Buccaneers"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1481": {
+    "answers_spans": {
+      "spans": [
+        "Seahawks",
+        "Seahawks",
+        "Seahawks",
+        "Seattle",
+        "Seahawks"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1482": {
+    "answers_spans": {
+      "spans": [
+        "45-yard",
+        "24-yard",
+        "45"
+      ],
+      "types": [
+        "span",
+        "span",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1483": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1484": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1485": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1486": {
+    "answers_spans": {
+      "spans": [
+        "17",
+        "17"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1487": {
+    "answers_spans": {
+      "spans": [
+        "2",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1488": {
+    "answers_spans": {
+      "spans": [
+        "46-yard, 36-yard",
+        "46-yard",
+        "36-yard"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1489": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1490": {
+    "answers_spans": {
+      "spans": [
+        "37",
+        "42",
+        "42",
+        "42",
+        "42",
+        "42",
+        "42"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1491": {
+    "answers_spans": {
+      "spans": [
+        "14",
+        "14"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1492": {
+    "answers_spans": {
+      "spans": [
+        "29-yard",
+        "40-yard",
+        "35-yard",
+        "35-yard",
+        "26-yard",
+        "35-yard"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1493": {
+    "answers_spans": {
+      "spans": [
+        "Ryan Fitzpatrick",
+        "Ryan Fitzpatrick"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1494": {
+    "answers_spans": {
+      "spans": [
+        "Eagles",
+        "Eagles"
+      ],
+      "types": [
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1495": {
+    "answers_spans": {
+      "spans": [
+        "17",
+        "0",
+        "17",
+        "17"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1496": {
+    "answers_spans": {
+      "spans": [
+        "54",
+        "54",
+        "54",
+        "54"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1497": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1",
+        "2"
+      ],
+      "types": [
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1498": {
+    "answers_spans": {
+      "spans": [
+        "13",
+        "13"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1499": {
+    "answers_spans": {
+      "spans": [
+        "1",
+        "1"
+      ],
+      "types": [
+        "number",
+        "number"
+      ]
+    },
+    "super_category": "nfl"
+  },
+  "1500": {
+    "answers_spans": {
+      "spans": [
+        "Matthew Stafford",
+        "Matthew Stafford",
+        "Matthew Stafford",
+        "Matthew Stafford"
+      ],
+      "types": [
+        "span",
+        "span",
+        "span",
+        "span"
+      ]
+    },
+    "super_category": "nfl"
+  }
+}
