@@ -4,8 +4,8 @@
   warnings.warn(
 /home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:476: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
   warnings.warn(
-Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [04:57<09:55, 297.58s/it]Fetching 3 files: 100%|██████████| 3/3 [04:57<00:00, 99.21s/it] 
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [01:44<03:29, 104.68s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [02:36<01:13, 73.71s/it] Loading checkpoint shards: 100%|██████████| 3/3 [02:36<00:00, 52.26s/it]
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [04:17<08:34, 257.27s/it]Fetching 3 files: 100%|██████████| 3/3 [04:17<00:00, 85.76s/it] 
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [02:11<04:23, 131.67s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [05:12<02:40, 160.76s/it]Loading checkpoint shards: 100%|██████████| 3/3 [05:28<00:00, 94.61s/it] Loading checkpoint shards: 100%|██████████| 3/3 [05:28<00:00, 109.56s/it]
 Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
 /home/joberant/NLP_2425a/sharonsaban/anaconda3/envs/sharon_env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
   warnings.warn(
@@ -13,4 +13,4 @@ Asking to truncate to max_length but no maximum length is provided and the model
   warnings.warn(
 slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
 slurmstepd: error: Cannot write to cgroup.procs for (null)
-slurmstepd: error: Unable to move pid 3460451 to init root cgroup (null)
+slurmstepd: error: Unable to move pid 1324505 to init root cgroup (null)
