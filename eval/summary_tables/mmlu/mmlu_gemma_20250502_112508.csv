@@ -1,6 +1,0 @@
-,model,accuracy,total,correct,accuracy_percent
-,gemma-2-2b,0.558,500,279,55.8
-,"gemma-2-2b_duplication_[(0,1),(25,1)]",0.422,500,211,42.2
-,"gemma-2-2b_duplication_[(12,1),(13,1)]",0.5,500,250,50.0
-,"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",0.412,500,206,41.2
-,gemma-2-9b,0.72,500,360,72.0
