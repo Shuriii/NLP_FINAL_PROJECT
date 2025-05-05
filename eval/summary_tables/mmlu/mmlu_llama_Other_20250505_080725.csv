@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,accuracy,total,correct,accuracy_percent,% improvement,family,dataset,super_category
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,0.804,112,90,80.360,2.270,llama,mmlu,Other
+Meta-Llama-3-8B,original,,,,,0.786,112,88,78.570,0.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,0.786,112,88,78.570,0.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,0.786,112,88,78.570,0.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,0.786,112,88,78.570,0.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,0.786,112,88,78.570,0.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,0.777,112,87,77.680,-1.140,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,0.768,112,86,76.790,-2.270,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,0.768,112,86,76.790,-2.270,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,0.768,112,86,76.790,-2.270,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,0.759,112,85,75.890,-3.410,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,0.759,112,85,75.890,-3.410,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,0.750,112,84,75.000,-4.550,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,0.750,112,84,75.000,-4.550,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,0.750,112,84,75.000,-4.550,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,0.652,112,73,65.180,-17.050,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,0.589,112,66,58.930,-25.000,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,0.527,112,59,52.680,-32.950,llama,mmlu,Other
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,0.491,112,55,49.110,-37.500,llama,mmlu,Other

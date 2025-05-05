@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,average_f1,average_f1,average_f1_percent,total_evaluated,% improvement,family,dataset,super_category
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,0.37833474885970936,0.37833474885970936,37.83,300,2.75,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,0.3725697593041877,0.3725697593041877,37.26,300,1.19,llama,musique,answerable
+Meta-Llama-3-8B,original,,,,,0.3681917517838571,0.3681917517838571,36.82,300,0.0,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,0.3644394408662703,0.3644394408662703,36.44,300,-1.02,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,0.3623084038166665,0.3623084038166665,36.23,300,-1.6,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,0.3000364620487542,0.3000364620487542,30.0,300,-18.51,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,0.2844430224947466,0.2844430224947466,28.44,300,-22.75,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,0.27781480248146917,0.27781480248146917,27.78,300,-24.55,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,0.24813390611091768,0.24813390611091768,24.81,300,-32.61,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,0.21994427891965898,0.21994427891965898,21.99,300,-40.26,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,0.21718731171362743,0.21718731171362743,21.72,300,-41.01,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,0.19006513856513854,0.19006513856513854,19.01,300,-48.38,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,0.17469744145521127,0.17469744145521127,17.47,300,-52.55,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,0.16322193028792845,0.16322193028792845,16.32,300,-55.67,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,0.15410602811183569,0.15410602811183569,15.41,300,-58.15,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,0.15155162606149156,0.15155162606149156,15.16,300,-58.84,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,0.12380367585630743,0.12380367585630743,12.38,300,-66.38,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,0.09696825396825397,0.09696825396825397,9.7,300,-73.66,llama,musique,answerable
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,0.09363492063492063,0.09363492063492063,9.36,300,-74.57,llama,musique,answerable

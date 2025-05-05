@@ -1,0 +1,20 @@
+configuration,model,family,dataset,super_category,% improvement,source_file
+L,"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",gemma,musique,unanswerable,16.67,musique_gemma_unanswerable_20250504_132431.csv
+O1,"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",gemma,musique,unanswerable,12.67,musique_gemma_unanswerable_20250504_132431.csv
+K,"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",gemma,musique,unanswerable,12.67,musique_gemma_unanswerable_20250504_132431.csv
+P1,"gemma-2-2b_duplication_[(22,2)]",gemma,musique,unanswerable,7.78,musique_gemma_unanswerable_20250504_132431.csv
+S,"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",gemma,musique,unanswerable,-4.44,musique_gemma_unanswerable_20250504_132431.csv
+N,"gemma-2-2b_duplication_[(12,3),(15,3)]",gemma,musique,unanswerable,-5.56,musique_gemma_unanswerable_20250504_132431.csv
+B,"gemma-2-2b_duplication_[(13,2)]",gemma,musique,unanswerable,-6.67,musique_gemma_unanswerable_20250504_132431.csv
+K1,"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",gemma,musique,unanswerable,-12.22,musique_gemma_unanswerable_20250504_132431.csv
+H,"gemma-2-2b_duplication_[(12,1),(13,1)]",gemma,musique,unanswerable,-14.44,musique_gemma_unanswerable_20250504_132431.csv
+O,"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",gemma,musique,unanswerable,-16.67,musique_gemma_unanswerable_20250504_132431.csv
+O,"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",llama,musique,unanswerable,53.04,musique_llama_unanswerable_20250504_132430.csv
+M,"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",llama,musique,unanswerable,45.22,musique_llama_unanswerable_20250504_132430.csv
+L,"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",llama,musique,unanswerable,40.0,musique_llama_unanswerable_20250504_132430.csv
+H,"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",llama,musique,unanswerable,20.0,musique_llama_unanswerable_20250504_132430.csv
+N,"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",llama,musique,unanswerable,18.26,musique_llama_unanswerable_20250504_132430.csv
+F,"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",llama,musique,unanswerable,15.65,musique_llama_unanswerable_20250504_132430.csv
+D,"Meta-Llama-3-8B_duplication_[(0,5)]",llama,musique,unanswerable,15.65,musique_llama_unanswerable_20250504_132430.csv
+C,"Meta-Llama-3-8B_duplication_[(13,5)]",llama,musique,unanswerable,14.78,musique_llama_unanswerable_20250504_132430.csv
+K,"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",llama,musique,unanswerable,10.43,musique_llama_unanswerable_20250504_132430.csv

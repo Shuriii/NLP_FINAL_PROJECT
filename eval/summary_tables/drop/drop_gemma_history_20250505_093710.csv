@@ -1,0 +1,34 @@
+model,configuration,position,technique,size,continuous,average_f1_percent,average_f1,average_f1_percent,total_evaluated,% improvement,family,dataset,super_category
+gemma-2-9b,original,,,,,63.820,0.638,63.820,350,187.950,gemma,drop,history
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,23.060,0.231,23.060,350,4.040,gemma,drop,history
+gemma-2-2b,original,,,,,22.160,0.222,22.160,350,0.000,gemma,drop,history
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,21.480,0.215,21.480,350,-3.080,gemma,drop,history
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,20.350,0.204,20.350,350,-8.160,gemma,drop,history
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,19.590,0.196,19.590,350,-11.620,gemma,drop,history
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,19.350,0.194,19.350,350,-12.670,gemma,drop,history
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,19.350,0.193,19.350,350,-12.700,gemma,drop,history
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,18.490,0.185,18.490,350,-16.550,gemma,drop,history
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,18.020,0.180,18.020,350,-18.680,gemma,drop,history
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,16.800,0.168,16.800,350,-24.200,gemma,drop,history
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,16.490,0.165,16.490,350,-25.580,gemma,drop,history
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,16.490,0.165,16.490,350,-25.580,gemma,drop,history
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,16.450,0.164,16.450,350,-25.780,gemma,drop,history
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,15.880,0.159,15.880,350,-28.350,gemma,drop,history
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,15.350,0.153,15.350,350,-30.750,gemma,drop,history
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,15.060,0.151,15.060,350,-32.040,gemma,drop,history
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,14.970,0.150,14.970,350,-32.460,gemma,drop,history
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,13.710,0.137,13.710,350,-38.160,gemma,drop,history
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,13.630,0.136,13.630,350,-38.480,gemma,drop,history
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,13.050,0.131,13.050,350,-41.100,gemma,drop,history
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,12.010,0.120,12.010,350,-45.800,gemma,drop,history
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,11.120,0.111,11.120,350,-49.830,gemma,drop,history
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,10.310,0.103,10.310,350,-53.470,gemma,drop,history
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,10.160,0.102,10.160,350,-54.170,gemma,drop,history
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,9.580,0.096,9.580,350,-56.790,gemma,drop,history
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,9.480,0.095,9.480,350,-57.230,gemma,drop,history
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,9.290,0.093,9.290,350,-58.080,gemma,drop,history
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,9.090,0.091,9.090,350,-58.970,gemma,drop,history
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,8.700,0.087,8.700,350,-60.760,gemma,drop,history
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,8.370,0.084,8.370,350,-62.240,gemma,drop,history
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,8.290,0.083,8.290,350,-62.610,gemma,drop,history
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,8.160,0.082,8.160,350,-63.190,gemma,drop,history

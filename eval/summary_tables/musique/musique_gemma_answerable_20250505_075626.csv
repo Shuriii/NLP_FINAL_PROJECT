@@ -1,0 +1,30 @@
+model,configuration,position,technique,size,continuous,average_f1,average_f1,average_f1_percent,total_evaluated,% improvement,family,dataset,super_category
+gemma-2-9b,original,,,,,0.4701537999037999,0.4701537999037999,47.02,300,59.2,gemma,musique,answerable
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,0.3330658595000701,0.3330658595000701,33.31,300,12.78,gemma,musique,answerable
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,0.3167959166632792,0.3167959166632792,31.68,300,7.27,gemma,musique,answerable
+"gemma-2-2b_duplication_[(22,3),(25,3)]",R,last,blocks,medium,True,0.2984810899165193,0.2984810899165193,29.85,300,1.07,gemma,musique,answerable
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,0.2964826578650108,0.2964826578650108,29.65,300,0.39,gemma,musique,answerable
+gemma-2-2b,original,,,,,0.2953228503522622,0.2953228503522622,29.53,300,0.0,gemma,musique,answerable
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",S,last,in place,small,True,0.26542925685658497,0.26542925685658497,26.54,300,-10.12,gemma,musique,answerable
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,0.258315916500127,0.258315916500127,25.83,300,-12.53,gemma,musique,answerable
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,0.24731335915546443,0.24731335915546443,24.73,300,-16.26,gemma,musique,answerable
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,0.239592399363089,0.239592399363089,23.96,300,-18.87,gemma,musique,answerable
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,0.2361976218037357,0.2361976218037357,23.62,300,-20.02,gemma,musique,answerable
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,0.2162273352390045,0.2162273352390045,21.62,300,-26.78,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,0.20008861614821366,0.20008861614821366,20.01,300,-32.25,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,0.19891114802423288,0.19891114802423288,19.89,300,-32.65,gemma,musique,answerable
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,0.19854820079298965,0.19854820079298965,19.85,300,-32.77,gemma,musique,answerable
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",L,middle,in place,small,True,0.18693033509700174,0.18693033509700174,18.69,300,-36.7,gemma,musique,answerable
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,0.18630393571570036,0.18630393571570036,18.63,300,-36.92,gemma,musique,answerable
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,0.18474369830074555,0.18474369830074555,18.47,300,-37.44,gemma,musique,answerable
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,0.17732342645073815,0.17732342645073815,17.73,300,-39.96,gemma,musique,answerable
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,0.17726678876678872,0.17726678876678872,17.73,300,-39.98,gemma,musique,answerable
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,0.16921952570530918,0.16921952570530918,16.92,300,-42.7,gemma,musique,answerable
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,0.1326075233573451,0.1326075233573451,13.26,300,-55.1,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,0.12810995784857448,0.12810995784857448,12.81,300,-56.62,gemma,musique,answerable
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,0.1275578991738859,0.1275578991738859,12.76,300,-56.81,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,0.10667335675596545,0.10667335675596545,10.67,300,-63.88,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,0.10625186057220513,0.10625186057220513,10.63,300,-64.02,gemma,musique,answerable
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,0.10556224564485434,0.10556224564485434,10.56,300,-64.26,gemma,musique,answerable
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,0.08263676683545193,0.08263676683545193,8.26,300,-72.02,gemma,musique,answerable
+"gemma-2-2b_duplication_[(21,7)]",Q,last,blocks,big,False,0.07428203428857882,0.07428203428857882,7.43,300,-74.85,gemma,musique,answerable

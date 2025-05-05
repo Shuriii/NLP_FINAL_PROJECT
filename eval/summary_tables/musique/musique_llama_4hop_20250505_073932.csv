@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,family,dataset,super_category,average_f1,average_f1_percent,total_evaluated,% improvement
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,4hop,0.08125,8.12,80,-80.65
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,4hop,0.13402777777777777,13.4,80,-68.08
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,4hop,0.14551168952429458,14.55,80,-65.34
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,4hop,0.24791261744388388,24.79,80,-40.95
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,4hop,0.24874999999999997,24.87,80,-40.75
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,4hop,0.2603149068322982,26.03,80,-37.99
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,4hop,0.29375,29.38,80,-30.03
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,4hop,0.2970926744332919,29.71,80,-29.23
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,4hop,0.33625,33.62,80,-19.91
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,4hop,0.4054166666666667,40.54,80,-3.43
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,4hop,0.4125,41.25,80,-1.74
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,4hop,0.41541666666666666,41.54,80,-1.05
+Meta-Llama-3-8B,original,,,,,llama,musique,4hop,0.4198214285714286,41.98,80,0.0
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,4hop,0.42440476190476184,42.44,80,1.09
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,4hop,0.425,42.5,80,1.23
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,4hop,0.42857142857142855,42.86,80,2.08
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,4hop,0.4341666666666667,43.42,80,3.42
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,4hop,0.44607142857142856,44.61,80,6.25
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,4hop,0.4594047619047619,45.94,80,9.43

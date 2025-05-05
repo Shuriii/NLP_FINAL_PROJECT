@@ -1,0 +1,3 @@
+configuration,model,family,dataset,super_category,% improvement,source_file
+S,"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",gemma,musique,2hop,1.44,musique_gemma_2hop_20250504_132431.csv
+L,"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",llama,musique,2hop,2.16,musique_llama_2hop_20250504_132430.csv

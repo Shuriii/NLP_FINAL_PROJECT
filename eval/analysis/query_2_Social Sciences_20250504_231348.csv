@@ -1,0 +1,5 @@
+configuration,model,family,dataset,super_category,% improvement,source_file
+P1,"gemma-2-2b_duplication_[(22,2)]",gemma,mmlu,Social Sciences,1.37,mmlu_gemma_Social_Sciences_20250504_132430.csv
+L,"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",gemma,mmlu,Social Sciences,1.37,mmlu_gemma_Social_Sciences_20250504_132430.csv
+C,"Meta-Llama-3-8B_duplication_[(13,5)]",llama,mmlu,Social Sciences,2.33,mmlu_llama_Social_Sciences_20250504_132430.csv
+P,"Meta-Llama-3-8B_duplication_[(28,2)]",llama,mmlu,Social Sciences,1.16,mmlu_llama_Social_Sciences_20250504_132430.csv

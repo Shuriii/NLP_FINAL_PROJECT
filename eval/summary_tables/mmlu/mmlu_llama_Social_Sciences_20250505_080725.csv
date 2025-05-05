@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,accuracy,total,correct,accuracy_percent,% improvement,family,dataset,super_category
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,0.800,110,88,80.000,2.330,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,0.791,110,87,79.090,1.160,llama,mmlu,Social_Sciences
+Meta-Llama-3-8B,original,,,,,0.782,110,86,78.180,0.000,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,0.782,110,86,78.180,0.000,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,0.782,110,86,78.180,0.000,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,0.773,110,85,77.270,-1.160,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,0.773,110,85,77.270,-1.160,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,0.773,110,85,77.270,-1.160,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,0.773,110,85,77.270,-1.160,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,0.773,110,85,77.270,-1.160,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,0.764,110,84,76.360,-2.330,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,0.764,110,84,76.360,-2.330,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,0.764,110,84,76.360,-2.330,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,0.755,110,83,75.450,-3.490,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,0.736,110,81,73.640,-5.810,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,0.609,110,67,60.910,-22.090,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,0.582,110,64,58.180,-25.580,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,0.564,110,62,56.360,-27.910,llama,mmlu,Social_Sciences
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,0.545,110,60,54.550,-30.230,llama,mmlu,Social_Sciences

@@ -1,0 +1,385 @@
+
+
+{
+  "model_id_map": {
+    "1": "gemma-2-2b",
+    "2": "gemma-2-2b_duplication_[(0,1),(25,1)]",
+    "3": "gemma-2-2b_duplication_[(12,1),(13,1)]",
+    "4": "gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",
+    "5": "gemma-2-2b_duplication_[(0,3),(22,3)]",
+    "6": "gemma-2-2b_duplication_[(0,4)]",
+    "7": "gemma-2-2b_duplication_[(10,5)]",
+    "8": "gemma-2-2b_duplication_[(11,3)]",
+    "9": "gemma-2-2b_duplication_[(13,2)]",
+    "10": "gemma-2-2b_duplication_[(22,4)]",
+    "11": "gemma-2-9b",
+
+    "13": "Meta-Llama-3-8B",
+    "14": "Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",
+    "15": "Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",
+    "16": "Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",
+    "17": "Meta-Llama-3-8B_duplication_[(0,5)]",
+    "18": "Meta-Llama-3-8B_duplication_[(13,5)]",
+    "19": "Meta-Llama-3-8B_duplication_[(14,3)]",
+    "20": "Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",
+    "21": "Meta-Llama-3-8B_duplication_[(16,2)]",
+    "22": "Meta-Llama-3-8B_duplication_[(27,5)]",
+
+    "24": "Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",
+    "25": "gemma-2-2b_duplication_[(24,2)]",
+    "26": "gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",
+    "27": "gemma-2-2b_duplication_[(22,3),(25,1)]",
+    "28": "gemma-2-2b_duplication_[(21,5)]",
+    "29": "gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",
+    "30": "gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",
+    "31": "gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",
+    "32": "gemma-2-2b_duplication_[(12,3),(15,3)]",
+    "33": "gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",
+    "34": "Meta-Llama-3-8B_duplication_[(28,2)]",
+    "35": "Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",
+    "36": "Meta-Llama-3-8B_duplication_[(25,7)]",
+    "37": "Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",
+    "38": "Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",
+    "39": "Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",
+    "40": "Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",
+    "41": "Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",
+    "42": "gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",
+    "43": "gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",
+    "44": "gemma-2-2b_duplication_[(20,3),(23,3)]",
+    "45": "gemma-2-2b_duplication_[(22,2)]",
+    "46": "gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",
+    "47": "gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",
+    "48": "gemma-2-2b_duplication_[(11,3),(14,3)]",
+    "49": "gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",
+    "50": "gemma-2-2b_duplication_[(19,7)]",
+    "51": "gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",
+    "52": "Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",
+    "53": "gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",
+    "54": "Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",
+    "55": "gemma-2-2b_duplication_[(12,2)]",
+    "56": "Meta-Llama-3-8B_duplication_[(13,2)]",
+    "57": "gemma-2-2b_duplication_[(11,3),(17,3)]",
+    "58": "Meta-Llama-3-8B_duplication_[(12,3),(18,3)]"
+
+
+
+  },
+
+"pending": {
+
+},
+  "model_config_map": {
+    "gemma-2-2b": "original",
+    "gemma-2-2b_duplication_[(0,1),(25,1)]": "G",
+    "gemma-2-2b_duplication_[(12,1),(13,1)]": "H",
+    "gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]": "I",
+    "gemma-2-2b_duplication_[(0,3),(22,3)]": "F",
+    "gemma-2-2b_duplication_[(0,4)]": "D",
+    "gemma-2-2b_duplication_[(10,5)]": "C",
+    "gemma-2-2b_duplication_[(11,3)]": "A",
+    "gemma-2-2b_duplication_[(13,2)]": "B",
+    "gemma-2-2b_duplication_[(22,4)]": "E",
+    "gemma-2-9b": "original",
+    "Meta-Llama-3-8B": "original",
+    "Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]": "I",
+    "Meta-Llama-3-8B_duplication_[(0,1),(31,1)]": "G",
+    "Meta-Llama-3-8B_duplication_[(0,4),(27,4)]": "F",
+    "Meta-Llama-3-8B_duplication_[(0,5)]": "D",
+    "Meta-Llama-3-8B_duplication_[(13,5)]": "C",
+    "Meta-Llama-3-8B_duplication_[(14,3)]": "A",
+    "Meta-Llama-3-8B_duplication_[(15,1),(16,1)]": "H",
+    "Meta-Llama-3-8B_duplication_[(16,2)]": "B",
+    "Meta-Llama-3-8B_duplication_[(27,5)]": "E",
+    "Meta-Llama-3-70B": "original",
+    "Meta-Llama-3-8B_duplication_[(26,3),(29,3)]": "R",
+    "gemma-2-2b_duplication_[(24,2)]": "P",
+    "gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]": "S",
+    "gemma-2-2b_duplication_[(22,3),(25,1)]": "R",
+    "gemma-2-2b_duplication_[(21,5)]": "Q",
+    "gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]": "M",
+    "gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]": "O",
+    "gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]": "L",
+    "gemma-2-2b_duplication_[(12,3),(15,3)]": "N",
+    "gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]": "K",
+
+    "gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]": "S1",
+    "gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]": "M1",
+    "gemma-2-2b_duplication_[(20,3),(23,3)]": "R1",
+    "gemma-2-2b_duplication_[(22,2)]": "P1",
+    "gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]": "K1",
+    "gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]": "L1",
+    "gemma-2-2b_duplication_[(11,3),(14,3)]": "N1",
+    "gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]": "O1",
+    "gemma-2-2b_duplication_[(19,7)]": "Q1",
+
+    "Meta-Llama-3-8B_duplication_[(28,2)]": "P",
+    "Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]": "S",
+    "Meta-Llama-3-8B_duplication_[(25,7)]": "Q",
+    "Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]": "M",
+    "Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]": "O",
+    "Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]": "L",
+    "Meta-Llama-3-8B_duplication_[(14,3),(17,3)]": "N",
+    "Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]": "K",
+    "gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]": "T",
+    "Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]": "T",
+    "gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]": "U",
+    "Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]": "U",
+    "gemma-2-2b_duplication_[(12,2)]": "V",
+    "Meta-Llama-3-8B_duplication_[(13,2)]": "V",
+    "gemma-2-2b_duplication_[(11,3),(17,3)]": "W",
+    "Meta-Llama-3-8B_duplication_[(12,3),(18,3)]": "W"
+
+  },
+  "configuration_attribute_map": {
+    "A": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": false
+    },
+    "B": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "medium",
+      "continuous": false
+    },
+    "C": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "big",
+      "continuous": false
+    },
+    "D": {
+      "position": [
+        "first"
+      ],
+      "technique": "blocks",
+      "size": "big",
+      "continuous": false
+    },
+    "E": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": false
+    },
+    "F": {
+      "position": [
+        "first",
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": false
+    },
+    "G": {
+      "position": [
+        "first",
+        "last"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": false
+    },
+    "H": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "I": {
+      "position": [
+        "first",
+        "middle",
+        "last"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": false
+    },
+    "original": {
+      "position": [],
+      "technique": null,
+      "size": null,
+      "continuous": null
+    },
+    "K": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "L": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "M": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": true
+    },
+    "N": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": true
+    },
+    "O": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": true
+    },
+    "P": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": false
+    },
+    "Q": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "big",
+      "continuous": false
+    },
+    "R": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": true
+    },
+    "S": {
+      "position": [
+        "last"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "K1": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "L1": {
+      "position": [
+        "middle"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+    "M1": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": true
+    },
+    "N1": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": true
+    },
+    "O1": {
+      "position": [
+        "middle"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": true
+    },
+    "P1": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "small",
+      "continuous": false
+    },
+    "Q1": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "big",
+      "continuous": false
+    },
+    "R1": {
+      "position": [
+        "last"
+      ],
+      "technique": "blocks",
+      "size": "medium",
+      "continuous": true
+    },
+    "S1": {
+      "position": [
+        "last"
+      ],
+      "technique": "in place",
+      "size": "small",
+      "continuous": true
+    },
+      "T": {
+    "position": ["middle"],
+    "technique": "in place",
+    "size": "small",
+    "continuous": true
+      },
+      "U": {
+        "position": ["middle"],
+        "technique": "in place",
+        "size": "small",
+        "continuous": false
+      },
+      "V": {
+        "position": ["middle"],
+        "technique": "blocks",
+        "size": "small",
+        "continuous": false
+      },
+      "W": {
+        "position": ["middle"],
+        "technique": "blocks",
+        "size": "medium",
+        "continuous": false
+      }
+  }
+ }

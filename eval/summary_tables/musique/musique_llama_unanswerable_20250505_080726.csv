@@ -1,0 +1,20 @@
+model,configuration,position,technique,size,continuous,average_f1,average_f1,average_f1_percent,total_evaluated,% improvement,family,dataset,super_category
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,0.880,0.880,88.000,200,53.040,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,0.835,0.835,83.500,200,45.220,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,0.805,0.805,80.500,200,40.000,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,0.690,0.690,69.000,200,20.000,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,0.680,0.680,68.000,200,18.260,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,0.665,0.665,66.500,200,15.650,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,0.665,0.665,66.500,200,15.650,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,0.660,0.660,66.000,200,14.780,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,0.635,0.635,63.500,200,10.430,llama,musique,unanswerable
+Meta-Llama-3-8B,original,,,,,0.575,0.575,57.500,200,0.000,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,0.490,0.490,49.000,200,-14.780,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,0.405,0.405,40.500,200,-29.570,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,0.405,0.405,40.500,200,-29.570,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,0.235,0.235,23.500,200,-59.130,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,0.180,0.180,18.000,200,-68.700,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,0.160,0.160,16.000,200,-72.170,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,0.105,0.105,10.500,200,-81.740,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,0.086,0.086,8.580,200,-85.080,llama,musique,unanswerable
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,0.040,0.040,4.000,200,-93.040,llama,musique,unanswerable
