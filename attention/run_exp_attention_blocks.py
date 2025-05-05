@@ -9,7 +9,6 @@ import json
 from datetime import datetime
 is_large = False
 num_layers_original = 0
-
 model_to_samples = {
     "gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]": [723, 90],
     "Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]": [726],
@@ -17,9 +16,11 @@ model_to_samples = {
     "Meta-Llama-3-8B_duplication_[(13,5)]": [153],
     "gemma-2-2b_duplication_[(22,2)]": [335, 312],
     "Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]": [312, 505],
-    "gemma-2-2b_duplication_[(10,5)]": [1022]
+    "gemma-2-2b_duplication_[(10,5)]": [1022],
+    "gemma-2-2b": [723, 90, 335, 312, 1022],
+    "Meta-Llama-3-8B": [726, 90, 153, 312, 505]
+    
 }
-
 
 def duplicate_layers(model, duplication_instructions, device):
     """Duplicate specific layers in the model according to the instructions."""

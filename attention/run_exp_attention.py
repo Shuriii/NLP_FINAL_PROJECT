@@ -17,8 +17,12 @@ model_to_samples = {
     "Meta-Llama-3-8B_duplication_[(13,5)]": [153],
     "gemma-2-2b_duplication_[(22,2)]": [335, 312],
     "Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]": [312, 505],
-    "gemma-2-2b_duplication_[(10,5)]": [1022]
+    "gemma-2-2b_duplication_[(10,5)]": [1022],
+    "gemma-2-2b": [723, 90, 335, 312, 1022],
+    "Meta-Llama-3-8B": [726, 90, 153, 312, 505]
+    
 }
+
 
 
 def duplicate_layers(model, duplication_instructions, device):
