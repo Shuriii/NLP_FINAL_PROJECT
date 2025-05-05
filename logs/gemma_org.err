@@ -1,0 +1,4 @@
+python: can't open file '/vol/joberant_nobck/data/NLP_368307701_2425a/sharonsaban/NLP_FINAL_PROJECT/run_exp_attention.py': [Errno 2] No such file or directory
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 1151428 to init root cgroup (null)
