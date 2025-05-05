@@ -169,7 +169,7 @@ def main():
         # search for the json files in the dataset folder
         # open the dataset folder and load the json files dont use load disk
         print("loading dataset")
-        dataset_path =  f"../data_sets/{dataset_name}/input_prompt_samples/"
+        dataset_path =  f"data_sets/{dataset_name}/input_prompt_samples/"
         if os.path.exists(dataset_path):
             for file in os.listdir(dataset_path):
                 if file.endswith(".json"):
