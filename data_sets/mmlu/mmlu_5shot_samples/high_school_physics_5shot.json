@@ -1,0 +1,57 @@
+[
+  {
+    "question": "If L, M, and T denote the dimensions of length, mass, and time, respectively, what are the dimensions of power?",
+    "choices": [
+      "(L^2)M/T^2",
+      "(M^2)L/T^2",
+      "(L^2)M/T^3",
+      "M(L^2)/T^3"
+    ],
+    "answer": 3,
+    "subject": "high_school_physics"
+  },
+  {
+    "question": "A pair of protective headphones reduces the sound of a jet engine from 140 dB to 110 dB. What percent of the noise is being blocked?",
+    "choices": [
+      "99.90%",
+      "78.60%",
+      "21.40%",
+      "0.10%"
+    ],
+    "answer": 0,
+    "subject": "high_school_physics"
+  },
+  {
+    "question": "An object initially at rest experiences a time-varying acceleration given by a = (2 m/s^3)t for t \u2265 0. How far does the object travel in the first 3 seconds?",
+    "choices": [
+      "9 m",
+      "12 m",
+      "18 m",
+      "24 m"
+    ],
+    "answer": 0,
+    "subject": "high_school_physics"
+  },
+  {
+    "question": "An arrow is aimed horizontally, directly at the center of a target 20 m away. The arrow hits 0.050 m below the center of the target. Neglecting air resistance, what was the initial speed of the arrow?",
+    "choices": [
+      "20 m/s",
+      "40 m/s",
+      "100 m/s",
+      "200 m/s"
+    ],
+    "answer": 3,
+    "subject": "high_school_physics"
+  },
+  {
+    "question": "You have a wire of length L, radius Q, and resistance Q. You need to obtain half that resistance using the same material and changing only one factor. You could",
+    "choices": [
+      "use half the length",
+      "use twice the length",
+      "use half the radius",
+      "use twice the radius"
+    ],
+    "answer": 0,
+    "subject": "high_school_physics"
+  }
+]

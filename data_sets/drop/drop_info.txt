@@ -1,0 +1,18 @@
+Preparing Prompts for the DROP Dataset
+
+We accessed the DROP dataset via Hugging Face: https://huggingface.co/datasets/drop.
+
+DROP is a reading comprehension benchmark requiring discrete numerical reasoning over paragraphs. The questions are drawn from two domains: history and American football (NFL). To build our evaluation set, we sampled 500 examples from the validation split while preserving the original distribution between the two topics.
+
+For few-shot prompting, we selected 5 examples per topic (history and NFL) from the training split. These examples were chosen based on the shortest total character length (question + passage), in order to keep the input prompt as compact as possible.
+
+After sampling, we used a custom script to reformat all data into a JSON format suitable for input to language models. This included appending the following instruction prompt at the beginning of each input:
+
+
+"You are a reading comprehension assistant.
+For each example, you are given a passage and a question.
+Base your answer solely on the information in the passage.
+Answer as concisely as possible, using only a few words or a number.
+Each final sample included this intro, five topic-specific few-shot examples, and a target question. We also added metadata such as topic (history or NFL) and a unique research_id to each entry to support analysis and reproducibility."
+
+Distribution: [for more details, see entry_distribution.txt]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "In Python 3, let r = lambda q: q * 2. What is r(3)?",
+    "choices": [
+      "2",
+      "6",
+      "3",
+      "1"
+    ],
+    "answer": 1,
+    "subject": "high_school_computer_science"
+  },
+  {
+    "question": "Which types of functions grow the slowest?",
+    "choices": [
+      "O(N^(1/2))",
+      "O(N^(1/4))",
+      "O(N^(1/N))",
+      "O(N)"
+    ],
+    "answer": 2,
+    "subject": "high_school_computer_science"
+  },
+  {
+    "question": "Which is a valid expression in Python 3.5?",
+    "choices": [
+      "sort('ab')",
+      "sorted('ab')",
+      "\"ab\".sort()",
+      "1/0"
+    ],
+    "answer": 1,
+    "subject": "high_school_computer_science"
+  },
+  {
+    "question": "In Python 3, which of the following function removes all leading and trailing whitespace in string?",
+    "choices": [
+      "replace(old, new [, max])",
+      "strip([chars])",
+      "swapcase()",
+      "title()"
+    ],
+    "answer": 1,
+    "subject": "high_school_computer_science"
+  },
+  {
+    "question": "Consider the following segment of code.\n String word = \"conflagration\";\n int x = word.indexOf(\"flag\");\n String s = word.substring(0, x);\n What will be the result of executing the above segment?",
+    "choices": [
+      "String s will be the empty string.",
+      "String s will contain \"flag\".",
+      "String s will contain \"conf\".",
+      "String s will contain \"con\"."
+    ],
+    "answer": 3,
+    "subject": "high_school_computer_science"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "According to Kant, the basis of morality is the concept of:",
+    "choices": [
+      "charity.",
+      "fairness.",
+      "piety.",
+      "freedom."
+    ],
+    "answer": 3,
+    "subject": "philosophy"
+  },
+  {
+    "question": "Aquinas argues that every agent acts for the sake of:",
+    "choices": [
+      "pleasure.",
+      "self-interest.",
+      "pleasing God.",
+      "an end."
+    ],
+    "answer": 3,
+    "subject": "philosophy"
+  },
+  {
+    "question": "Socrates suggests that the holy is one part of:",
+    "choices": [
+      "what is prudent.",
+      "what is just.",
+      "what is beautiful.",
+      "what is legal."
+    ],
+    "answer": 1,
+    "subject": "philosophy"
+  },
+  {
+    "question": "Augustine claims that to save another person from injury, it is permissible to:",
+    "choices": [
+      "lie.",
+      "steal.",
+      "both a and b.",
+      "neither a nor. b."
+    ],
+    "answer": 3,
+    "subject": "philosophy"
+  },
+  {
+    "question": "Brandt views his rule-utilitarianism as a:",
+    "choices": [
+      "normative ethical thesis.",
+      "metaethical thesis.",
+      "purely descriptive thesis.",
+      "both a and b."
+    ],
+    "answer": 0,
+    "subject": "philosophy"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which number system has a base of 16",
+    "choices": [
+      "Decimal",
+      "Octal",
+      "Hexadecimal",
+      "None"
+    ],
+    "answer": 2,
+    "subject": "electrical_engineering"
+  },
+  {
+    "question": "A digital circuit that can store on bit is a",
+    "choices": [
+      "XOR gate",
+      "flip-flop",
+      "gate",
+      "registor"
+    ],
+    "answer": 1,
+    "subject": "electrical_engineering"
+  },
+  {
+    "question": "Which one of the following is not a vectored interrupt?",
+    "choices": [
+      "TRAP.",
+      "RST 7.5.",
+      "RST 6.5.",
+      "INTR."
+    ],
+    "answer": 3,
+    "subject": "electrical_engineering"
+  },
+  {
+    "question": "A capacitor carries a charge of 0.1 C at 5 V. Its capacitance is",
+    "choices": [
+      "0.02 F",
+      "0.5 F",
+      "0.05 F",
+      "0.2 F"
+    ],
+    "answer": 0,
+    "subject": "electrical_engineering"
+  },
+  {
+    "question": "A combinational PLD with a programmable AND array and a fixed OR array is called a",
+    "choices": [
+      "PLD",
+      "PROM",
+      "PAL",
+      "PLA"
+    ],
+    "answer": 2,
+    "subject": "electrical_engineering"
+  }
+]

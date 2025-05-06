@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the following controls body temperature, sleep, and appetite?",
+    "choices": [
+      "Adrenal glands",
+      "Hypothalamus",
+      "Pancreas",
+      "Thalamus"
+    ],
+    "answer": 1,
+    "subject": "anatomy"
+  },
+  {
+    "question": "Which of the following is flexible connective tissue that is attached to bones at the joints?",
+    "choices": [
+      "Adipose",
+      "Cartilage",
+      "Epithelial",
+      "Muscle"
+    ],
+    "answer": 1,
+    "subject": "anatomy"
+  },
+  {
+    "question": "Which of the following terms describes the body's ability to maintain its normal state?",
+    "choices": [
+      "Anabolism",
+      "Catabolism",
+      "Tolerance",
+      "Homeostasis"
+    ],
+    "answer": 3,
+    "subject": "anatomy"
+  },
+  {
+    "question": "The trachea",
+    "choices": [
+      "lies deep to the oesophagus.",
+      "lies superficial to the oesophagus.",
+      "is totally enclosed by cartilaginous rings.",
+      "divides at the thoracic inlet."
+    ],
+    "answer": 1,
+    "subject": "anatomy"
+  },
+  {
+    "question": "Smooth muscle cells contain",
+    "choices": [
+      "actin but not myosin.",
+      "myosin but not actin.",
+      "actin and myosin arranged irregularly.",
+      "actin and myosin arranged in parallel arrays."
+    ],
+    "answer": 2,
+    "subject": "anatomy"
+  }
+]

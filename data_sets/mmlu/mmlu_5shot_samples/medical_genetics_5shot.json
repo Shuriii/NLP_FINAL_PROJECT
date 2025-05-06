@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Marfan syndrome is caused by mutations in the gene which encodes _______.",
+    "choices": [
+      "Collagen",
+      "Dystrophin",
+      "Elastin",
+      "Fibrillin"
+    ],
+    "answer": 3,
+    "subject": "medical_genetics"
+  },
+  {
+    "question": "The presence of an extra digit is referred to as __________.",
+    "choices": [
+      "arachnodactyly",
+      "brachydactyly",
+      "clinodactyly",
+      "polydactyly"
+    ],
+    "answer": 3,
+    "subject": "medical_genetics"
+  },
+  {
+    "question": "Repeat core sequences consisting of 2, 3, or 4 base pairs are known as what?",
+    "choices": [
+      "Single nucleotide polymorphisms (SNPs)",
+      "Microsatellites",
+      "Minisatellites",
+      "Satellites"
+    ],
+    "answer": 1,
+    "subject": "medical_genetics"
+  },
+  {
+    "question": "Mutations which occur in body cells which do not go on to form gametes can be classified as:",
+    "choices": [
+      "auxotrophic mutations",
+      "somatic mutations",
+      "morphological mutations",
+      "oncogenes"
+    ],
+    "answer": 1,
+    "subject": "medical_genetics"
+  },
+  {
+    "question": "If an autosomal recessive disorder which shows Hardy-Weinberg equilibrium has an incidence of 1 in 6400 then the frequency of carriers is approximately _______.",
+    "choices": [
+      "1 in 20",
+      "1 in 40",
+      "1 in 80",
+      "1 in 160"
+    ],
+    "answer": 1,
+    "subject": "medical_genetics"
+  }
+]

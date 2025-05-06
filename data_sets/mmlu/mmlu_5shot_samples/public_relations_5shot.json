@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Where was the first British newspaper printed?",
+    "choices": [
+      "London",
+      "Oxford",
+      "Manchester",
+      "Edinburgh"
+    ],
+    "answer": 1,
+    "subject": "public_relations"
+  },
+  {
+    "question": "Which of these is NOT a type of research that could be used for the purposes of evaluation?",
+    "choices": [
+      "Media content analysis",
+      "Survey",
+      "Behaviour study",
+      "Media release"
+    ],
+    "answer": 2,
+    "subject": "public_relations"
+  },
+  {
+    "question": "Which term describes stakeholders who are unaware of their connection to an organization with respect to a particular issue?",
+    "choices": [
+      "Non-publics",
+      "Latent publics",
+      "Inactive publics",
+      "Complacent publics"
+    ],
+    "answer": 1,
+    "subject": "public_relations"
+  },
+  {
+    "question": "________ are strategies associated with developing positive relationships between an organization and its public.",
+    "choices": [
+      "Community relations",
+      "Public relations",
+      "Organizational relations",
+      "Consumer relations"
+    ],
+    "answer": 0,
+    "subject": "public_relations"
+  },
+  {
+    "question": "What is the primary public relations activity in financial relations?",
+    "choices": [
+      "Measuring investor opinions toward the company",
+      "Producing the annual report",
+      "Making arrangements and preparing materials for financial meetings",
+      "Writing and disseminating financial news releases"
+    ],
+    "answer": 1,
+    "subject": "public_relations"
+  }
+]

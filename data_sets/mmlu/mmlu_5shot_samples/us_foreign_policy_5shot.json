@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Who is considered the \u201cfather\u201d of containment?",
+    "choices": [
+      "George Kennan",
+      "John Foster Dulles",
+      "Henry Kissinger",
+      "Dwight Eisenhower"
+    ],
+    "answer": 0,
+    "subject": "us_foreign_policy"
+  },
+  {
+    "question": "According to Realists, what accounts for the onset of the Cold War?",
+    "choices": [
+      "Ideological differences",
+      "A power vacuum",
+      "The expansionist nature of the Soviet Union",
+      "Both b and c"
+    ],
+    "answer": 3,
+    "subject": "us_foreign_policy"
+  },
+  {
+    "question": "Which factor is cited by Revisionists as the primary cause of the Cold War?",
+    "choices": [
+      "The threat posed by the Soviet Union",
+      "Domestic concerns of the US",
+      "Soviet ideology",
+      "None of the above"
+    ],
+    "answer": 1,
+    "subject": "us_foreign_policy"
+  },
+  {
+    "question": "What is meant by a grand strategy of 'primacy'?",
+    "choices": [
+      "Assurance of US parity with other powers",
+      "Striving for American dominance in the international system",
+      "Putting America's interests first",
+      "Promotion of America as the world's first democracy"
+    ],
+    "answer": 1,
+    "subject": "us_foreign_policy"
+  },
+  {
+    "question": "How did relations with Russia develop under George H.W. Bush?",
+    "choices": [
+      "Cautious support for Gorbachev and Yeltsin",
+      "Unreserved support for Gorbachev and Yeltsin",
+      "Denouncement of Gorbachev, but support for Yeltsin",
+      "Denouncement of Gorbachev and Yeltsin"
+    ],
+    "answer": 0,
+    "subject": "us_foreign_policy"
+  }
+]

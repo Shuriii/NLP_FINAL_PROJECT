@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Presbyopia refers to loss of:",
+    "choices": [
+      "far vision.",
+      "near vision.",
+      "color vision.",
+      "depth perception."
+    ],
+    "answer": 1,
+    "subject": "professional_psychology"
+  },
+  {
+    "question": "Pro bono services are:",
+    "choices": [
+      "legal and ethical.",
+      "legal but unethical.",
+      "illegal but ethical.",
+      "illegal and unethical."
+    ],
+    "answer": 0,
+    "subject": "professional_psychology"
+  },
+  {
+    "question": "The first stage in Cross\u2019s (1991) Black Racial Identity Development Model is:",
+    "choices": [
+      "conformity.",
+      "incorporation.",
+      "contact.",
+      "pre-encounter."
+    ],
+    "answer": 3,
+    "subject": "professional_psychology"
+  },
+  {
+    "question": "The seat of higher cortical functioning is typically associated with the ___________.",
+    "choices": [
+      "Temporal lobe",
+      "Frontal lobe",
+      "Occipital lobe",
+      "Hippocampus"
+    ],
+    "answer": 1,
+    "subject": "professional_psychology"
+  },
+  {
+    "question": "Pro bono work is:",
+    "choices": [
+      "required by the Ethics Code.",
+      "encouraged by the Ethics Code.",
+      "prohibited by the Ethics Code.",
+      "not addressed by the Ethics Code."
+    ],
+    "answer": 1,
+    "subject": "professional_psychology"
+  }
+]

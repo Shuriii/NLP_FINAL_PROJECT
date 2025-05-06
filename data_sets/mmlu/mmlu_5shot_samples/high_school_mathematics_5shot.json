@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Compute $i+i^2+i^3+\\cdots+i^{258}+i^{259}$.",
+    "choices": [
+      "-1",
+      "1",
+      "i",
+      "0"
+    ],
+    "answer": 0,
+    "subject": "high_school_mathematics"
+  },
+  {
+    "question": "What is the minimum value of $a^2+6a-7$?",
+    "choices": [
+      "-30",
+      "-12",
+      "-7",
+      "-16"
+    ],
+    "answer": 3,
+    "subject": "high_school_mathematics"
+  },
+  {
+    "question": "How many positive cubes divide $3!\\cdot 5!\\cdot 7!\\,$?",
+    "choices": [
+      "6",
+      "4",
+      "3",
+      "1"
+    ],
+    "answer": 0,
+    "subject": "high_school_mathematics"
+  },
+  {
+    "question": "Divide $11$ by the reciprocal of $1815 \\div 11$.",
+    "choices": [
+      "111",
+      "1815",
+      "121",
+      "68"
+    ],
+    "answer": 1,
+    "subject": "high_school_mathematics"
+  },
+  {
+    "question": "Let $h(4x-1) = 2x + 7$. For what value of $x$ is $h(x) = x$?",
+    "choices": [
+      "420",
+      "69",
+      "7",
+      "15"
+    ],
+    "answer": 3,
+    "subject": "high_school_mathematics"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Suppose that observations are available on the monthly bond prices of 100 companies for 5 years. What type of data are these?",
+    "choices": [
+      "Cross-sectional",
+      "Time-series",
+      "Panel",
+      "Qualitative"
+    ],
+    "answer": 2,
+    "subject": "econometrics"
+  },
+  {
+    "question": "If a researcher uses daily data to examine a particular problem and creates a variable that assigns a numerical value of 1 to Monday observations, what term would best describe this type of number?",
+    "choices": [
+      "Continuous",
+      "Cardinal",
+      "Ordinal",
+      "Nominal"
+    ],
+    "answer": 3,
+    "subject": "econometrics"
+  },
+  {
+    "question": "Suppose that a test that the true value of the intercept coefficient is zero results in non-rejection. What would be the appropriate conclusion?",
+    "choices": [
+      "Drop the intercept and re-run the regression",
+      "Retain the intercept",
+      "Re-compute the test statistic",
+      "The regression line is running exactly through the origin"
+    ],
+    "answer": 1,
+    "subject": "econometrics"
+  },
+  {
+    "question": "An \"ex ante\" forecasting model is one which",
+    "choices": [
+      "Includes only contemporaneous values of variables on the RHS",
+      "Includes only contemporaneous and previous values of variables on the RHS",
+      "Includes only previous values of variables on the RHS",
+      "Includes only contemporaneous values of exogenous variables on the RHS"
+    ],
+    "answer": 2,
+    "subject": "econometrics"
+  },
+  {
+    "question": "If a threshold autoregressive (TAR) model is termed a \"SETAR\", what must be true about it?",
+    "choices": [
+      "It must follow a Markov process",
+      "The model must contain only two regimes",
+      "The state-determining variable must be the variable being modelled",
+      "The number of lagged variables on the RHS of the equations for each regime must be the same"
+    ],
+    "answer": 2,
+    "subject": "econometrics"
+  }
+]

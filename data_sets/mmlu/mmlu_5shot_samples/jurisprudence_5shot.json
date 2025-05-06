@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Who was the first jurist to study comparative aspect of law?",
+    "choices": [
+      "Savigny",
+      "Austin",
+      "Kelsen",
+      "Maine"
+    ],
+    "answer": 3,
+    "subject": "jurisprudence"
+  },
+  {
+    "question": "Which one of the following doctrines is not associated with Natural Law thinking",
+    "choices": [
+      "Doctrine of substituted security",
+      "Doctrine of due process",
+      "Doctrine of bias",
+      "Doctrine of reasonableness"
+    ],
+    "answer": 0,
+    "subject": "jurisprudence"
+  },
+  {
+    "question": "State legislatures often delegate lawmaking authority to local government bodies, including cities and municipalities, counties, school districts, water districts, and such. These governmental units are empowered to adopt ________.",
+    "choices": [
+      "ordinances",
+      "executive orders",
+      "federal statutes",
+      "charters"
+    ],
+    "answer": 0,
+    "subject": "jurisprudence"
+  },
+  {
+    "question": "Which proposition below can be characterized as the most powerful refutation of Bentham's argument in support of codification?",
+    "choices": [
+      "The law is too complex to be codified.",
+      "Codification ossifies the law.",
+      "Bentham fails to take account of the criminal law.",
+      "Significant portions of the law are already codified."
+    ],
+    "answer": 0,
+    "subject": "jurisprudence"
+  },
+  {
+    "question": "What is meant by 'asking the women question'?",
+    "choices": [
+      "Encouraging women to be more assertive.",
+      "Enquiring of men why they oppress women.",
+      "Seeking answers from women about their experience of discrimination.",
+      "Attempting to expose the gender consequence of rules and practices that may seem to be objective or neutral."
+    ],
+    "answer": 3,
+    "subject": "jurisprudence"
+  }
+]

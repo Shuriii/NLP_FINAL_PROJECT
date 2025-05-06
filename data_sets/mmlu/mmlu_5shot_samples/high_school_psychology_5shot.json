@@ -1,0 +1,57 @@
+[
+  {
+    "question": "All of the following are examples of secondary drives EXCEPT",
+    "choices": [
+      "recreation",
+      "sex",
+      "approval",
+      "friendship"
+    ],
+    "answer": 1,
+    "subject": "high_school_psychology"
+  },
+  {
+    "question": "Which of the following drugs is classified as a stimulant?",
+    "choices": [
+      "alcohol",
+      "nicotine",
+      "heroin",
+      "phencyclidine"
+    ],
+    "answer": 1,
+    "subject": "high_school_psychology"
+  },
+  {
+    "question": "Which of the following newborn reflexes help infants find and eat food?",
+    "choices": [
+      "Babinski",
+      "Moro",
+      "atttachment",
+      "rooting"
+    ],
+    "answer": 3,
+    "subject": "high_school_psychology"
+  },
+  {
+    "question": "Stimulation of norepinephrine receptors appears to produce",
+    "choices": [
+      "euphoria",
+      "increased motor activity",
+      "alertness",
+      "anxiety"
+    ],
+    "answer": 2,
+    "subject": "high_school_psychology"
+  },
+  {
+    "question": "Which psychoactive drugs are most frequently prescribed to relieve pain?",
+    "choices": [
+      "stimulants",
+      "depressants",
+      "antidepressants",
+      "narcotics"
+    ],
+    "answer": 3,
+    "subject": "high_school_psychology"
+  }
+]

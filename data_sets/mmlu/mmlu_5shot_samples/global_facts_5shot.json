@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Total global healthcare expenditure is about what percentage of global GDP as of 2017?",
+    "choices": [
+      "1%",
+      "2%",
+      "5%",
+      "10%"
+    ],
+    "answer": 3,
+    "subject": "global_facts"
+  },
+  {
+    "question": "In 1948 how many Americans believed the Kinsey Report on Sexuality in the Male to be a bad thing?",
+    "choices": [
+      "92%",
+      "64%",
+      "27%",
+      "11%"
+    ],
+    "answer": 3,
+    "subject": "global_facts"
+  },
+  {
+    "question": "As of 2014, about what percentage of primary aged children in Sub-Saharan Africa were out-of-school?",
+    "choices": [
+      "10%",
+      "20%",
+      "35%",
+      "50%"
+    ],
+    "answer": 1,
+    "subject": "global_facts"
+  },
+  {
+    "question": "After the Atom bomb how many Americans support giving aid to Japan even at the cost of food shortages?",
+    "choices": [
+      "33%",
+      "50%",
+      "66%",
+      "85%"
+    ],
+    "answer": 2,
+    "subject": "global_facts"
+  },
+  {
+    "question": "As of 2020, about what percentage of the population in Sub-Saharan Africa, is living on less than $1.90?",
+    "choices": [
+      "10%",
+      "20%",
+      "40%",
+      "80%"
+    ],
+    "answer": 2,
+    "subject": "global_facts"
+  }
+]

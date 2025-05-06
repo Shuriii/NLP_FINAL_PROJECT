@@ -1,0 +1,57 @@
+[
+  {
+    "question": "The anhydride of Ba(OH)2 is",
+    "choices": [
+      "BaH2",
+      "BaOH",
+      "Ba",
+      "BaO"
+    ],
+    "answer": 3,
+    "subject": "college_chemistry"
+  },
+  {
+    "question": "The 13C spectrum of which isomer of C6H14 has lines with three distinct chemical shifts?",
+    "choices": [
+      "hexane",
+      "2-methylpentane",
+      "3-methylpentane",
+      "2,3-dimethylbutane"
+    ],
+    "answer": 0,
+    "subject": "college_chemistry"
+  },
+  {
+    "question": "Reduction of D-xylose with NaBH4 yields a product that is a",
+    "choices": [
+      "racemic mixture",
+      "single pure enantiomer",
+      "mixture of two diastereomers in equal amounts",
+      "meso compound"
+    ],
+    "answer": 3,
+    "subject": "college_chemistry"
+  },
+  {
+    "question": "Which of the following is true for Br2 at standard temperature and pressure?",
+    "choices": [
+      "It is a colorless gas.",
+      "It is a red-brown volatile liquid.",
+      "It is a colorless volatile liquid.",
+      "It is a yellow metallic solid."
+    ],
+    "answer": 1,
+    "subject": "college_chemistry"
+  },
+  {
+    "question": "Calculate the polarization of a proton in a magnetic field of 335 mT and 10.5 T at 298 K.",
+    "choices": [
+      "6.345 x 10^-4 at 0.335 T; 9.871 x 10^-5 at 10.5 T",
+      "0.793 x 10^-4 at 0.335 T; 6.931 x 10^-7 at 10.5 T",
+      "1.148 x 10^-6 at 0.335 T; 3.598 x 10^-5 at 10.5 T",
+      "4.126 x 10^-3 at 0.335 T; 2.142 x 10^-6 at 10.5 T"
+    ],
+    "answer": 3,
+    "subject": "college_chemistry"
+  }
+]

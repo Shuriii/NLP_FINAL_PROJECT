@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many 'true' movements are available at the hip?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "subject": "clinical_knowledge"
+  },
+  {
+    "question": "The coding sequences of genes are called:",
+    "choices": [
+      "extrons.",
+      "exons.",
+      "introns.",
+      "codons."
+    ],
+    "answer": 1,
+    "subject": "clinical_knowledge"
+  },
+  {
+    "question": "How long can a long-term catheter stay in situ?",
+    "choices": [
+      "4 weeks.",
+      "7 weeks.",
+      "12 weeks.",
+      "20 weeks."
+    ],
+    "answer": 2,
+    "subject": "clinical_knowledge"
+  },
+  {
+    "question": "Who set the world record for the mile race in 1886?",
+    "choices": [
+      "R Bannister",
+      "S Coe",
+      "J DiMaggio",
+      "WG George"
+    ],
+    "answer": 3,
+    "subject": "clinical_knowledge"
+  },
+  {
+    "question": "Stridor is described as:",
+    "choices": [
+      "A wheezing sound.",
+      "A gurgling sound.",
+      "A rattling sound.",
+      "A high-pitched sound."
+    ],
+    "answer": 3,
+    "subject": "clinical_knowledge"
+  }
+]

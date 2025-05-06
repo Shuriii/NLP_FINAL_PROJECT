@@ -1,0 +1,57 @@
+[
+  {
+    "question": "In which situation would a Defendant not be held to the standard of care of a reasonable person?",
+    "choices": [
+      "Defendant is deaf, and is accused of being negligent in failing to heed a warning bell.",
+      "Defendant has poor judgment.",
+      "Defendant is hot-tempered and damaged property in a tantrum.",
+      "Defendant has an I.Q. of 85."
+    ],
+    "answer": 0,
+    "subject": "professional_law"
+  },
+  {
+    "question": "When a life tenant fails to protect or preserve their land, permissive waste occurs. What is a life tenant not obligated to do?",
+    "choices": [
+      "Preserve the land and structures in a reasonable state of repair.",
+      "Pay interest on mortgages.",
+      "Pay ordinary taxes on the land.",
+      "Is responsible for damages caused by third-party tortfeasor."
+    ],
+    "answer": 3,
+    "subject": "professional_law"
+  },
+  {
+    "question": "A breeder of dogs induced a purchaser to buy a puppy by representing that it was a registered basset hound, when in fact the breeder knew it was a mixed breed. The purchaser later discovered that the representation was false. She wants to sue to disaffirm the contract and get a refund. What legal theory would be best applicable to decide this case?",
+    "choices": [
+      "Unconscionability.",
+      "Breach of warranty.",
+      "Fraudulent inducement.",
+      "Fraud in the factum."
+    ],
+    "answer": 2,
+    "subject": "professional_law"
+  },
+  {
+    "question": "Suzy, a member of the sandbaggers, is mad about the general state of affairs and is itching to sue the federal government. Which of the following would enable her to have standing to do so?",
+    "choices": [
+      "She has been or will be directly and personally injured by the government action, which affects her rights under the federal law.",
+      "A decision in her favor would resolve her grievance.",
+      "As a citizen, she can claim that government action violates federal law.",
+      "a and b"
+    ],
+    "answer": 3,
+    "subject": "professional_law"
+  },
+  {
+    "question": "Client is claiming self defense in the killing of another. What is not usually true about when deadly force is available?",
+    "choices": [
+      "One must retreat before using deadly force, if it can be done safely, unless the defendant is in his or her home when confronted by an intruder.",
+      "One need not attempt to escape before using deadly force.",
+      "Deadly force should not be used if it is out of proportion to the amount of force reasonably needed under the circumstances.",
+      "Self defense is generally available to the initial aggressor."
+    ],
+    "answer": 3,
+    "subject": "professional_law"
+  }
+]

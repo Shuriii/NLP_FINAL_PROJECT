@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the last stage in the \"coming out\" process?",
+    "choices": [
+      "Integration",
+      "Relationship Development",
+      "Segregation",
+      "Exploration"
+    ],
+    "answer": 0,
+    "subject": "human_sexuality"
+  },
+  {
+    "question": "Which of the following drugs inhibits sexual performance by activating the sympathetic system?",
+    "choices": [
+      "alcohol",
+      "cocaine",
+      "marijuana",
+      "opium"
+    ],
+    "answer": 1,
+    "subject": "human_sexuality"
+  },
+  {
+    "question": "IUD use has been linked with which of the following",
+    "choices": [
+      "pelvic inflammatory disease",
+      "tubal infections",
+      "uterine infections",
+      "all of the above"
+    ],
+    "answer": 3,
+    "subject": "human_sexuality"
+  },
+  {
+    "question": "Vaginal lubrication begins __________ after the onset of arousing stimuli",
+    "choices": [
+      "10 to 30 seconds",
+      "30 to 60 seconds",
+      "1 to 2 minutes",
+      "2 to 4 minutes"
+    ],
+    "answer": 0,
+    "subject": "human_sexuality"
+  },
+  {
+    "question": "In adulthood, exhibitionists",
+    "choices": [
+      "are typically psychiatrically disturbed",
+      "are unassertive",
+      "have excellent social skills",
+      "have fulfilling sex lives"
+    ],
+    "answer": 1,
+    "subject": "human_sexuality"
+  }
+]

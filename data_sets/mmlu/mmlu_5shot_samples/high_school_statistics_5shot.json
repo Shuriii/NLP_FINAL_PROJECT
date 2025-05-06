@@ -1,0 +1,57 @@
+[
+  {
+    "question": "In the correlation coefficient r = 0.78, what percentage of variation in y is explained by the linear regression model?",
+    "choices": [
+      "22%",
+      "39%",
+      "44%",
+      "61%"
+    ],
+    "answer": 3,
+    "subject": "high_school_statistics"
+  },
+  {
+    "question": "Jonathan obtained a score of 80 on a statistics exam, placing him at the 90th percentile. Suppose five points are added to everyone's score. Jonathan's new score will be at the",
+    "choices": [
+      "80th percentile.",
+      "85th percentile.",
+      "90th percentile.",
+      "95th percentile."
+    ],
+    "answer": 2,
+    "subject": "high_school_statistics"
+  },
+  {
+    "question": "In sample surveys, what is meant by bias?",
+    "choices": [
+      "A systematic error in a sampling method that leads to an unrepresentative sample.",
+      "Prejudice, as in ethnic and gender-related studies.",
+      "Natural variability seen between samples.",
+      "Tendency for some distributions to be skewed."
+    ],
+    "answer": 0,
+    "subject": "high_school_statistics"
+  },
+  {
+    "question": "What are the mean and standard deviation of a binomial experiment that occurs with probability of success 0.76 and is repeated 150 times?",
+    "choices": [
+      "114, 27.35",
+      "100.5, 5.23",
+      "114, 5.23",
+      "The mean is 114, but there is not enough information given to determine the standard deviation."
+    ],
+    "answer": 3,
+    "subject": "high_school_statistics"
+  },
+  {
+    "question": "Two variables, xand y, seem to be exponentially related. The natural logarithm of each yvalue is taken and the least-squares regression line of ln(y) on xis determined to be ln(y) = 3.2 + 0.42x. What is the predicted value of ywhen x= 7?",
+    "choices": [
+      "464.05",
+      "1380384.27",
+      "521.35",
+      "6.14"
+    ],
+    "answer": 0,
+    "subject": "high_school_statistics"
+  }
+]

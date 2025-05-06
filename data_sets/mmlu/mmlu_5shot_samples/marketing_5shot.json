@@ -1,0 +1,57 @@
+[
+  {
+    "question": "An electronic version of the spoken endorsement of an offering is known as:",
+    "choices": [
+      "Viral marketing.",
+      "Social media marketing.",
+      "Electronic marketing.",
+      "Digital marketing."
+    ],
+    "answer": 0,
+    "subject": "marketing"
+  },
+  {
+    "question": "___________ act as cues by indicating to a potential customer that there is a bargain to be had.",
+    "choices": [
+      "Odd-number pricing.",
+      "Sale signs.",
+      "Relative price.",
+      "Price surplus."
+    ],
+    "answer": 1,
+    "subject": "marketing"
+  },
+  {
+    "question": "Which of the following terms refers specifically to marketing goods directly to the consumer in the home?",
+    "choices": [
+      "Comparison shopping",
+      "Consignment",
+      "Direct selling",
+      "Merchandising"
+    ],
+    "answer": 2,
+    "subject": "marketing"
+  },
+  {
+    "question": "Supply chain management (SCM) embraces four main activities. Which of the following is NOT one of the activities?",
+    "choices": [
+      "Fulfilment.",
+      "Transportation",
+      "Customer services.",
+      "Stock management"
+    ],
+    "answer": 2,
+    "subject": "marketing"
+  },
+  {
+    "question": "Considering what the audiences' communications needs and engaging with them using one-way, two-way, or dialogic communications is referred to as:",
+    "choices": [
+      "Engagement.",
+      "Responses.",
+      "Advertisement.",
+      "Publicity."
+    ],
+    "answer": 0,
+    "subject": "marketing"
+  }
+]

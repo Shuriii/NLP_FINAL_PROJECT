@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Scientific management involved:",
+    "choices": [
+      "the subdivision of labour into small tasks",
+      "the measurement and specification of work tasks",
+      "motivation and rewards for productivity",
+      "all of the above"
+    ],
+    "answer": 3,
+    "subject": "sociology"
+  },
+  {
+    "question": "The 1944 Education Act provided:",
+    "choices": [
+      "state elementary education for all",
+      "free secondary education for all",
+      "public schooling for those who could afford it",
+      "assisted places in public schools for those on low incomes"
+    ],
+    "answer": 1,
+    "subject": "sociology"
+  },
+  {
+    "question": "Which of these changes did not occur during the 'sexual revolution' of the 1960s?",
+    "choices": [
+      "a growing fear of HIV and AIDS, fuelled by the New Right",
+      "divorce law reforms",
+      "the availability of oral contraception",
+      "the recognition of women's sexual pleasure"
+    ],
+    "answer": 0,
+    "subject": "sociology"
+  },
+  {
+    "question": "Which of these trends did the New Right not suggest as evidence of declining family values?",
+    "choices": [
+      "the tendency for cohabitation before marriage",
+      "the rising divorce rate",
+      "the absence of fathers in many households",
+      "the increasing number of single parent families"
+    ],
+    "answer": 0,
+    "subject": "sociology"
+  },
+  {
+    "question": "Disciplinary power was exercised in the 19th century factories by:",
+    "choices": [
+      "the use of corporal punishment by employers",
+      "excluding women from participating in waged labour",
+      "punctuality, uninterrupted work and the threat of dismissal",
+      "making routine tasks less monotonous"
+    ],
+    "answer": 2,
+    "subject": "sociology"
+  }
+]

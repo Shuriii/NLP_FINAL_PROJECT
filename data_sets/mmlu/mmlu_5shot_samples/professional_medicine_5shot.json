@@ -1,0 +1,57 @@
+[
+  {
+    "question": "A 52-year-old woman begins pharmacotherapy after being diagnosed with type 2 diabetes mellitus. Four weeks later, her hepatic glucose output is decreased, and target tissue glucose uptake and utilization are increased. Which of the following drugs was most likely prescribed for this patient?",
+    "choices": [
+      "Acarbose",
+      "Glyburide",
+      "Metformin",
+      "Nateglinide"
+    ],
+    "answer": 2,
+    "subject": "professional_medicine"
+  },
+  {
+    "question": "A grossly obese 65-year-old male presents to the office with tingling and painful itching in the anterolateral region of the thigh. The patient loses weight, and the symptoms disappear. This paresthesia is most consistent with compression of the",
+    "choices": [
+      "anterior femoral cutaneous nerve",
+      "genitofemoral nerve",
+      "iliohypogastric nerve",
+      "lateral femoral cutaneous nerve"
+    ],
+    "answer": 3,
+    "subject": "professional_medicine"
+  },
+  {
+    "question": "A 56-year-old man comes to the emergency department because of a 4-day history of colicky right flank pain that radiates to the groin and hematuria. Ultrasound examination of the kidneys shows right-sided hydronephrosis and a dilated ureter. Which of the following is most likely to be found on urinalysis?",
+    "choices": [
+      "Glucose",
+      "Leukocyte casts",
+      "Oval fat bodies",
+      "Uric acid crystals"
+    ],
+    "answer": 3,
+    "subject": "professional_medicine"
+  },
+  {
+    "question": "A 25-year-old female is admitted to the hospital for the evaluation of fainting spells, which have been occurring several times a day for 10\u00a0days. These occur without warning and are not associated with any injury. The patient is evaluated during one of these falls, manifesting no change in heart rate, blood pressure, or color. Neurologic examination findings are normal. The most likely diagnosis is",
+    "choices": [
+      "basilar migraine",
+      "cardioinhibitory syncope",
+      "malingering",
+      "vasodepressor syncope"
+    ],
+    "answer": 2,
+    "subject": "professional_medicine"
+  },
+  {
+    "question": "For 8 weeks, a 52-year-old man with a 5-year history of type 2 diabetes mellitus has had deep burning pain in the ball of his right foot and big toe when the foot is raised above chest concentration. He also has cramping in his right calf when he walks more than 50 feet. He has smoked two packs of cigarettes daily for 30 years. Femoral pulses are palpable; pedal pulses are absent. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Aortoiliac stenosis",
+      "Femoral popliteal stenosis",
+      "Mononeuropathy",
+      "Vasculitis"
+    ],
+    "answer": 1,
+    "subject": "professional_medicine"
+  }
+]

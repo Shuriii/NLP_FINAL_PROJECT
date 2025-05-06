@@ -1,0 +1,72 @@
+[
+  {
+    "section_id": "nfl_2238",
+    "query_id": "300773eb-7f90-4e83-ada5-bf627e71033f",
+    "passage": "After starting 0-13 and looking most likely to become the second team in NFL history to go 0-16 after the 2008 Detroit Lions, the Colts would finally win a game. Having a career day, Donald Brown and a strong defense would deny Tennessee any hope of a win as the team improved to 1-13, allowing them to avoid becoming the third team in NFL history to finish a season winless, after the 2008 Detroit Lions and the 1976 Tampa Bay Buccaneers.",
+    "question": "Which team won the game?",
+    "answers_spans": {
+      "spans": [
+        "Colts"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "nfl_2639",
+    "query_id": "3d60b5b0-c398-49bd-885f-54c5c5420ab2",
+    "passage": "For the second straight week, the Jets would not score a touchdown, as they managed only 3 points in a 23-3 loss to Miami. Geno Smith did not start in this game, as he was benched and replaced by Matt Simms. Simms would not do much of a better job, as he, like Smith, failed to throw a touchdown pass. Smith would come in later on, but would only go 4 for 10 throwing the ball and ended with a passer rating of 8.3. With the loss, the Jets fell to 5-7.",
+    "question": "Who was 23-3",
+    "answers_spans": {
+      "spans": [
+        "the Jets"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "nfl_2699",
+    "query_id": "421cbcfc-c936-45a5-902c-03f59bd59724",
+    "passage": "The Steelers dominated the first half, and the Browns trailed 27-3 at halftime. However, the Browns scored 24 straight points in the second half to tie the game at 27-27. The comeback attempt fell short as Steelers K Shaun Suisham kicked a 41-yard game-winning field goal as time expired. With the loss, the Browns lost their tenth straight season opener, setting an NFL record. It was also their eleventh consecutive road loss to the Steelers.",
+    "question": "Was the game ever tied?",
+    "answers_spans": {
+      "spans": [
+        "tie the game at 27-27"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "nfl_3091",
+    "query_id": "80b0ffdb-ebfa-4e23-b50e-df5c137ffb27",
+    "passage": "The Panthers went into the fourth quarter with a 17-3 lead over the Chiefs but things changed when Cairo Santos kicked a field goal, and Eric Berry had a pick six. Santos makes another field goal, tying the game at 17. In the Panthers' last possession of the game, the ball was stripped out of Kelvin Benjamin's hands and Kansas City gets the ball back. Santos makes the game-winning field goal for the Chiefs, and the Panthers fall to 3-6.",
+    "question": "Which team came out on top?",
+    "answers_spans": {
+      "spans": [
+        "the Chiefs"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "nfl_3061",
+    "query_id": "17425265-7bea-490b-8e0b-48b2dba01ea6",
+    "passage": "Prior to kickoff, the game was delayed due to the turf being caught on fire, coming from the fireworks. The Rams struggled offensively and defensively all game long.  The defense, for the most part, sacked Ben Roethlisberger until he left the game with an apparent knee injury. Michael Vick took over for the rest of the game. Late in the fourth quarter Kenny Britt's catch was overturned. The Steelers would go on to stun the Rams, 12-6.",
+    "question": "Whose defense was disappointing?",
+    "answers_spans": {
+      "spans": [
+        "The Rams"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  }
+]

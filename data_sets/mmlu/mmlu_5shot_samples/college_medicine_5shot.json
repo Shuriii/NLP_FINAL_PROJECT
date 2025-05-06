@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many chromosomes do all human somatic cells contain?",
+    "choices": [
+      "3",
+      "20",
+      "23",
+      "46"
+    ],
+    "answer": 3,
+    "subject": "college_medicine"
+  },
+  {
+    "question": "An allele that is masked is referred to as:",
+    "choices": [
+      "recessive.",
+      "redundant.",
+      "repressed.",
+      "reclusive."
+    ],
+    "answer": 0,
+    "subject": "college_medicine"
+  },
+  {
+    "question": "The recommended dose of creatine to load the muscles of a 70 kg man within one week is:",
+    "choices": [
+      "2 g/day.",
+      "5 g/day.",
+      "10 g/day.",
+      "20 g/day."
+    ],
+    "answer": 3,
+    "subject": "college_medicine"
+  },
+  {
+    "question": "In all-out exercise such as sprinting the first fibre types to fatigue are the:",
+    "choices": [
+      "Type I fibres.",
+      "Type Ia fibres.",
+      "Type IIa fibres.",
+      "Type IIX fibres."
+    ],
+    "answer": 3,
+    "subject": "college_medicine"
+  },
+  {
+    "question": "The two principal contractile proteins found in skeletal muscle are:",
+    "choices": [
+      "actin and troponin.",
+      "actin and myosin.",
+      "troponin and tropomyosin.",
+      "myosin and tropomyosin."
+    ],
+    "answer": 1,
+    "subject": "college_medicine"
+  }
+]

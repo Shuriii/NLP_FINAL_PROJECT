@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many people are estimated to be living with HIV/AIDS worldwide?",
+    "choices": [
+      "Below 20 million",
+      "20-30 million",
+      "30-40 million",
+      "40-50 million"
+    ],
+    "answer": 2,
+    "subject": "security_studies"
+  },
+  {
+    "question": "What is the network form of organization?",
+    "choices": [
+      "Collaboration between individuals is often ad hoc and transitory; networks are formed and disbanded as circumstances warrant.",
+      "Networks have a decentralized, 'flat' organizational form.",
+      "The 'network' offers the most efficacious compromise between profit-maximizing and risk-minimizing structural forms.",
+      "All of these options."
+    ],
+    "answer": 3,
+    "subject": "security_studies"
+  },
+  {
+    "question": "Which of the following is not a motivation for utilising aid as an economic policy for security?",
+    "choices": [
+      "To reward recipients for the cessation of negative behaviour, such as human rights abuses.",
+      "To incentivise recipients to act in ways beneficial to the donor.",
+      "Compassion for the human suffering of others.",
+      "To influence recipients or potential recipients through granting or denying aid."
+    ],
+    "answer": 2,
+    "subject": "security_studies"
+  },
+  {
+    "question": "Which of the following is not an advantage of cooperation between states?",
+    "choices": [
+      "Potential for arms control and unilateral restraint.",
+      "Improvement of political relationships between states.",
+      "To appear cooperative is to appear as a 'security seeker', thus encouraging further cooperation from neighbour states.",
+      "Cooperation between states eradicates the propensity for states to cheat on agreements such as arms control or disarmament deals."
+    ],
+    "answer": 3,
+    "subject": "security_studies"
+  },
+  {
+    "question": "How should Security Studies be studied?",
+    "choices": [
+      "An examination of the social processes by which people construct a threat, taking into account the importance of ideational factors such as culture, beliefs, norms, ideas and identity.",
+      "Concern about the moral and ethical dimensions of international affairs.",
+      "The separation of fact and value to generate theoretically grounded hypotheses, which can then be tested against evidence.",
+      "None of the above."
+    ],
+    "answer": 3,
+    "subject": "security_studies"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "If the reserve requirement is 2 percent then the money multiplier is",
+    "choices": [
+      "5",
+      "5 percent",
+      "50",
+      "50 percent"
+    ],
+    "answer": 2,
+    "subject": "high_school_macroeconomics"
+  },
+  {
+    "question": "Gross Domestic Product is a close approximation of",
+    "choices": [
+      "national income",
+      "societal welfare",
+      "the consumer price index",
+      "the GDP deflator"
+    ],
+    "answer": 0,
+    "subject": "high_school_macroeconomics"
+  },
+  {
+    "question": "According to the way in which economists use the word the bulk of \"investment\" is done by",
+    "choices": [
+      "households.",
+      "businesses.",
+      "government.",
+      "foreigners."
+    ],
+    "answer": 1,
+    "subject": "high_school_macroeconomics"
+  },
+  {
+    "question": "A decline in the demand for money could be the result of",
+    "choices": [
+      "higher prices.",
+      "more money placed in checking accounts.",
+      "higher returns on bonds.",
+      "more credit cards."
+    ],
+    "answer": 2,
+    "subject": "high_school_macroeconomics"
+  },
+  {
+    "question": "The standard of living will increase if",
+    "choices": [
+      "everyone works harder.",
+      "the population grows.",
+      "GDP increases.",
+      "real GDP increases at a greater rate than the population."
+    ],
+    "answer": 3,
+    "subject": "high_school_macroeconomics"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "An organism with a lobed thallus, rhizoids, and gemmae is a",
+    "choices": [
+      "moss",
+      "liverwort",
+      "fern",
+      "mushroom"
+    ],
+    "answer": 1,
+    "subject": "college_biology"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of an oligotrophic lake?",
+    "choices": [
+      "Low nutrient levels",
+      "High altitudes",
+      "Shallow water",
+      "Sand or gravel bottom"
+    ],
+    "answer": 2,
+    "subject": "college_biology"
+  },
+  {
+    "question": "Which of the following provides visual evidence of genetic recombination during meiosis?",
+    "choices": [
+      "Centromeres",
+      "Synaptonemal complexes",
+      "Haploid nuclei",
+      "Chiasmata"
+    ],
+    "answer": 3,
+    "subject": "college_biology"
+  },
+  {
+    "question": "Which of the following sets of reactions occurs in the stroma of the chloroplast in plant cells?",
+    "choices": [
+      "Calvin cycle",
+      "Krebs cycle",
+      "Fermentation",
+      "Decarboxylation"
+    ],
+    "answer": 0,
+    "subject": "college_biology"
+  },
+  {
+    "question": "A plant that possesses swimming sperm, xylem with tracheids, independent gametophyte and sporophyte phases, and no seeds is probably most closely related to",
+    "choices": [
+      "mosses",
+      "pines",
+      "ferns",
+      "liverworts"
+    ],
+    "answer": 2,
+    "subject": "college_biology"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the price of a two-year bond (face value $100), paying 4% coupons semi-annually, with a yield of 8%?",
+    "choices": [
+      "93.01",
+      "92.87",
+      "100.28",
+      "80.13"
+    ],
+    "answer": 0,
+    "subject": "professional_accounting"
+  },
+  {
+    "question": "The cost of debt most frequently is measured as",
+    "choices": [
+      "Actual interest rate.",
+      "Actual interest rate adjusted for inflation.",
+      "Actual interest rate plus a risk premium.",
+      "Actual interest rate minus tax savings."
+    ],
+    "answer": 3,
+    "subject": "professional_accounting"
+  },
+  {
+    "question": "An overfunded single-employer defined benefit postretirement plan should be recognized in a classified statement of financial position as a",
+    "choices": [
+      "Noncurrent liability.",
+      "Current liability.",
+      "Noncurrent asset.",
+      "Current asset."
+    ],
+    "answer": 2,
+    "subject": "professional_accounting"
+  },
+  {
+    "question": "In the formula k_e = (D_1/P_0) + g, what does g represent?",
+    "choices": [
+      "the expected price appreciation yield from a common stock.",
+      "the expected dividend yield from a common stock.",
+      "the dividend yield from a preferred stock.",
+      "the interest payment from a bond."
+    ],
+    "answer": 0,
+    "subject": "professional_accounting"
+  },
+  {
+    "question": "A company has just issued convertible bonds with $1,000 par value and a conversion ratio of 40. Which of the following is most likely to be the market price per share of the company's common stock at present?",
+    "choices": [
+      "Under $25.",
+      "$25.00",
+      "Between $25 and $30.",
+      "Above $30."
+    ],
+    "answer": 0,
+    "subject": "professional_accounting"
+  }
+]

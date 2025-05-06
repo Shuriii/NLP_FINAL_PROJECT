@@ -1,0 +1,31 @@
+
+### Preparing Prompts for the MuSiQue Dataset
+
+We sampled 500 examples from the DEV set of the MuSiQue dataset, as we did not have access to gold answers for the test set. The original dataset can be found here:
+
+https://github.com/StonyBrookNLP/musique/tree/main
+
+To run the code you need to download the data sets and save it in the "musique_original" folder. 
+
+
+From the validation data, we randomly selected 300 answerable and 200 unanswerable questions. Each example in MuSiQue consists of a question and 20 associated paragraphs, including both relevant (supporting) and irrelevant (distractor) passages. To ensure that input prompts remained within model token limits, we fixed the number of paragraphs per example to 6. We included all 2–4 supporting paragraphs (depending on whether the sample was a 2-hop, 3-hop, or 4-hop question) and completed the set of 6 by selecting the shortest remaining distractors. This approach preserved necessary context while minimizing total input length.
+
+For few-shot prompting, we constructed 5 custom examples manually. These were based on shorter passages but designed to reflect the core structure and reasoning expected in MuSiQue-style questions. Below is the instruction prompt used:
+
+You are given several paragraphs from Wikipedia and a question.
+
+You should:
+
+* Find the paragraph(s) that are relevant to answering the question.
+* Ignore irrelevant paragraphs.
+* If multiple facts are needed, combine them carefully.
+* Answer the question using as few words as possible, ideally a single phrase.
+* Only answer if the answer is explicitly stated in the paragraphs.
+* If the information is not in the paragraphs, write "unanswerable".
+
+Here are some examples:
+\[...see prompt file for full examples...]
+
+Each sampled example was reformatted into a standardized JSON format compatible with our inference pipeline. This included attaching metadata such as `research_id`, the answer string, and paragraph-question structure.
+
+The full list of sampled examples and their metadata can be found in the corresponding JSON files within this folder.

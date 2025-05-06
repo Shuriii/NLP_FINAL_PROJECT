@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Let f(X) = if x = 1 then 0 else [x * f(x - 1) + x**2]. The value of f(4) is",
+    "choices": [
+      "53",
+      "29",
+      "50",
+      "100"
+    ],
+    "answer": 3,
+    "subject": "college_computer_science"
+  },
+  {
+    "question": "Suppose it takes 1 second to factor a general 100 x 100 matrix using Gaussian elimination. Of the following, which is the best estimate of the number of seconds it will take to factor a 500 x 500 matrix based on the relative dimensions?",
+    "choices": [
+      "5",
+      "10",
+      "25",
+      "125"
+    ],
+    "answer": 3,
+    "subject": "college_computer_science"
+  },
+  {
+    "question": "Which of the following evaluation strategies must be defined in order to execute a logic program on a sequential machine?\nI. Evaluation order of rules\nII. Evaluation order of clauses\nIII. Evaluation order of arguments in each clause",
+    "choices": [
+      "II only",
+      "I and II only",
+      "I and III only",
+      "I, II, and III"
+    ],
+    "answer": 3,
+    "subject": "college_computer_science"
+  },
+  {
+    "question": "Consider the following possible data structures for a set of n distinct integers.\nI. A min-heap\nII. An array of length n sorted in increasing order\nIII. A balanced binary search tree\nFor which of these data structures is the number of steps needed to find and remove the 7th largest element O(log n) in the worst case?",
+    "choices": [
+      "I only",
+      "II only",
+      "I and II",
+      "II and III"
+    ],
+    "answer": 3,
+    "subject": "college_computer_science"
+  },
+  {
+    "question": "Church's thesis equates the concept of \"computable function\" with those functions computable by, for example, Turing machines. Which of the following is true of Church's thesis?",
+    "choices": [
+      "It was first proven by Alan Turing.",
+      "It has not yet been proven, but finding a proof is a subject of active research.",
+      "It can never be proven.",
+      "It is now in doubt because of the advent of parallel computers."
+    ],
+    "answer": 2,
+    "subject": "college_computer_science"
+  }
+]

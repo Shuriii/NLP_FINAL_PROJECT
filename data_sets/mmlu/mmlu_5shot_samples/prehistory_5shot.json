@@ -1,0 +1,57 @@
+[
+  {
+    "question": "The mean size of a Homo habilis brain is roughly:",
+    "choices": [
+      "300 cc.",
+      "450 cc.",
+      "700 cc.",
+      "1200 cc."
+    ],
+    "answer": 2,
+    "subject": "prehistory"
+  },
+  {
+    "question": "Which structures housed religious ceremonies?",
+    "choices": [
+      "pit-houses",
+      "pueblos",
+      "kivas",
+      "courtyard groups"
+    ],
+    "answer": 2,
+    "subject": "prehistory"
+  },
+  {
+    "question": "Why did the Mogollon leave their mountain homeland?",
+    "choices": [
+      "disease",
+      "warfare",
+      "drought",
+      "all of the above"
+    ],
+    "answer": 2,
+    "subject": "prehistory"
+  },
+  {
+    "question": "What was the climate of Greater Australia 20,000 years ago?",
+    "choices": [
+      "temperate",
+      "hot and dry",
+      "frozen tundra",
+      "all the above"
+    ],
+    "answer": 3,
+    "subject": "prehistory"
+  },
+  {
+    "question": "Mesopotamia is located between which two rivers?",
+    "choices": [
+      "Amazon and Nile",
+      "Euphrates and Nile",
+      "Tigris and Euphrates",
+      "Thames and Danube"
+    ],
+    "answer": 2,
+    "subject": "prehistory"
+  }
+]

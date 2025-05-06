@@ -1,0 +1,4 @@
+Total entries in DROP validation set: 9535
+
+History: 6739 entries (70.68%) → 353 out of 500
+NFL: 2796 entries (29.32%) → 147 out of 500

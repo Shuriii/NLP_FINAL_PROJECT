@@ -1,0 +1,57 @@
+[
+  {
+    "question": "The electron configuration 1s2 2s2 2p6 3s2 3p6 4s2 signifies the ground state of the element",
+    "choices": [
+      "V",
+      "Ti",
+      "Co",
+      "Ca"
+    ],
+    "answer": 3,
+    "subject": "high_school_chemistry"
+  },
+  {
+    "question": "Which of the following salts is expected to produce an alkaline solution when one mole is dissolved in one liter of water?",
+    "choices": [
+      "NaClO4",
+      "CaCl2",
+      "NH4Br",
+      "Na2S"
+    ],
+    "answer": 3,
+    "subject": "high_school_chemistry"
+  },
+  {
+    "question": "The rate law for the reaction of 2 A + B \u2192 2 P is",
+    "choices": [
+      "impossible to determine without experimental data",
+      "[A]2[B]",
+      "k[A]2[B]",
+      "second order with respect to A"
+    ],
+    "answer": 0,
+    "subject": "high_school_chemistry"
+  },
+  {
+    "question": "The equilibrium constant of a certain reaction is 2.6 \u00d7 10^8 at 25 \u00b0C. What is the value of \u0394G\u00b0?",
+    "choices": [
+      "-48.0 kJ/mol",
+      "20.8 J mol-1",
+      "4.68 \u00d7 10^-3 kJ/mol",
+      "-4.03 kJ mol-1"
+    ],
+    "answer": 0,
+    "subject": "high_school_chemistry"
+  },
+  {
+    "question": "The first ionization energy of sodium is 496 kJ/mol, and its atomic radius is 186 pm.",
+    "choices": [
+      "160 pm, 737 kJ/mol",
+      "86 pm, 398 kJ/mol",
+      "235 pm, 523 kJ/mol",
+      "240 pm, 1200 kJ/mol"
+    ],
+    "answer": 0,
+    "subject": "high_school_chemistry"
+  }
+]

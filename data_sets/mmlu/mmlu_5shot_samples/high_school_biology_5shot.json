@@ -1,0 +1,57 @@
+[
+  {
+    "question": "In reptile eggs, the extraembryonic membrane that functions in excretion and respiration is the",
+    "choices": [
+      "amnion",
+      "chorion",
+      "allantois",
+      "yolk sac"
+    ],
+    "answer": 2,
+    "subject": "high_school_biology"
+  },
+  {
+    "question": "Which of the following tends to be highest on the trophic pyramid?",
+    "choices": [
+      "Primary consumers",
+      "Herbivores",
+      "Primary carnivores",
+      "Primary producers"
+    ],
+    "answer": 2,
+    "subject": "high_school_biology"
+  },
+  {
+    "question": "This biome is the driest of the land biomes and experiences the greatest daily temperature fluctuations.",
+    "choices": [
+      "Desert",
+      "Tundra",
+      "Taiga",
+      "Deciduous forests"
+    ],
+    "answer": 0,
+    "subject": "high_school_biology"
+  },
+  {
+    "question": "Which of these naturalists synthesized a concept of natural selection independently of Darwin?",
+    "choices": [
+      "Charles Lyell",
+      "Gregor Mendel",
+      "Alfred Wallace",
+      "John Henslow"
+    ],
+    "answer": 2,
+    "subject": "high_school_biology"
+  },
+  {
+    "question": "Similar evolutionary changes occurring in two species that can be related or unrelated.",
+    "choices": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "Parallel evolution",
+      "Coevolution"
+    ],
+    "answer": 2,
+    "subject": "high_school_biology"
+  }
+]

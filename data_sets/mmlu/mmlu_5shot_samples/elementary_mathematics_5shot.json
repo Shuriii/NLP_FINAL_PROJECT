@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is x if 3 x = 84 ?",
+    "choices": [
+      "20",
+      "21",
+      "26",
+      "28"
+    ],
+    "answer": 3,
+    "subject": "elementary_mathematics"
+  },
+  {
+    "question": "Solve for y. y \u2013 2 + 3y = 10",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "subject": "elementary_mathematics"
+  },
+  {
+    "question": "Solve 3 over 2 * w = 66.",
+    "choices": [
+      "33",
+      "44",
+      "88",
+      "99"
+    ],
+    "answer": 1,
+    "subject": "elementary_mathematics"
+  },
+  {
+    "question": "Solve \u22122k = \u221234.8.",
+    "choices": [
+      "\u221269.6",
+      "\u221217.4",
+      "17.4",
+      "69.6"
+    ],
+    "answer": 3,
+    "subject": "elementary_mathematics"
+  },
+  {
+    "question": "What is the square of 15?",
+    "choices": [
+      "15",
+      "15-Jan",
+      "225",
+      "256"
+    ],
+    "answer": 2,
+    "subject": "elementary_mathematics"
+  }
+]

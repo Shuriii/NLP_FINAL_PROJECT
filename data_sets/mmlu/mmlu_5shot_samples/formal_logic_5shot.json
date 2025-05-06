@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the given formulas of PL is the best symbolization of the following sentence?\nElliott likes to skateboard or he likes to write songs and to play them.",
+    "choices": [
+      "S \u2228 (W \u2022 P)",
+      "(S \u2228 W) \u2228 P",
+      "S \u2022 (W \u2228 P)",
+      "(S \u2022 W) \u2228 P"
+    ],
+    "answer": 0,
+    "subject": "formal_logic"
+  },
+  {
+    "question": "Select the best translation into predicate logic.Some robbers steal money from a bank. (Bx: x is a bank; Mx: x is money; Rx: x is a robber; Sxyz: x steals y from z)",
+    "choices": [
+      "(\u2203x){Bx \u2022 (\u2203y)[Ry \u2022 (\u2200z)(Mz \u2283 Syzx)]}",
+      "(\u2203x)(\u2203y)(\u2203z)[(Rx \u2022 By) \u2022 (Mz \u2022 Syxz)]",
+      "(\u2203x){Rx \u2283 (\u2203y)[My \u2283 (\u2203z)(Bz \u2283 Sxyz)]}",
+      "(\u2203x){Rx \u2022 (\u2203y)[My \u2022 (\u2203z)(Bz \u2022 Sxyz)]}"
+    ],
+    "answer": 3,
+    "subject": "formal_logic"
+  },
+  {
+    "question": "Which of the given formulas of PL is the best symbolization of the following sentence?\nA married couple can report their combined income and deduct their combined allowable expenses on one return provided that only one had income or they did not live together all year.",
+    "choices": [
+      "(R \u2022 D) \u2283 (I \u2228 ~L)",
+      "(I \u2228 ~L) \u2283 (R \u2022 D)",
+      "R \u2022 [(I \u2283 D) \u2228 ~L]",
+      "~(I \u2228 L) \u2283 (R \u2022 D)"
+    ],
+    "answer": 1,
+    "subject": "formal_logic"
+  },
+  {
+    "question": "Identify the antecedent of the following conditional proposition: If the Bees win their first game, then neither the Aardvarks nor the Chipmunks win their first games.",
+    "choices": [
+      "The Aardvarks do not win their first game.",
+      "The Bees win their first game.",
+      "The Chipmunks do not win their first game.",
+      "Neither the Aardvarks nor the Chipmunks win their first games."
+    ],
+    "answer": 1,
+    "subject": "formal_logic"
+  },
+  {
+    "question": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\nA \u2283 ~B and B \u2283 A",
+    "choices": [
+      "Logically equivalent",
+      "Contradictory",
+      "Neither logically equivalent nor contradictory, but consistent",
+      "Inconsistent"
+    ],
+    "answer": 2,
+    "subject": "formal_logic"
+  }
+]

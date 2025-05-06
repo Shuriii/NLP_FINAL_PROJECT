@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the following is an example of a virtue?",
+    "choices": [
+      "pleasure",
+      "hunger",
+      "desire",
+      "courage"
+    ],
+    "answer": 3,
+    "subject": "moral_disputes"
+  },
+  {
+    "question": "According to Locke, our natural rights are bestowed on us by",
+    "choices": [
+      "nature.",
+      "God.",
+      "human psychology.",
+      "society."
+    ],
+    "answer": 1,
+    "subject": "moral_disputes"
+  },
+  {
+    "question": "Reiman raises objections to the arguments presented by",
+    "choices": [
+      "Nathanson.",
+      "Kant.",
+      "abolitionists.",
+      "van den Haag."
+    ],
+    "answer": 3,
+    "subject": "moral_disputes"
+  },
+  {
+    "question": "Reiman could be described as a(n)",
+    "choices": [
+      "consequentialist",
+      "believer in the principle of equality",
+      "abolitionist",
+      "retentionist"
+    ],
+    "answer": 2,
+    "subject": "moral_disputes"
+  },
+  {
+    "question": "Van den Haag suggests that the actual costs of imposing the death penalty are trumped by",
+    "choices": [
+      "equality.",
+      "morality.",
+      "deterrence.",
+      "justice."
+    ],
+    "answer": 3,
+    "subject": "moral_disputes"
+  }
+]

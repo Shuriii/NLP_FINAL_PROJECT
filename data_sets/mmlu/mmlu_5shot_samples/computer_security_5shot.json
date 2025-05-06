@@ -1,0 +1,57 @@
+[
+  {
+    "question": "A hash function guarantees the integrity of a message. It guarantees that the message has not be",
+    "choices": [
+      "Replaced",
+      "Overview",
+      "Changed",
+      "Violated"
+    ],
+    "answer": 2,
+    "subject": "computer_security"
+  },
+  {
+    "question": "Can we build a secure PRP from a secure PRG?",
+    "choices": [
+      "No, it cannot be done",
+      "Yes, just plug the GGM PRF into the Luby-Rackoff theorem",
+      "It depends on the underlying PRG",
+      "Option text"
+    ],
+    "answer": 1,
+    "subject": "computer_security"
+  },
+  {
+    "question": "Which of the following does authentication aim to accomplish?",
+    "choices": [
+      "Restrict what operations/data the user can access",
+      "Determine if the user is an attacker",
+      "Flag the user if he/she misbehaves",
+      "Determine who the user is"
+    ],
+    "answer": 3,
+    "subject": "computer_security"
+  },
+  {
+    "question": "___________ is a process of wireless traffic analysis that may be helpful for forensic investigations or during troubleshooting any wireless issue.",
+    "choices": [
+      "Wireless Traffic Sniffing",
+      "WiFi Traffic Sniffing",
+      "Wireless Traffic Checking",
+      "Wireless Transmission Sniffing"
+    ],
+    "answer": 0,
+    "subject": "computer_security"
+  },
+  {
+    "question": "Statement 1| U2F is a stronger second factor than sending an SMS code to a user\u2019s smartphone. Statement 2| An attacker that knows a user\u2019s password can easily guess the U2F key to access the user\u2019s account.",
+    "choices": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "answer": 2,
+    "subject": "computer_security"
+  }
+]

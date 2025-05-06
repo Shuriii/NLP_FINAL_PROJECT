@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which nutrient intake is fairly similar for countries in north and south Europe?",
+    "choices": [
+      "PUFA",
+      "MUFA",
+      "SFA",
+      "Protein"
+    ],
+    "answer": 0,
+    "subject": "nutrition"
+  },
+  {
+    "question": "A common anthropometric measure for infants is:",
+    "choices": [
+      "Standing height",
+      "Recumbent length",
+      "Sitting height",
+      "Laying height"
+    ],
+    "answer": 1,
+    "subject": "nutrition"
+  },
+  {
+    "question": "Which of the following will have the lowest glycaemic index?",
+    "choices": [
+      "A baked apple",
+      "A raw apple",
+      "A raw potato",
+      "Apple juice"
+    ],
+    "answer": 2,
+    "subject": "nutrition"
+  },
+  {
+    "question": "Which of the following vitamins is involved in transamination of amino acids?",
+    "choices": [
+      "Niacin",
+      "Riboflavin",
+      "Thiamin",
+      "Vitamin B6"
+    ],
+    "answer": 3,
+    "subject": "nutrition"
+  },
+  {
+    "question": "Deficiency of which of the following vitamins results in megaloblastic anaemia?",
+    "choices": [
+      "Folate",
+      "Niacin",
+      "Riboflavin",
+      "Vitamin B6"
+    ],
+    "answer": 0,
+    "subject": "nutrition"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "If the Moon is setting at noon the phase of the Moon must be",
+    "choices": [
+      "third quarter.",
+      "waning crescent.",
+      "waxing crescent.",
+      "full."
+    ],
+    "answer": 0,
+    "subject": "astronomy"
+  },
+  {
+    "question": "A comet\u2019s tail points in the following direction:",
+    "choices": [
+      "away from the Sun",
+      "towards the Sun",
+      "in the direction of movement",
+      "against the direction of movement"
+    ],
+    "answer": 0,
+    "subject": "astronomy"
+  },
+  {
+    "question": "Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?",
+    "choices": [
+      "Impact Heating",
+      "Volcanic Heating",
+      "Ablation by the solar wind",
+      "Thermal Escape"
+    ],
+    "answer": 1,
+    "subject": "astronomy"
+  },
+  {
+    "question": "What drives differentiation?",
+    "choices": [
+      "Spontaneous emission from radioactive atoms.",
+      "The minimization of gravitational potential energy.",
+      "Thermally induced collisions.",
+      "Plate tectonics."
+    ],
+    "answer": 1,
+    "subject": "astronomy"
+  },
+  {
+    "question": "The International Space Station (ISS) circles the Earth approximately 410 km above the ground. Find the best estimate for the orbital speed of the ISS:",
+    "choices": [
+      "19000 km/h",
+      "21000 km/h",
+      "28000 km/h",
+      "32000 km/h"
+    ],
+    "answer": 2,
+    "subject": "astronomy"
+  }
+]

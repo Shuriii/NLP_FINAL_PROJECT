@@ -1,0 +1,72 @@
+[
+  {
+    "section_id": "history_211",
+    "query_id": "ffe472a4-d5e4-49c9-af2f-bef423d7331f",
+    "passage": "The Christians lost 12,000, 23,000 or 30,000 men, while the Ottomans suffered 20,000-30,000 casualties.",
+    "question": "How many men did the Ottomans lose?",
+    "answers_spans": {
+      "spans": [
+        "30,000 casualties"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "history_211",
+    "query_id": "3f87554c-fed8-40f6-ab5c-bd7e907e541f",
+    "passage": "The Christians lost 12,000, 23,000 or 30,000 men, while the Ottomans suffered 20,000-30,000 casualties.",
+    "question": "How many total casualties were there?",
+    "answers_spans": {
+      "spans": [
+        "60000"
+      ],
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "section_id": "history_211",
+    "query_id": "174a91f9-1736-4da1-b050-b18ec8040b00",
+    "passage": "The Christians lost 12,000, 23,000 or 30,000 men, while the Ottomans suffered 20,000-30,000 casualties.",
+    "question": "How many men did the Christians lose?",
+    "answers_spans": {
+      "spans": [
+        "12,000"
+      ],
+      "types": [
+        "span"
+      ]
+    }
+  },
+  {
+    "section_id": "history_211",
+    "query_id": "23a02ce5-bbc5-4e59-96a5-76e77c2a70db",
+    "passage": "The Christians lost 12,000, 23,000 or 30,000 men, while the Ottomans suffered 20,000-30,000 casualties.",
+    "question": "How many people did the Christians lose?",
+    "answers_spans": {
+      "spans": [
+        "23000"
+      ],
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "section_id": "history_211",
+    "query_id": "0abdf754-ba0d-450e-92f1-5f9b1e49aab4",
+    "passage": "The Christians lost 12,000, 23,000 or 30,000 men, while the Ottomans suffered 20,000-30,000 casualties.",
+    "question": "How many casualties did the Ottomans have?",
+    "answers_spans": {
+      "spans": [
+        "30000"
+      ],
+      "types": [
+        "number"
+      ]
+    }
+  }
+]

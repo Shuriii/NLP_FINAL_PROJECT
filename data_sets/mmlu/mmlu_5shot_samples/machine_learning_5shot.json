@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the dimensionality of the null space of the following matrix? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "subject": "machine_learning"
+  },
+  {
+    "question": "In Yann LeCun's cake, the cherry on top is",
+    "choices": [
+      "reinforcement learning",
+      "self-supervised learning",
+      "unsupervised learning",
+      "supervised learning"
+    ],
+    "answer": 0,
+    "subject": "machine_learning"
+  },
+  {
+    "question": "Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________",
+    "choices": [
+      "higher",
+      "same",
+      "lower",
+      "it could be any of the above"
+    ],
+    "answer": 2,
+    "subject": "machine_learning"
+  },
+  {
+    "question": "The number of test examples needed to get statistically significant results should be _",
+    "choices": [
+      "Larger if the error rate is larger.",
+      "Larger if the error rate is smaller.",
+      "Smaller if the error rate is smaller.",
+      "It does not matter."
+    ],
+    "answer": 1,
+    "subject": "machine_learning"
+  },
+  {
+    "question": "Statement 1| If there exists a set of k instances that cannot be shattered by H, then VC(H) < k. Statement 2| If two hypothesis classes H1 and H2 satisfy H1 \u2286 H2, then VC(H1) \u2264 VC(H2).",
+    "choices": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "answer": 3,
+    "subject": "machine_learning"
+  }
+]

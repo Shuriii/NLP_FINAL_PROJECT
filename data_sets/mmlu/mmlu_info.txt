@@ -1,0 +1,35 @@
+
+Preparing Prompts for the MMLU Dataset:
+
+We sampled 500 examples from the test set, as downloaded from 
+https://github.com/hendrycks/test/tree/master.
+To run the code you need to download the data sets and save it in the "mmlu_original" folder. 
+The samples were selected proportionally to the original task/subject distribution in the full test set.
+
+For few-shot prompting, we selected 5 examples per subject from the validation set. These were chosen based on the shortest total character length (question + answer choices) to help keep the input prompt compact.
+
+We intentionally did not use the development set for 5-shot examples, as some of its entries were too long and risked exceeding the model’s maximum token limit during inference.
+
+After sampling, we used a custom script to reformat all data into a JSON format suitable for input to language models. This included adding metadata such as subject, super_category, and research_id, ensuring each sample is cleanly structured and ready for inference.
+
+distribution: [for more details see entry_distribution.txt]
+topic_sample_counts = {
+    'professional_law': 55, 'moral_scenarios': 32, 'miscellaneous': 28, 'professional_psychology': 22,
+    'high_school_psychology': 19, 'high_school_macroeconomics': 14, 'elementary_mathematics': 13,
+    'moral_disputes': 12, 'prehistory': 11, 'philosophy': 11, 'high_school_biology': 11,
+    'nutrition': 11, 'professional_accounting': 10, 'professional_medicine': 10,
+    'high_school_mathematics': 10, 'clinical_knowledge': 9, 'security_studies': 9,
+    'high_school_microeconomics': 8, 'high_school_world_history': 8, 'conceptual_physics': 8,
+    'marketing': 8, 'human_aging': 8, 'high_school_statistics': 8,
+    'high_school_us_history': 7, 'high_school_chemistry': 7, 'sociology': 7,
+    'high_school_geography': 7, 'high_school_government_and_politics': 7,
+    'college_medicine': 6, 'world_religions': 6, 'virology': 6, 'high_school_european_history': 6,
+    'logical_fallacies': 6, 'astronomy': 5, 'high_school_physics': 5,
+    'electrical_engineering': 5, 'college_biology': 5, 'anatomy': 5,
+    'human_sexuality': 5, 'formal_logic': 4, 'international_law': 4, 'econometrics': 4,
+    'machine_learning': 4, 'public_relations': 4, 'jurisprudence': 4,
+    'management': 4, 'college_physics': 4, 'us_foreign_policy': 4, 'global_facts': 4,
+    'business_ethics': 4, 'abstract_algebra': 4, 'medical_genetics': 4,
+    'high_school_computer_science': 4, 'college_chemistry': 4,
+    'college_computer_science': 4, 'college_mathematics': 3, 'computer_security': 3
+}

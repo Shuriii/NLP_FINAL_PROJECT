@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the Decalogue?",
+    "choices": [
+      "The Exodus",
+      "The Covenant",
+      "The Ten Commandments",
+      "The creation story"
+    ],
+    "answer": 2,
+    "subject": "world_religions"
+  },
+  {
+    "question": "What is the name of the theologian who argued against Pelagius?",
+    "choices": [
+      "John",
+      "Anselm",
+      "Arius",
+      "Augustine"
+    ],
+    "answer": 3,
+    "subject": "world_religions"
+  },
+  {
+    "question": "For how many minutes per day do Jaina devotees practise meditation or reflection?",
+    "choices": [
+      "48",
+      "60",
+      "12",
+      "36"
+    ],
+    "answer": 0,
+    "subject": "world_religions"
+  },
+  {
+    "question": "Which of the following is NOT a category of Shari'ah law?",
+    "choices": [
+      "Criminal",
+      "Neutral",
+      "Unlawful",
+      "Commendable"
+    ],
+    "answer": 0,
+    "subject": "world_religions"
+  },
+  {
+    "question": "Who was the immediate successor to Guru Nanak?",
+    "choices": [
+      "Guru Angad",
+      "His son",
+      "Guru Gobind Singh",
+      "Guru Hargobind"
+    ],
+    "answer": 0,
+    "subject": "world_religions"
+  }
+]

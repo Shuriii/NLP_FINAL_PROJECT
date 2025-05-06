@@ -1,0 +1,57 @@
+[
+  {
+    "question": "In the complex z-plane, the set of points satisfying the equation z^2 = |z|^2 is a",
+    "choices": [
+      "pair of points",
+      "circle",
+      "half-line",
+      "line"
+    ],
+    "answer": 3,
+    "subject": "college_mathematics"
+  },
+  {
+    "question": "For what value of b is the line y = 10x tangent to the curve y = e^(bx) at some point in the xy-plane?",
+    "choices": [
+      "10/e",
+      "10",
+      "10e",
+      "e^10"
+    ],
+    "answer": 0,
+    "subject": "college_mathematics"
+  },
+  {
+    "question": "If one arch of the curve y = sin x is revolved around the x-axis, what's the volume of the generated solid?",
+    "choices": [
+      "\u03c0^2 / 4",
+      "\u03c0^2 / 2",
+      "2\u03c0",
+      "\u03c0^2"
+    ],
+    "answer": 1,
+    "subject": "college_mathematics"
+  },
+  {
+    "question": "What is the volume of the solid in xyz-space bounded by the surfaces y = x^2, y = 2 - x^2, z = 0, and z = y + 3?",
+    "choices": [
+      "8/3",
+      "16/3",
+      "32/3",
+      "104/105"
+    ],
+    "answer": 2,
+    "subject": "college_mathematics"
+  },
+  {
+    "question": "If the finite group G contains a subgroup of order five but no element of G other than the identity is its own inverse, then the order of G could be",
+    "choices": [
+      "8",
+      "20",
+      "30",
+      "35"
+    ],
+    "answer": 3,
+    "subject": "college_mathematics"
+  }
+]

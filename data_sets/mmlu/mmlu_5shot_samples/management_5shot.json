@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Simon (1960) is associated with what type of decision making model?",
+    "choices": [
+      "Rational",
+      "Classical",
+      "Programmed",
+      "Administrative"
+    ],
+    "answer": 3,
+    "subject": "management"
+  },
+  {
+    "question": "At what level of an organisation does a corporate manager operate?",
+    "choices": [
+      "Functional",
+      "Operational",
+      "Middle level",
+      "Top level"
+    ],
+    "answer": 3,
+    "subject": "management"
+  },
+  {
+    "question": "Which one is not a recognised key skill of management?",
+    "choices": [
+      "Conceptual skills",
+      "Human skills",
+      "Technical skills",
+      "Writing skills"
+    ],
+    "answer": 3,
+    "subject": "management"
+  },
+  {
+    "question": "Which of the following motivators is the most basic need in Maslow's hierarchy?",
+    "choices": [
+      "Safety",
+      "Belonging",
+      "Physiological",
+      "Esteem"
+    ],
+    "answer": 2,
+    "subject": "management"
+  },
+  {
+    "question": "Of what is an investment decision an example?",
+    "choices": [
+      "Programmed decision",
+      "Routine decision",
+      "Management decision",
+      "Non-programmed decision"
+    ],
+    "answer": 3,
+    "subject": "management"
+  }
+]

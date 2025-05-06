@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which religion below is a universalizing religion?",
+    "choices": [
+      "Taoism",
+      "Islam",
+      "Shintoism",
+      "Confucianism"
+    ],
+    "answer": 1,
+    "subject": "high_school_geography"
+  },
+  {
+    "question": "Which of the following is an example of a stateless nation?",
+    "choices": [
+      "Germany",
+      "Israel",
+      "Palestine",
+      "Romania"
+    ],
+    "answer": 2,
+    "subject": "high_school_geography"
+  },
+  {
+    "question": "How do city planners separate discordant land uses such as housing and sewage plants?",
+    "choices": [
+      "Malls",
+      "Fences",
+      "Zoning",
+      "Tunnels"
+    ],
+    "answer": 2,
+    "subject": "high_school_geography"
+  },
+  {
+    "question": "What is the most widespread primary economic activity in the world?",
+    "choices": [
+      "Mining",
+      "Hunting and gathering",
+      "Fishing",
+      "Agriculture"
+    ],
+    "answer": 3,
+    "subject": "high_school_geography"
+  },
+  {
+    "question": "State-sponsored terrorism has occurred recently in which of the following countries?",
+    "choices": [
+      "Rwanda",
+      "United States",
+      "Canada",
+      "Spain"
+    ],
+    "answer": 0,
+    "subject": "high_school_geography"
+  }
+]

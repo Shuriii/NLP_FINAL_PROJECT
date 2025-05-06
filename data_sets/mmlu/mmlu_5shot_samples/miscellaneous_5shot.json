@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many ounces are in a pound?",
+    "choices": [
+      "4",
+      "12",
+      "16",
+      "32"
+    ],
+    "answer": 2,
+    "subject": "miscellaneous"
+  },
+  {
+    "question": "How many quarts are there in a gallon?",
+    "choices": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "answer": 3,
+    "subject": "miscellaneous"
+  },
+  {
+    "question": "Which is the hottest planet?",
+    "choices": [
+      "Venus",
+      "Mercury",
+      "Saturn",
+      "Jupiter"
+    ],
+    "answer": 0,
+    "subject": "miscellaneous"
+  },
+  {
+    "question": "How long is Hanukkah?",
+    "choices": [
+      "one day",
+      "five days",
+      "eight days",
+      "two weeks"
+    ],
+    "answer": 2,
+    "subject": "miscellaneous"
+  },
+  {
+    "question": "Which of these months has 31 days?",
+    "choices": [
+      "March",
+      "April",
+      "June",
+      "September"
+    ],
+    "answer": 0,
+    "subject": "miscellaneous"
+  }
+]

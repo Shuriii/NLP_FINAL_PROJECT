@@ -1,0 +1,57 @@
+[
+  {
+    "question": "A machine cannot multiply",
+    "choices": [
+      "forces",
+      "distances",
+      "energy",
+      "None of these"
+    ],
+    "answer": 2,
+    "subject": "conceptual_physics"
+  },
+  {
+    "question": "Sound will travel fastest in",
+    "choices": [
+      "a steel beam",
+      "a wooden plank",
+      "ocean water",
+      "air in a balloon"
+    ],
+    "answer": 0,
+    "subject": "conceptual_physics"
+  },
+  {
+    "question": "A hologram best illustrates",
+    "choices": [
+      "polarization",
+      "diffraction",
+      "superposition",
+      "electron interference"
+    ],
+    "answer": 1,
+    "subject": "conceptual_physics"
+  },
+  {
+    "question": "An object that absorbs energy well also",
+    "choices": [
+      "conducts well",
+      "convects well",
+      "radiates well",
+      "None of these"
+    ],
+    "answer": 2,
+    "subject": "conceptual_physics"
+  },
+  {
+    "question": "The greenhouse gases that contribute to global warming are",
+    "choices": [
+      "water vapor",
+      "carbon dioxide",
+      "Both",
+      "Neither"
+    ],
+    "answer": 2,
+    "subject": "conceptual_physics"
+  }
+]

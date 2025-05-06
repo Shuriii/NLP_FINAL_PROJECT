@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Another name for the fallacy of appeal to force is",
+    "choices": [
+      "ignoratio elenchi",
+      "ad misericordiam",
+      "ad baculum",
+      "ad hominem"
+    ],
+    "answer": 2,
+    "subject": "logical_fallacies"
+  },
+  {
+    "question": "_Cum hoc ergo prompter hoc_ is another name for which fallacy?",
+    "choices": [
+      "Division",
+      "Hasty Generalization",
+      "Concomitant variation",
+      "False sign"
+    ],
+    "answer": 2,
+    "subject": "logical_fallacies"
+  },
+  {
+    "question": "Which type of syllogism has a major premise that takes the form of \"Either A or B\"?",
+    "choices": [
+      "Categorical",
+      "Disjunctive",
+      "Conditional",
+      "Hypothetical"
+    ],
+    "answer": 1,
+    "subject": "logical_fallacies"
+  },
+  {
+    "question": "The use of a word in two different senses in an argument is the fallacy of...",
+    "choices": [
+      "Appeal to the person",
+      "Equivocation",
+      "Appeal to tradition",
+      "Appeal to emotion"
+    ],
+    "answer": 1,
+    "subject": "logical_fallacies"
+  },
+  {
+    "question": "When people argue that an idea must be true because a lot of people believe it they commit which of the following fallacies?",
+    "choices": [
+      "ad populum",
+      "ad vericundiam",
+      "appeal to pride",
+      "slippery slope"
+    ],
+    "answer": 0,
+    "subject": "logical_fallacies"
+  }
+]

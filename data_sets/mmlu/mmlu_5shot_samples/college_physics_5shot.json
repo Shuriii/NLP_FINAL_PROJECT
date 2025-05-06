@@ -1,0 +1,57 @@
+[
+  {
+    "question": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately",
+    "choices": [
+      "0.1 GeV/c^2",
+      "0.2 GeV/c^2",
+      "0.5 GeV/c^2",
+      "1.0 GeV/c^2"
+    ],
+    "answer": 3,
+    "subject": "college_physics"
+  },
+  {
+    "question": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of",
+    "choices": [
+      "gamma rays",
+      "microwaves",
+      "ultraviolet radiation",
+      "visible light"
+    ],
+    "answer": 0,
+    "subject": "college_physics"
+  },
+  {
+    "question": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",
+    "choices": [
+      "2",
+      "250",
+      "5,000",
+      "10,000"
+    ],
+    "answer": 1,
+    "subject": "college_physics"
+  },
+  {
+    "question": "For which of the following thermodynamic processes is the increase in the internal energy of an ideal gas equal to the heat added to the gas?",
+    "choices": [
+      "Constant temperature",
+      "Constant volume",
+      "Constant pressure",
+      "Adiabatic"
+    ],
+    "answer": 1,
+    "subject": "college_physics"
+  },
+  {
+    "question": "An ideal monatomic gas expands quasi-statically to twice its volume. If the process is isothermal, the work done by the gas is Wi. If the process is adiabatic, the work done by the gas is Wa. Which of the following is true?",
+    "choices": [
+      "Wi = Wa",
+      "0 = Wi  < Wa",
+      "0 < Wi < Wa",
+      "0<Wa <Wi"
+    ],
+    "answer": 3,
+    "subject": "college_physics"
+  }
+]

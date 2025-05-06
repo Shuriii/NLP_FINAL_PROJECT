@@ -1,0 +1,57 @@
+[
+  {
+    "question": "The separation of church and state is articulated in the",
+    "choices": [
+      "establishment clause",
+      "Nineteenth Amendment",
+      "inevitable discovery rule",
+      "Seventh Amendment"
+    ],
+    "answer": 0,
+    "subject": "high_school_government_and_politics"
+  },
+  {
+    "question": "The national and state governments share all of the following powers EXCEPT the power to",
+    "choices": [
+      "administer elections",
+      "impose taxes",
+      "establish courts",
+      "borrow money"
+    ],
+    "answer": 0,
+    "subject": "high_school_government_and_politics"
+  },
+  {
+    "question": "The largest portion of the federal budget covers the costs of",
+    "choices": [
+      "national defense",
+      "the Department of Energy",
+      "interest on the national debt",
+      "entitlement programs"
+    ],
+    "answer": 3,
+    "subject": "high_school_government_and_politics"
+  },
+  {
+    "question": "Which of the following court decisions did NOT deal with the First Amendment?",
+    "choices": [
+      "Roe v. Wade",
+      "New York Times v. United States",
+      "DeJonge v. Oregon",
+      "Dennis v. United States"
+    ],
+    "answer": 0,
+    "subject": "high_school_government_and_politics"
+  },
+  {
+    "question": "Which group most frequently benefits from political action committee (PAC) donations?",
+    "choices": [
+      "Charitable organizations",
+      "Federal judges",
+      "Political interest groups",
+      "Incumbents running for reelection"
+    ],
+    "answer": 3,
+    "subject": "high_school_government_and_politics"
+  }
+]

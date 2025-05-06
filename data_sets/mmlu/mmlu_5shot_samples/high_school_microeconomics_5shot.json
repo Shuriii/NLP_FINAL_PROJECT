@@ -1,0 +1,57 @@
+[
+  {
+    "question": "If a 3 percent increase in price leads to a 5 percent increase in the quantity supplied,",
+    "choices": [
+      "supply is unit elastic",
+      "demand is inelastic",
+      "demand is elastic",
+      "supply is elastic"
+    ],
+    "answer": 3,
+    "subject": "high_school_microeconomics"
+  },
+  {
+    "question": "Relative to a competitive product market with the same costs, a monopoly can be expected to involve",
+    "choices": [
+      "more deadweight loss",
+      "lower prices",
+      "higher production levels",
+      "more firms"
+    ],
+    "answer": 0,
+    "subject": "high_school_microeconomics"
+  },
+  {
+    "question": "In the long run, a monopolistically competitive firm",
+    "choices": [
+      "earns zero economic profit",
+      "earns positive economic profit",
+      "earns negative economic profit",
+      "faces a vertical demand curve"
+    ],
+    "answer": 0,
+    "subject": "high_school_microeconomics"
+  },
+  {
+    "question": "If average household income rises and we observe that the demand for pork chops increases, pork chops must be",
+    "choices": [
+      "an inferior good.",
+      "a normal good.",
+      "a surplus good.",
+      "a public good."
+    ],
+    "answer": 1,
+    "subject": "high_school_microeconomics"
+  },
+  {
+    "question": "The condition that P = MC is the direct requirement for which type of efficiency?",
+    "choices": [
+      "Distributive efficiency",
+      "Technical efficiency",
+      "Efficiency in production",
+      "Allocative efficiency"
+    ],
+    "answer": 3,
+    "subject": "high_school_microeconomics"
+  }
+]
