@@ -1,2 +1,0 @@
-configuration,model,family,dataset,super_category,% improvement,source_file
-C,"gemma-2-2b_duplication_[(10,5)]",gemma,drop,history,4.04,drop_gemma_history_20250504_132430.csv

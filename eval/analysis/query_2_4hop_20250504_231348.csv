@@ -1,9 +1,0 @@
-configuration,model,family,dataset,super_category,% improvement,source_file
-P1,"gemma-2-2b_duplication_[(22,2)]",gemma,musique,4hop,12.39,musique_gemma_4hop_20250504_132431.csv
-S,"gemma-2-2b_duplication_[(23,1),(24,1),(25,1),(26,1),(27,1)]",gemma,musique,4hop,5.41,musique_gemma_4hop_20250504_132431.csv
-C,"Meta-Llama-3-8B_duplication_[(13,5)]",llama,musique,4hop,9.43,musique_llama_4hop_20250504_132430.csv
-H,"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",llama,musique,4hop,6.25,musique_llama_4hop_20250504_132430.csv
-N,"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",llama,musique,4hop,3.42,musique_llama_4hop_20250504_132430.csv
-L,"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",llama,musique,4hop,2.08,musique_llama_4hop_20250504_132430.csv
-O,"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",llama,musique,4hop,1.23,musique_llama_4hop_20250504_132430.csv
-P,"Meta-Llama-3-8B_duplication_[(28,2)]",llama,musique,4hop,1.09,musique_llama_4hop_20250504_132430.csv

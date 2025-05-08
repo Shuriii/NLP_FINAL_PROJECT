@@ -1,0 +1,785 @@
+model,configuration,position,technique,size,continuous,family,dataset,super_category,% improvement,score,total
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,mmlu,Social_Sciences,2.33,80.0,110
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,mmlu,Social_Sciences,1.16,79.09,110
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,mmlu,Social_Sciences,0.0,78.18,110
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,mmlu,Social_Sciences,0.0,78.18,110
+Meta-Llama-3-8B,original,,,,,llama,mmlu,Social_Sciences,0.0,78.18,110
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,mmlu,Social_Sciences,-1.16,77.27,110
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,mmlu,Social_Sciences,-2.33,76.36,110
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,mmlu,Social_Sciences,-2.33,76.36,110
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,mmlu,Social_Sciences,-2.33,76.36,110
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,mmlu,Social_Sciences,-2.33,76.36,110
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,mmlu,Social_Sciences,-3.49,75.45,110
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,mmlu,Social_Sciences,-4.65,74.55,110
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,mmlu,Social_Sciences,-5.81,73.64,110
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,mmlu,Social_Sciences,-22.09,60.91,110
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,mmlu,Social_Sciences,-25.58,58.18,110
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,mmlu,Social_Sciences,-27.91,56.36,110
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,mmlu,Social_Sciences,-30.23,54.55,110
+gemma-2-9b,original,,,,,gemma,drop,all,106.65,65.55,500
+gemma-2-2b,original,,,,,gemma,drop,all,0.0,31.72,500
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,drop,all,-4.13,30.41,500
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,drop,all,-5.61,29.94,500
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,drop,all,-8.32,29.08,500
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,drop,all,-10.31,28.45,500
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,drop,all,-12.11,27.88,500
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,drop,all,-13.59,27.41,500
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,drop,all,-19.39,25.57,500
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,drop,all,-20.05,25.36,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,all,-20.33,25.27,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,all,-20.33,25.27,500
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,drop,all,-20.74,25.14,500
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,drop,all,-21.37,24.94,500
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,drop,all,-22.32,24.64,500
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,drop,all,-25.6,23.6,500
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,drop,all,-26.92,23.18,500
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,drop,all,-29.7,22.3,500
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,drop,all,-31.21,21.82,500
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,drop,all,-32.22,21.5,500
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,drop,all,-35.34,20.51,500
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,drop,all,-35.88,20.34,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,drop,all,-38.08,19.64,500
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,drop,all,-39.34,19.24,500
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,drop,all,-40.29,18.94,500
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,drop,all,-40.48,18.88,500
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,drop,all,-41.27,18.63,500
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,drop,all,-41.55,18.54,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,drop,all,-42.18,18.34,500
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,drop,all,-42.43,18.26,500
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,drop,all,-47.86,16.54,500
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,drop,all,-50.28,15.77,500
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,drop,all,-55.61,14.08,500
+Meta-Llama-3-8B,original,,,,,llama,drop,all,0.0,49.49,500
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,drop,all,-11.19,43.95,500
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,drop,all,-11.62,43.74,500
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,drop,all,-12.47,43.32,500
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,drop,all,-12.59,43.26,500
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,drop,all,-12.71,43.2,500
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,drop,all,-14.91,42.11,500
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,drop,all,-14.95,42.09,500
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,drop,all,-17.01,41.07,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,drop,all,-18.75,40.21,500
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,drop,all,-18.85,40.16,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,drop,all,-20.59,39.3,500
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,drop,all,-20.73,39.23,500
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,drop,all,-22.23,38.49,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,drop,all,-22.47,38.37,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,drop,all,-23.38,37.92,500
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,drop,all,-33.56,32.88,500
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,drop,all,-38.01,30.68,500
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,drop,all,-39.64,29.87,500
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,drop,all,-43.42,28.0,500
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,drop,all,-44.88,27.28,500
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,drop,all,-60.03,19.78,500
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,drop,all,-63.1,18.26,500
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,mmlu,all,0.61,66.0,500
+Meta-Llama-3-8B,original,,,,,llama,mmlu,all,0.0,65.6,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,mmlu,all,-0.61,65.2,500
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,mmlu,all,-0.91,65.0,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,mmlu,all,-1.22,64.8,500
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,mmlu,all,-1.22,64.8,500
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,mmlu,all,-1.52,64.6,500
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,mmlu,all,-1.52,64.6,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,mmlu,all,-1.83,64.4,500
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,mmlu,all,-1.83,64.4,500
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,mmlu,all,-1.83,64.4,500
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,mmlu,all,-2.13,64.2,500
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,mmlu,all,-2.44,64.0,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,mmlu,all,-2.74,63.8,500
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,mmlu,all,-3.05,63.6,500
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,mmlu,all,-4.27,62.8,500
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,mmlu,all,-4.57,62.6,500
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,mmlu,all,-4.57,62.6,500
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,mmlu,all,-5.49,62.0,500
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,mmlu,all,-25.0,49.2,500
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,mmlu,all,-28.35,47.0,500
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,mmlu,all,-30.49,45.6,500
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,mmlu,all,-30.79,45.4,500
+gemma-2-9b,original,,,,,gemma,mmlu,all,29.03,72.0,500
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,mmlu,all,1.79,56.8,500
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,mmlu,all,0.72,56.2,500
+gemma-2-2b,original,,,,,gemma,mmlu,all,0.0,55.8,500
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,mmlu,all,-1.79,54.8,500
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,mmlu,all,-1.79,54.8,500
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,mmlu,all,-2.15,54.6,500
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,mmlu,all,-2.87,54.2,500
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,mmlu,all,-3.58,53.8,500
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,mmlu,all,-9.32,50.6,500
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,mmlu,all,-10.39,50.0,500
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,mmlu,all,-10.39,50.0,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,all,-10.75,49.8,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,all,-10.75,49.8,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,mmlu,all,-12.54,48.8,500
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,mmlu,all,-12.9,48.6,500
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,mmlu,all,-13.62,48.2,500
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,mmlu,all,-14.34,47.8,500
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,mmlu,all,-16.49,46.6,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,mmlu,all,-16.85,46.4,500
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,mmlu,all,-17.2,46.2,500
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,mmlu,all,-17.2,46.2,500
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,mmlu,all,-21.15,44.0,500
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,mmlu,all,-21.51,43.8,500
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,mmlu,all,-24.37,42.2,500
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,mmlu,all,-24.37,42.2,500
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,mmlu,all,-25.81,41.4,500
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,mmlu,all,-26.16,41.2,500
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,mmlu,all,-28.32,40.0,500
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,mmlu,all,-29.39,39.4,500
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,mmlu,all,-31.18,38.4,500
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,mmlu,all,-39.78,33.6,500
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,mmlu,all,-45.52,30.4,500
+gemma-2-9b,original,,,,,gemma,mmlu,Other,13.7,74.11,112
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,mmlu,Other,4.11,67.86,112
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,mmlu,Other,2.74,66.96,112
+gemma-2-2b,original,,,,,gemma,mmlu,Other,0.0,65.18,112
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,mmlu,Other,-2.74,63.39,112
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Other,-6.85,60.71,112
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Other,-6.85,60.71,112
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,mmlu,Other,-6.85,60.71,112
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,mmlu,Other,-9.59,58.93,112
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,mmlu,Other,-9.59,58.93,112
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,mmlu,Other,-13.7,56.25,112
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,mmlu,Other,-16.44,54.46,112
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,mmlu,Other,-16.44,54.46,112
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,mmlu,Other,-16.44,54.46,112
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,mmlu,Other,-17.81,53.57,112
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,mmlu,Other,-17.81,53.57,112
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,mmlu,Other,-19.18,52.68,112
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,mmlu,Other,-24.66,49.11,112
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,mmlu,Other,-28.77,46.43,112
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,mmlu,Other,-28.77,46.43,112
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,mmlu,Other,-30.14,45.54,112
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,mmlu,Other,-30.14,45.54,112
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,mmlu,Other,-31.51,44.64,112
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,mmlu,Other,-31.51,44.64,112
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,mmlu,Other,-34.25,42.86,112
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,mmlu,Other,-47.95,33.93,112
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,mmlu,Other,-50.68,32.14,112
+gemma-2-9b,original,,,,,gemma,musique,3hop,10.49,44.7,172
+gemma-2-2b,original,,,,,gemma,musique,3hop,0.0,40.46,172
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,3hop,-5.89,38.08,172
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,3hop,-17.13,33.53,172
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,3hop,-17.13,33.53,172
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,3hop,-22.38,31.41,172
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,3hop,-22.77,31.25,172
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,3hop,-22.77,31.25,172
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,3hop,-23.69,30.87,172
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,3hop,-27.72,29.24,172
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,3hop,-30.33,28.19,172
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,3hop,-31.1,27.87,172
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,3hop,-33.32,26.98,172
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,3hop,-33.32,26.98,172
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,3hop,-33.38,26.96,172
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,3hop,-33.8,26.78,172
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,3hop,-34.28,26.59,172
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,3hop,-36.62,25.64,172
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,3hop,-38.08,25.05,172
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,3hop,-40.44,24.1,172
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,3hop,-40.61,24.03,172
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,3hop,-44.67,22.38,172
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,3hop,-46.52,21.64,172
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,3hop,-48.01,21.04,172
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,3hop,-48.13,20.99,172
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,3hop,-54.63,18.36,172
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,3hop,-54.84,18.27,172
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,3hop,-56.06,17.78,172
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,3hop,-67.31,13.22,172
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,3hop,-69.47,12.35,172
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,3hop,-78.27,8.79,172
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,3hop,-90.64,3.79,172
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,3hop,-94.17,2.36,172
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,4hop,12.39,36.46,80
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,4hop,5.41,34.2,80
+gemma-2-2b,original,,,,,gemma,musique,4hop,0.0,32.44,80
+gemma-2-9b,original,,,,,gemma,musique,4hop,-8.61,29.65,80
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,4hop,-10.05,29.18,80
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,4hop,-13.03,28.21,80
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,4hop,-13.03,28.21,80
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,4hop,-16.25,27.17,80
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,4hop,-17.52,26.76,80
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,4hop,-19.24,26.2,80
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,4hop,-20.07,25.93,80
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,4hop,-31.03,22.37,80
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,4hop,-33.09,21.71,80
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,4hop,-33.88,21.45,80
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,4hop,-36.42,20.62,80
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,4hop,-36.42,20.62,80
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,4hop,-38.77,19.86,80
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,4hop,-40.78,19.21,80
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,4hop,-41.71,18.91,80
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,4hop,-41.82,18.88,80
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,4hop,-43.0,18.49,80
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,4hop,-43.0,18.49,80
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,4hop,-45.41,17.71,80
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,4hop,-50.36,16.1,80
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,4hop,-52.09,15.54,80
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,4hop,-56.91,13.98,80
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,4hop,-57.02,13.94,80
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,4hop,-57.77,13.7,80
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,4hop,-58.4,13.49,80
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,4hop,-65.62,11.15,80
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,4hop,-72.01,9.08,80
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,4hop,-74.16,8.38,80
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,4hop,-84.65,4.98,80
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,unanswerable,53.04,88.0,200
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,unanswerable,45.22,83.5,200
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,unanswerable,40.0,80.5,200
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,unanswerable,39.13,80.0,200
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,unanswerable,33.91,77.0,200
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,unanswerable,20.0,69.0,200
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,unanswerable,18.26,68.0,200
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,unanswerable,15.65,66.5,200
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,unanswerable,15.65,66.5,200
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,unanswerable,14.78,66.0,200
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,unanswerable,10.43,63.5,200
+Meta-Llama-3-8B,original,,,,,llama,musique,unanswerable,0.0,57.5,200
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,unanswerable,-6.96,53.5,200
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,unanswerable,-14.78,49.0,200
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,unanswerable,-29.57,40.5,200
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,unanswerable,-29.57,40.5,200
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,unanswerable,-29.57,40.5,200
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,unanswerable,-59.13,23.5,200
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,unanswerable,-68.7,18.0,200
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,unanswerable,-72.17,16.0,200
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,unanswerable,-81.74,10.5,200
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,unanswerable,-85.08,8.58,200
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,unanswerable,-93.04,4.0,200
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,mmlu,STEM,4.76,58.93,112
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,mmlu,STEM,3.17,58.04,112
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,mmlu,STEM,3.17,58.04,112
+Meta-Llama-3-8B,original,,,,,llama,mmlu,STEM,0.0,56.25,112
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,mmlu,STEM,-3.17,54.46,112
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,mmlu,STEM,-3.17,54.46,112
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,mmlu,STEM,-3.17,54.46,112
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,mmlu,STEM,-4.76,53.57,112
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,mmlu,STEM,-4.76,53.57,112
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,mmlu,STEM,-4.76,53.57,112
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,mmlu,STEM,-4.76,53.57,112
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,mmlu,STEM,-4.76,53.57,112
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,mmlu,STEM,-6.35,52.68,112
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,mmlu,STEM,-6.35,52.68,112
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,mmlu,STEM,-7.94,51.79,112
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,mmlu,STEM,-7.94,51.79,112
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,mmlu,STEM,-7.94,51.79,112
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,mmlu,STEM,-7.94,51.79,112
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,mmlu,STEM,-9.52,50.89,112
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,mmlu,STEM,-25.4,41.96,112
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,mmlu,STEM,-36.51,35.71,112
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,mmlu,STEM,-36.51,35.71,112
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,mmlu,STEM,-38.1,34.82,112
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,unanswerable,16.67,52.5,200
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,unanswerable,16.67,52.5,200
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,unanswerable,12.67,50.7,200
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,unanswerable,12.67,50.7,200
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,unanswerable,7.78,48.5,200
+gemma-2-2b,original,,,,,gemma,musique,unanswerable,0.0,45.0,200
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,unanswerable,-4.44,43.0,200
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,unanswerable,-5.56,42.5,200
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,unanswerable,-6.67,42.0,200
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,unanswerable,-12.22,39.5,200
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,unanswerable,-14.44,38.5,200
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,unanswerable,-14.44,38.5,200
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,unanswerable,-16.67,37.5,200
+gemma-2-9b,original,,,,,gemma,musique,unanswerable,-21.11,35.5,200
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,unanswerable,-25.56,33.5,200
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,unanswerable,-27.78,32.5,200
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,unanswerable,-35.48,29.03,200
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,unanswerable,-37.33,28.2,200
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,unanswerable,-41.11,26.5,200
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,unanswerable,-42.22,26.0,200
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,unanswerable,-47.78,23.5,200
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,unanswerable,-48.89,23.0,200
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,unanswerable,-53.33,21.0,200
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,unanswerable,-61.69,17.24,200
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,unanswerable,-64.44,16.0,200
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,unanswerable,-65.56,15.5,200
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,unanswerable,-68.89,14.0,200
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,unanswerable,-71.11,13.0,200
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,unanswerable,-78.89,9.5,200
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,unanswerable,-93.33,3.0,200
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,unanswerable,-96.67,1.5,200
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,unanswerable,-98.89,0.5,200
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,unanswerable,-100.0,0.0,200
+gemma-2-9b,original,,,,,gemma,musique,2hop,34.18,44.94,248
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,2hop,1.44,33.97,248
+gemma-2-2b,original,,,,,gemma,musique,2hop,0.0,33.49,248
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,2hop,-2.67,32.6,248
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,2hop,-2.67,32.6,248
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,2hop,-7.85,30.86,248
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,2hop,-10.14,30.09,248
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,2hop,-14.53,28.63,248
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,2hop,-15.12,28.43,248
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,2hop,-15.52,28.29,248
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,2hop,-17.54,27.62,248
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,2hop,-17.87,27.51,248
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,2hop,-17.92,27.49,248
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,2hop,-19.68,26.9,248
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,2hop,-21.65,26.24,248
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,2hop,-23.47,25.63,248
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,2hop,-24.75,25.2,248
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,2hop,-26.45,24.63,248
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,2hop,-26.5,24.62,248
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,2hop,-30.56,23.25,248
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,2hop,-32.92,22.46,248
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,2hop,-33.01,22.43,248
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,2hop,-36.6,21.23,248
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,2hop,-37.08,21.07,248
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,2hop,-38.75,20.51,248
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,2hop,-38.91,20.46,248
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,2hop,-45.59,18.22,248
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,2hop,-48.11,17.38,248
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,2hop,-54.3,15.31,248
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,2hop,-58.0,14.06,248
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,2hop,-71.12,9.67,248
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,2hop,-78.63,7.16,248
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,2hop,-89.08,3.66,248
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,mmlu,Humanities,8.79,59.64,166
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,mmlu,Humanities,4.4,57.23,166
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,mmlu,Humanities,4.4,57.23,166
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,mmlu,Humanities,3.3,56.63,166
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,mmlu,Humanities,2.2,56.02,166
+Meta-Llama-3-8B,original,,,,,llama,mmlu,Humanities,0.0,54.82,166
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,mmlu,Humanities,0.0,54.82,166
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,mmlu,Humanities,-1.1,54.22,166
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,mmlu,Humanities,-1.1,54.22,166
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,mmlu,Humanities,-2.2,53.61,166
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,mmlu,Humanities,-2.2,53.61,166
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,mmlu,Humanities,-3.3,53.01,166
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,mmlu,Humanities,-3.3,53.01,166
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,mmlu,Humanities,-4.4,52.41,166
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,mmlu,Humanities,-4.4,52.41,166
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,mmlu,Humanities,-5.49,51.81,166
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,mmlu,Humanities,-6.59,51.2,166
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,mmlu,Humanities,-8.79,50.0,166
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,mmlu,Humanities,-9.89,49.4,166
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,mmlu,Humanities,-19.78,43.98,166
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,mmlu,Humanities,-25.27,40.96,166
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,mmlu,Humanities,-31.87,37.35,166
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,mmlu,Humanities,-32.97,36.75,166
+Meta-Llama-3-8B,original,,,,,llama,musique,all,0.0,45.09,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,all,-0.94,44.67,500
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,all,-3.3,43.6,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,all,-3.75,43.4,500
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,all,-4.49,43.07,500
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,all,-6.08,42.35,500
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,all,-6.66,42.09,500
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,all,-6.96,41.95,500
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,all,-9.03,41.02,500
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,all,-10.06,40.56,500
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,all,-10.36,40.42,500
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,all,-11.09,40.09,500
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,all,-13.47,39.02,500
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,all,-15.58,38.07,500
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,all,-20.5,35.85,500
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,all,-24.54,34.03,500
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,all,-28.81,32.1,500
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,all,-35.17,29.23,500
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,all,-44.18,25.17,500
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,all,-54.77,20.4,500
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,all,-62.56,16.88,500
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,all,-68.97,13.99,500
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,all,-76.29,10.69,500
+gemma-2-9b,original,,,,,gemma,musique,all,18.73,42.41,500
+gemma-2-2b,original,,,,,gemma,musique,all,0.0,35.72,500
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,all,-4.15,34.24,500
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,all,-7.26,33.13,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,all,-9.81,32.22,500
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,all,-9.81,32.22,500
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,all,-20.75,28.31,500
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,all,-23.27,27.41,500
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,all,-23.28,27.41,500
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,all,-23.46,27.34,500
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,all,-25.31,26.68,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,all,-25.49,26.61,500
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,all,-25.99,26.44,500
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,all,-26.71,26.18,500
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,all,-26.93,26.1,500
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,all,-27.24,25.99,500
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,all,-28.38,25.58,500
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,all,-29.07,25.33,500
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,all,-30.69,24.76,500
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,all,-32.28,24.19,500
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,all,-34.56,23.38,500
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,all,-37.64,22.27,500
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,all,-43.42,20.21,500
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,all,-44.37,19.87,500
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,all,-45.26,19.55,500
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,all,-46.9,18.97,500
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,all,-49.29,18.11,500
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,all,-54.41,16.28,500
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,all,-56.96,15.37,500
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,all,-67.93,11.45,500
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,all,-68.53,11.24,500
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,all,-85.56,5.16,500
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,all,-87.52,4.46,500
+gemma-2-9b,original,,,,,gemma,musique,answerable,59.2,47.02,300
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,musique,answerable,12.78,33.31,300
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,musique,answerable,7.27,31.68,300
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,musique,answerable,1.07,29.85,300
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,musique,answerable,0.39,29.65,300
+gemma-2-2b,original,,,,,gemma,musique,answerable,0.0,29.53,300
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,musique,answerable,-10.12,26.54,300
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,musique,answerable,-12.53,25.83,300
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,musique,answerable,-16.26,24.73,300
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,musique,answerable,-18.87,23.96,300
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,musique,answerable,-20.02,23.62,300
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,musique,answerable,-26.78,21.62,300
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,musique,answerable,-32.25,20.01,300
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,musique,answerable,-32.61,19.9,300
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,musique,answerable,-32.65,19.89,300
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,musique,answerable,-32.77,19.85,300
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,answerable,-36.7,18.69,300
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,musique,answerable,-36.7,18.69,300
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,musique,answerable,-36.92,18.63,300
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,musique,answerable,-37.44,18.47,300
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,musique,answerable,-37.86,18.35,300
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,musique,answerable,-39.96,17.73,300
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,musique,answerable,-39.98,17.73,300
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,musique,answerable,-42.7,16.92,300
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,musique,answerable,-47.66,15.46,300
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,musique,answerable,-55.1,13.26,300
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,musique,answerable,-56.62,12.81,300
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,musique,answerable,-56.81,12.76,300
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,musique,answerable,-63.88,10.67,300
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,musique,answerable,-64.02,10.63,300
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,musique,answerable,-64.26,10.56,300
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,musique,answerable,-72.02,8.26,300
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,musique,answerable,-74.85,7.43,300
+gemma-2-9b,original,,,,,gemma,mmlu,Humanities,30.86,63.86,166
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,mmlu,Humanities,3.7,50.6,166
+gemma-2-2b,original,,,,,gemma,mmlu,Humanities,0.0,48.8,166
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,mmlu,Humanities,0.0,48.8,166
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,mmlu,Humanities,-1.23,48.19,166
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,mmlu,Humanities,-3.7,46.99,166
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,mmlu,Humanities,-7.41,45.18,166
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,mmlu,Humanities,-7.41,45.18,166
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,mmlu,Humanities,-7.41,45.18,166
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,mmlu,Humanities,-9.88,43.98,166
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,mmlu,Humanities,-12.35,42.77,166
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,mmlu,Humanities,-12.35,42.77,166
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,mmlu,Humanities,-12.35,42.77,166
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,mmlu,Humanities,-13.58,42.17,166
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,mmlu,Humanities,-14.81,41.57,166
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,mmlu,Humanities,-16.05,40.96,166
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,mmlu,Humanities,-16.05,40.96,166
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Humanities,-17.28,40.36,166
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,mmlu,Humanities,-17.28,40.36,166
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Humanities,-17.28,40.36,166
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,mmlu,Humanities,-18.52,39.76,166
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,mmlu,Humanities,-19.75,39.16,166
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,mmlu,Humanities,-19.75,39.16,166
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,mmlu,Humanities,-22.22,37.95,166
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,mmlu,Humanities,-22.22,37.95,166
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,mmlu,Humanities,-22.22,37.95,166
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,mmlu,Humanities,-27.16,35.54,166
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,mmlu,Humanities,-28.4,34.94,166
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,mmlu,Humanities,-30.86,33.73,166
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,mmlu,Humanities,-33.33,32.53,166
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,mmlu,Humanities,-33.33,32.53,166
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,mmlu,Humanities,-34.57,31.93,166
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,mmlu,Humanities,-44.44,27.11,166
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,answerable,10.25,40.59,300
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,answerable,2.75,37.83,300
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,answerable,1.19,37.26,300
+Meta-Llama-3-8B,original,,,,,llama,musique,answerable,0.0,36.82,300
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,answerable,-1.02,36.44,300
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,answerable,-1.6,36.23,300
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,answerable,-5.16,34.92,300
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,answerable,-18.51,30.0,300
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,answerable,-22.75,28.44,300
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,answerable,-24.55,27.78,300
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,answerable,-32.61,24.81,300
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,answerable,-40.26,21.99,300
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,answerable,-41.01,21.72,300
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,answerable,-48.38,19.01,300
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,answerable,-52.55,17.47,300
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,answerable,-55.67,16.32,300
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,answerable,-57.93,15.49,300
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,answerable,-58.15,15.41,300
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,answerable,-58.84,15.16,300
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,answerable,-61.89,14.03,300
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,answerable,-66.38,12.38,300
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,answerable,-73.66,9.7,300
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,answerable,-74.57,9.36,300
+Meta-Llama-3-8B,original,,,,,llama,musique,3hop,0.0,49.16,172
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,3hop,-1.13,48.6,172
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,3hop,-5.15,46.63,172
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,3hop,-6.71,45.86,172
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,3hop,-8.89,44.79,172
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,3hop,-9.43,44.53,172
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,3hop,-10.09,44.2,172
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,3hop,-10.41,44.04,172
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,3hop,-12.37,43.08,172
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,3hop,-12.98,42.78,172
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,3hop,-14.53,42.01,172
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,3hop,-15.75,41.42,172
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,3hop,-18.7,39.97,172
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,3hop,-20.48,39.09,172
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,3hop,-24.78,36.98,172
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,3hop,-28.93,34.94,172
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,3hop,-35.61,31.66,172
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,3hop,-39.43,29.78,172
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,3hop,-50.36,24.4,172
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,3hop,-57.38,20.95,172
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,3hop,-65.1,17.15,172
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,3hop,-69.53,14.98,172
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,3hop,-79.23,10.21,172
+gemma-2-9b,original,,,,,gemma,mmlu,Social_Sciences,21.92,80.91,110
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,mmlu,Social_Sciences,1.37,67.27,110
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Social_Sciences,1.37,67.27,110
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,Social_Sciences,1.37,67.27,110
+gemma-2-2b,original,,,,,gemma,mmlu,Social_Sciences,0.0,66.36,110
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,mmlu,Social_Sciences,0.0,66.36,110
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,mmlu,Social_Sciences,0.0,66.36,110
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,mmlu,Social_Sciences,0.0,66.36,110
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,mmlu,Social_Sciences,-1.37,65.45,110
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,mmlu,Social_Sciences,-4.11,63.64,110
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,mmlu,Social_Sciences,-4.11,63.64,110
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,mmlu,Social_Sciences,-4.11,63.64,110
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,mmlu,Social_Sciences,-6.85,61.82,110
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,mmlu,Social_Sciences,-8.22,60.91,110
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,mmlu,Social_Sciences,-9.59,60.0,110
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,mmlu,Social_Sciences,-9.59,60.0,110
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,mmlu,Social_Sciences,-12.33,58.18,110
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,mmlu,Social_Sciences,-13.7,57.27,110
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,mmlu,Social_Sciences,-13.7,57.27,110
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,mmlu,Social_Sciences,-15.07,56.36,110
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,mmlu,Social_Sciences,-17.81,54.55,110
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,mmlu,Social_Sciences,-17.81,54.55,110
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,mmlu,Social_Sciences,-19.18,53.64,110
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,mmlu,Social_Sciences,-20.55,52.73,110
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,mmlu,Social_Sciences,-21.92,51.82,110
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,mmlu,Social_Sciences,-21.92,51.82,110
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,mmlu,Social_Sciences,-21.92,51.82,110
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,mmlu,Social_Sciences,-23.29,50.91,110
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,mmlu,Social_Sciences,-26.03,49.09,110
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,mmlu,Social_Sciences,-27.4,48.18,110
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,mmlu,Social_Sciences,-38.36,40.91,110
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,mmlu,Social_Sciences,-38.36,40.91,110
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,mmlu,Social_Sciences,-39.73,40.0,110
+Meta-Llama-3-8B,original,,,,,llama,drop,history,0.0,43.19,350
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,drop,history,-8.09,39.69,350
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,drop,history,-9.51,39.08,350
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,drop,history,-12.52,37.78,350
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,drop,history,-14.16,37.07,350
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,drop,history,-14.91,36.75,350
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,drop,history,-16.25,36.17,350
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,drop,history,-16.47,36.07,350
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,drop,history,-19.38,34.82,350
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,drop,history,-21.47,33.91,350
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,drop,history,-21.71,33.81,350
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,drop,history,-22.93,33.29,350
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,drop,history,-23.69,32.96,350
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,drop,history,-25.9,32.0,350
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,drop,history,-28.33,30.95,350
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,drop,history,-28.41,30.92,350
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,drop,history,-28.72,30.79,350
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,drop,history,-36.19,27.56,350
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,drop,history,-48.07,22.43,350
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,drop,history,-52.08,20.7,350
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,drop,history,-52.24,20.63,350
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,drop,history,-60.8,16.93,350
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,drop,history,-65.71,14.81,350
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,4hop,9.43,45.94,80
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,4hop,6.25,44.61,80
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,4hop,3.42,43.42,80
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,4hop,2.99,43.24,80
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,4hop,2.08,42.86,80
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,4hop,1.23,42.5,80
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,4hop,1.09,42.44,80
+Meta-Llama-3-8B,original,,,,,llama,musique,4hop,0.0,41.98,80
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,4hop,-0.26,41.88,80
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,4hop,-1.05,41.54,80
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,4hop,-1.64,41.29,80
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,4hop,-1.74,41.25,80
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,4hop,-3.43,40.54,80
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,4hop,-3.87,40.36,80
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,4hop,-19.91,33.62,80
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,4hop,-29.23,29.71,80
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,4hop,-30.03,29.38,80
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,4hop,-37.99,26.03,80
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,4hop,-40.75,24.87,80
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,4hop,-40.95,24.79,80
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,4hop,-65.34,14.55,80
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,4hop,-68.08,13.4,80
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,4hop,-80.65,8.12,80
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,mmlu,Other,2.27,80.36,112
+Meta-Llama-3-8B,original,,,,,llama,mmlu,Other,0.0,78.57,112
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,mmlu,Other,0.0,78.57,112
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,mmlu,Other,0.0,78.57,112
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,mmlu,Other,0.0,78.57,112
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,mmlu,Other,0.0,78.57,112
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,mmlu,Other,-1.14,77.68,112
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,mmlu,Other,-1.14,77.68,112
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,mmlu,Other,-2.27,76.79,112
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,mmlu,Other,-2.27,76.79,112
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,mmlu,Other,-2.27,76.79,112
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,mmlu,Other,-3.41,75.89,112
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,mmlu,Other,-3.41,75.89,112
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,mmlu,Other,-3.41,75.89,112
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,mmlu,Other,-3.41,75.89,112
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,mmlu,Other,-4.55,75.0,112
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,mmlu,Other,-4.55,75.0,112
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,mmlu,Other,-4.55,75.0,112
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,mmlu,Other,-6.82,73.21,112
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,mmlu,Other,-17.05,65.18,112
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,mmlu,Other,-25.0,58.93,112
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,mmlu,Other,-32.95,52.68,112
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,mmlu,Other,-37.5,49.11,112
+gemma-2-9b,original,,,,,gemma,mmlu,STEM,57.69,73.21,112
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,mmlu,STEM,5.77,49.11,112
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,mmlu,STEM,3.85,48.21,112
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,mmlu,STEM,3.85,48.21,112
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,mmlu,STEM,1.92,47.32,112
+gemma-2-2b,original,,,,,gemma,mmlu,STEM,0.0,46.43,112
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,mmlu,STEM,0.0,46.43,112
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,mmlu,STEM,0.0,46.43,112
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,mmlu,STEM,-1.92,45.54,112
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,mmlu,STEM,-5.77,43.75,112
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,mmlu,STEM,-7.69,42.86,112
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,mmlu,STEM,-7.69,42.86,112
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,mmlu,STEM,-9.62,41.96,112
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,mmlu,STEM,-15.38,39.29,112
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,mmlu,STEM,-19.23,37.5,112
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,mmlu,STEM,-19.23,37.5,112
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,mmlu,STEM,-19.23,37.5,112
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,mmlu,STEM,-19.23,37.5,112
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,mmlu,STEM,-21.15,36.61,112
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,mmlu,STEM,-23.08,35.71,112
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,STEM,-23.08,35.71,112
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,mmlu,STEM,-23.08,35.71,112
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,mmlu,STEM,-23.08,35.71,112
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,mmlu,STEM,-23.08,35.71,112
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,mmlu,STEM,-25.0,34.82,112
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,mmlu,STEM,-25.0,34.82,112
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,mmlu,STEM,-25.0,34.82,112
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,mmlu,STEM,-25.0,34.82,112
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,mmlu,STEM,-26.92,33.93,112
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,mmlu,STEM,-26.92,33.93,112
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,mmlu,STEM,-32.69,31.25,112
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,mmlu,STEM,-38.46,28.57,112
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,mmlu,STEM,-50.0,23.21,112
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,musique,2hop,2.16,44.21,248
+Meta-Llama-3-8B,original,,,,,llama,musique,2hop,0.0,43.27,248
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,musique,2hop,-0.12,43.22,248
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,musique,2hop,-3.04,41.96,248
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,musique,2hop,-3.61,41.71,248
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,musique,2hop,-4.05,41.52,248
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,musique,2hop,-5.59,40.85,248
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,musique,2hop,-6.96,40.26,248
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,musique,2hop,-8.32,39.67,248
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,musique,2hop,-10.33,38.8,248
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,musique,2hop,-11.62,38.25,248
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,musique,2hop,-16.2,36.26,248
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,musique,2hop,-16.77,36.01,248
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,musique,2hop,-17.32,35.78,248
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,musique,2hop,-18.34,35.34,248
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,musique,2hop,-19.35,34.9,248
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,musique,2hop,-23.33,33.18,248
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,musique,2hop,-30.08,30.26,248
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,musique,2hop,-41.24,25.43,248
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,musique,2hop,-57.03,18.59,248
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,musique,2hop,-59.69,17.44,248
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,musique,2hop,-68.8,13.5,248
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,musique,2hop,-72.6,11.86,248
+gemma-2-9b,original,,,,,gemma,drop,history,187.95,63.82,350
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,drop,history,4.04,23.06,350
+gemma-2-2b,original,,,,,gemma,drop,history,0.0,22.16,350
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,drop,history,-3.08,21.48,350
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,drop,history,-8.16,20.35,350
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,drop,history,-11.62,19.59,350
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,drop,history,-12.67,19.35,350
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,drop,history,-12.7,19.35,350
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,drop,history,-16.55,18.49,350
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,drop,history,-18.68,18.02,350
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,drop,history,-24.2,16.8,350
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,history,-25.58,16.49,350
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,history,-25.58,16.49,350
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,drop,history,-25.78,16.45,350
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,drop,history,-28.35,15.88,350
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,drop,history,-30.75,15.35,350
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,drop,history,-32.04,15.06,350
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,drop,history,-32.46,14.97,350
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,drop,history,-38.16,13.71,350
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,drop,history,-38.48,13.63,350
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,drop,history,-41.1,13.05,350
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,drop,history,-45.8,12.01,350
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,drop,history,-49.83,11.12,350
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,drop,history,-53.47,10.31,350
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,drop,history,-54.17,10.16,350
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,drop,history,-56.79,9.58,350
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,drop,history,-57.23,9.48,350
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,drop,history,-58.08,9.29,350
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,drop,history,-58.97,9.09,350
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,drop,history,-60.76,8.7,350
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,drop,history,-62.24,8.37,350
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,drop,history,-62.61,8.29,350
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,drop,history,-63.19,8.16,350
+Meta-Llama-3-8B,original,,,,,llama,drop,nfl,0.0,64.19,150
+"Meta-Llama-3-8B_duplication_[(14,3)]",A,middle,blocks,medium,False,llama,drop,nfl,-6.46,60.04,150
+"Meta-Llama-3-8B_duplication_[(12,1),(15,1),(18,1)]",U,middle,in place,small,False,llama,drop,nfl,-6.77,59.84,150
+"Meta-Llama-3-8B_duplication_[(12,3),(18,3)]",W,middle,blocks,medium,False,llama,drop,nfl,-7.9,59.11,150
+"Meta-Llama-3-8B_duplication_[(16,2),(16,2),(18,2),(18,2)]",O,middle,blocks,small,True,llama,drop,nfl,-10.13,57.69,150
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1)]",T,middle,in place,small,True,llama,drop,nfl,-12.2,56.35,150
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1)]",H,middle,in place,small,True,llama,drop,nfl,-12.27,56.31,150
+"Meta-Llama-3-8B_duplication_[(16,2),(18,2),(20,2)]",M,middle,blocks,small,True,llama,drop,nfl,-12.37,56.25,150
+"Meta-Llama-3-8B_duplication_[(16,2)]",B,middle,in place,medium,False,llama,drop,nfl,-12.63,56.08,150
+"Meta-Llama-3-8B_duplication_[(15,1),(16,1),(17,1)]",L,middle,in place,small,True,llama,drop,nfl,-12.65,56.07,150
+"Meta-Llama-3-8B_duplication_[(13,5)]",C,middle,blocks,big,False,llama,drop,nfl,-12.9,55.91,150
+"Meta-Llama-3-8B_duplication_[(13,2)]",V,middle,blocks,small,False,llama,drop,nfl,-14.34,54.98,150
+"Meta-Llama-3-8B_duplication_[(14,1),(15,1),(16,1),(17,1)]",K,middle,in place,small,True,llama,drop,nfl,-15.44,54.27,150
+"Meta-Llama-3-8B_duplication_[(28,2)]",P,last,blocks,small,False,llama,drop,nfl,-16.08,53.87,150
+"Meta-Llama-3-8B_duplication_[(14,3),(17,3)]",N,middle,blocks,medium,True,llama,drop,nfl,-16.1,53.85,150
+"Meta-Llama-3-8B_duplication_[(0,5)]",D,first,blocks,big,False,llama,drop,nfl,-19.84,51.45,150
+"Meta-Llama-3-8B_duplication_[(0,4),(27,4)]",F,"first, last",blocks,medium,False,llama,drop,nfl,-22.19,49.95,150
+"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",S,last,in place,small,True,llama,drop,nfl,-28.77,45.72,150
+"Meta-Llama-3-8B_duplication_[(0,1),(31,1)]",G,"first, last",in place,small,False,llama,drop,nfl,-33.57,42.64,150
+"Meta-Llama-3-8B_duplication_[(0,1),(15,1),(31,1)]",I,"first, middle, last",in place,small,False,llama,drop,nfl,-51.13,31.37,150
+"Meta-Llama-3-8B_duplication_[(26,3),(29,3)]",R,last,blocks,medium,True,llama,drop,nfl,-52.52,30.47,150
+"Meta-Llama-3-8B_duplication_[(27,5)]",E,last,blocks,medium,False,llama,drop,nfl,-54.78,29.03,150
+"Meta-Llama-3-8B_duplication_[(25,7)]",Q,last,blocks,big,False,llama,drop,nfl,-66.73,21.35,150
+gemma-2-9b,original,,,,,gemma,drop,nfl,28.83,69.6,150
+gemma-2-2b,original,,,,,gemma,drop,nfl,0.0,54.03,150
+"gemma-2-2b_duplication_[(22,2)]",P1,last,blocks,small,False,gemma,drop,nfl,-4.16,51.78,150
+"gemma-2-2b_duplication_[(24,2)]",P,last,blocks,small,False,gemma,drop,nfl,-8.02,49.69,150
+"gemma-2-2b_duplication_[(22,3),(25,1)]",R,last,blocks,medium,True,gemma,drop,nfl,-9.06,49.13,150
+"gemma-2-2b_duplication_[(12,2)]",V,middle,blocks,small,False,gemma,drop,nfl,-11.18,47.99,150
+"gemma-2-2b_duplication_[(12,1),(13,1)]",H,middle,in place,small,True,gemma,drop,nfl,-11.18,47.99,150
+"gemma-2-2b_duplication_[(10,5)]",C,middle,blocks,big,False,gemma,drop,nfl,-11.94,47.57,150
+"gemma-2-2b_duplication_[(23,1),(24,1),(25,1)]",S,last,in place,small,True,gemma,drop,nfl,-14.47,46.21,150
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1)]",L1,middle,in place,small,True,gemma,drop,nfl,-14.94,45.95,150
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,nfl,-15.33,45.75,150
+"gemma-2-2b_duplication_[(13,1),(14,1),(15,1)]",T,middle,in place,small,True,gemma,drop,nfl,-15.33,45.75,150
+"gemma-2-2b_duplication_[(11,1),(14,1),(17,1)]",U,middle,in place,small,False,gemma,drop,nfl,-15.38,45.72,150
+"gemma-2-2b_duplication_[(11,3)]",A,middle,blocks,medium,False,gemma,drop,nfl,-15.87,45.45,150
+"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",S1,last,in place,small,True,gemma,drop,nfl,-17.28,44.69,150
+"gemma-2-2b_duplication_[(22,4)]",E,last,blocks,medium,False,gemma,drop,nfl,-19.02,43.75,150
+"gemma-2-2b_duplication_[(0,1),(25,1)]",G,"first, last",in place,small,False,gemma,drop,nfl,-20.08,43.18,150
+"gemma-2-2b_duplication_[(13,2)]",B,middle,in place,medium,False,gemma,drop,nfl,-21.27,42.53,150
+"gemma-2-2b_duplication_[(11,1),(12,1),(13,1),(14,1)]",K1,middle,in place,small,True,gemma,drop,nfl,-22.82,41.7,150
+"gemma-2-2b_duplication_[(14,2),(14,2),(16,2),(16,2)]",O,middle,blocks,small,True,gemma,drop,nfl,-22.99,41.61,150
+"gemma-2-2b_duplication_[(11,3),(14,3)]",N1,middle,blocks,medium,True,gemma,drop,nfl,-23.42,41.37,150
+"gemma-2-2b_duplication_[(12,2),(14,2),(16,2)]",M1,middle,blocks,small,True,gemma,drop,nfl,-24.11,41.0,150
+"gemma-2-2b_duplication_[(20,3),(23,3)]",R1,last,blocks,medium,True,gemma,drop,nfl,-25.8,40.09,150
+"gemma-2-2b_duplication_[(12,1),(13,1),(14,1),(15,1)]",K,middle,in place,small,True,gemma,drop,nfl,-26.97,39.45,150
+"gemma-2-2b_duplication_[(12,2),(12,2),(14,2),(14,2)]",O1,middle,blocks,small,True,gemma,drop,nfl,-26.97,39.45,150
+"gemma-2-2b_duplication_[(0,1),(12,1),(25,1)]",I,"first, middle, last",in place,small,False,gemma,drop,nfl,-29.57,38.05,150
+"gemma-2-2b_duplication_[(21,5)]",Q,last,blocks,big,False,gemma,drop,nfl,-31.18,37.18,150
+"gemma-2-2b_duplication_[(14,2),(16,2),(18,2)]",M,middle,blocks,small,True,gemma,drop,nfl,-33.69,35.83,150
+"gemma-2-2b_duplication_[(12,3),(15,3)]",N,middle,blocks,medium,True,gemma,drop,nfl,-35.54,34.83,150
+"gemma-2-2b_duplication_[(0,4)]",D,first,blocks,big,False,gemma,drop,nfl,-38.12,33.43,150
+"gemma-2-2b_duplication_[(19,7)]",Q1,last,blocks,big,False,gemma,drop,nfl,-38.5,33.23,150
+"gemma-2-2b_duplication_[(11,3),(17,3)]",W,middle,blocks,medium,False,gemma,drop,nfl,-41.44,31.64,150
+"gemma-2-2b_duplication_[(0,3),(22,3)]",F,"first, last",blocks,medium,False,gemma,drop,nfl,-48.36,27.9,150

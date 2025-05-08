@@ -1,4 +1,0 @@
-configuration,model,family,dataset,super_category,% improvement,source_file
-P1,"gemma-2-2b_duplication_[(22,2)]",gemma,mmlu,Other_20250504,4.11,mmlu_gemma_Other_20250504_132430.csv
-S1,"gemma-2-2b_duplication_[(21,1),(22,1),(23,1),(24,1),(25,1)]",gemma,mmlu,Other_20250504,2.74,mmlu_gemma_Other_20250504_132430.csv
-B,"Meta-Llama-3-8B_duplication_[(16,2)]",llama,mmlu,Other_20250504,2.27,mmlu_llama_Other_20250504_132430.csv

@@ -1,7 +1,0 @@
-configuration,model,family,dataset,super_category,% improvement,source_file
-C,"gemma-2-2b_duplication_[(10,5)]",gemma,musique,answerable,12.78,musique_gemma_answerable_20250504_132431.csv
-P,"gemma-2-2b_duplication_[(24,2)]",gemma,musique,answerable,7.27,musique_gemma_answerable_20250504_132431.csv
-R,"gemma-2-2b_duplication_[(22,3),(25,3)]",gemma,musique,answerable,1.07,musique_gemma_answerable_20250504_132431.csv
-E,"gemma-2-2b_duplication_[(22,4)]",gemma,musique,answerable,0.39,musique_gemma_answerable_20250504_132431.csv
-S,"Meta-Llama-3-8B_duplication_[(27,1),(28,1),(29,1),(30,1),(31,1)]",llama,musique,answerable,2.75,musique_llama_answerable_20250504_132430.csv
-A,"Meta-Llama-3-8B_duplication_[(14,3)]",llama,musique,answerable,1.19,musique_llama_answerable_20250504_132430.csv
