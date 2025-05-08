@@ -1,4 +1,4 @@
-NLP_FINAL_PROJECT
+
 This project explores the impact of various transformer layer duplication strategies on the performance of Gemma and LLaMA models, particularly focusing on 3 datasets
 
 📁 Repository Structure
