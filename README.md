@@ -1,8 +1,8 @@
 NLP_FINAL_PROJECT
-This project explores the impact of various transformer layer duplication strategies on the performance of Gemma and LLaMA models, particularly focusing on multi-hop reasoning tasks such as those found in the MuSiQue dataset.
+This project explores the impact of various transformer layer duplication strategies on the performance of Gemma and LLaMA models, particularly focusing on 3 datasets
 
 📁 Repository Structure
-data_sets/: Contains the datasets used for training and evaluation, including MuSiQue and MMLU.
+data_sets/: Contains the datasets used for training and evaluation, including MuSiQue, DROP and MMLU.
 
 eval/: Scripts and tools for evaluating model performance across different configurations.
 
